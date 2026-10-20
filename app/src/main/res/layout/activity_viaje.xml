@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Viaje dentro de la app, en vivo con el GPS: el mapa sigue a la personita (que va donde
+     tú vas), la instrucción actual arriba y la barra animada abajo. No abre Google Maps. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F4F2">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/mapViaje"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Arriba: cerrar, estado del GPS (en vivo, señal débil, sin señal) y la instrucción actual -->
+    <LinearLayout
+        android:id="@+id/bloqueSuperiorViaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:orientation="vertical"
+        android:padding="14dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/btnViajeCerrar"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:background="@drawable/bg_circle_white"
+                android:contentDescription="@string/cd_close"
+                android:elevation="4dp"
+                android:padding="11dp"
+                android:src="@drawable/ic_close"
+                app:tint="#2D2D2D" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <!-- Capas del mapa -->
+            <ImageView
+                android:id="@+id/btnViajeCapas"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/bg_circle_white"
+                android:elevation="4dp"
+                android:padding="11dp"
+                android:src="@drawable/ic_place"
+                app:tint="#2D2D2D" />
+
+            <!-- Voz (Guía) -->
+            <ImageView
+                android:id="@+id/btnViajeVoz"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/bg_circle_white"
+                android:contentDescription="Silenciar guía de voz"
+                android:elevation="4dp"
+                android:padding="11dp"
+                android:src="@drawable/ic_volume"
+                app:tint="#2D2D2D" />
+
+            <!-- Volver a seguir a la personita (aparece si mueves el mapa) -->
+            <ImageView
+                android:id="@+id/btnViajeCentrar"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/bg_circle_white"
+                android:contentDescription="@string/trip_recenter"
+                android:elevation="4dp"
+                android:padding="11dp"
+                android:src="@drawable/ic_gps"
+                android:visibility="gone"
+                app:tint="#FF3355" />
+
+            <TextView
+                android:id="@+id/tvViajeModo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_pill_white"
+                android:drawablePadding="6dp"
+                android:elevation="4dp"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="14dp"
+                android:paddingVertical="8dp"
+                android:text="@string/trip_gps_searching"
+                android:textColor="#2D2D2D"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/punto_leyenda"
+                app:drawableTint="#A5A5B4" />
+        </LinearLayout>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardInstruccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="22dp"
+            app:cardElevation="6dp"
+            app:strokeWidth="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="14dp">
+
+                <FrameLayout
+                    android:id="@+id/flInstruccionIcono"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bg_modulo_icon"
+                    tools:backgroundTint="#1E88E5">
+
+                    <ImageView
+                        android:id="@+id/ivInstruccionIcono"
+                        android:layout_width="26dp"
+                        android:layout_height="26dp"
+                        android:layout_gravity="center"
+                        android:importantForAccessibility="no"
+                        app:tint="#FFFFFF"
+                        tools:src="@drawable/ic_walk" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvInstruccionPaso"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:letterSpacing="0.1"
+                        android:textAllCaps="true"
+                        android:textColor="#FF3355"
+                        android:textSize="11sp"
+                        android:textStyle="bold"
+                        tools:text="Paso 1 de 3" />
+
+                    <TextView
+                        android:id="@+id/tvInstruccionTitulo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:maxLines="2"
+                        android:textColor="#1D1D27"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        tools:text="Camina al paradero Magdalena" />
+
+                    <TextView
+                        android:id="@+id/tvInstruccionDetalle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:maxLines="3"
+                        android:textColor="#6B6B7B"
+                        android:textSize="13sp"
+                        tools:text="650 m · 8 min" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Chip "Lugares cerca" -->
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipLugaresCerca"
+            style="@style/Widget.MaterialComponents.Chip.Action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="end"
+            android:text="Lugares cerca"
+            app:chipBackgroundColor="#FFFFFF"
+            android:textColor="#2D2D2D"
+            app:chipStrokeWidth="1dp"
+            app:chipStrokeColor="#DDDDDD" />
+
+    </LinearLayout>
+
+    <!-- Abajo: tiempo restante, barra con la personita y controles -->
+    <LinearLayout
+        android:id="@+id/panelViaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/bg_bottom_sheet"
+        android:elevation="10dp"
+        android:orientation="vertical"
+        android:paddingHorizontal="18dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="16dp">
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="4dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_handle" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvViajeRestante"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#1D1D27"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    tools:text="Faltan 25 min" />
+
+                <TextView
+                    android:id="@+id/tvViajeDistancia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#8A8A99"
+                    android:textSize="13sp"
+                    tools:text="3.2 km · llegas 10:45" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvViajePorcentaje"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FF3355"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="35%" />
+        </LinearLayout>
+
+        <!-- Elige tu camino (alternativas) -->
+        <HorizontalScrollView
+            android:id="@+id/hsvAlternativas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:scrollbars="none"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/llAlternativas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" />
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/tvVerIndicaciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:text="Ver indicaciones"
+            android:textColor="#FF3355"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:background="?attr/selectableItemBackground" />
+
+        <com.example.puriyayacucho.guia.ProgresoViajeView
+            android:id="@+id/progresoViaje"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:layout_marginTop="2dp" />
+
+        <!-- Abajo: activar la ubicación (solo si falta) y terminar el viaje.
+             No hay simulación: la personita se mueve cuando tú te mueves. -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnViajeGps"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="@string/trip_allow_location"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                app:backgroundTint="#FF3355"
+                app:cornerRadius="26dp"
+                app:icon="@drawable/ic_gps"
+                app:iconTint="#FFFFFF" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnViajeTerminar"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_weight="1"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="@string/trip_finish"
+                android:textAllCaps="false"
+                android:textColor="#2D2D2D"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:cornerRadius="26dp"
+                app:icon="@drawable/ic_close"
+                app:iconTint="#FF3355"
+                app:strokeColor="#E6E6EE" />
+        </LinearLayout>
+
+        <!-- Crédito de los datos de calles (solo cuando la ruta sigue las calles) -->
+        <TextView
+            android:id="@+id/tvViajeCreditoCalles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:text="@string/route_osm_credit"
+            android:textColor="#A5A5B4"
+            android:textSize="9sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <!-- Celebración al llegar -->
+    <FrameLayout
+        android:id="@+id/overlayLlegada"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99140A1E"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="gone">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardLlegada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="28dp"
+            app:cardCornerRadius="28dp"
+            app:cardElevation="12dp"
+            app:strokeWidth="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="24dp">
+
+                <com.example.puriyayacucho.ui.MantaView
+                    android:layout_width="64dp"
+                    android:layout_height="6dp"
+                    android:layout_marginBottom="18dp"
+                    app:mantaRadio="3dp" />
+
+                <FrameLayout
+                    android:id="@+id/flLlegadaIcono"
+                    android:layout_width="84dp"
+                    android:layout_height="84dp"
+                    android:background="@drawable/bg_circle_white"
+                    android:backgroundTint="#FF3355">
+
+                    <ImageView
+                        android:id="@+id/ivLlegadaIcono"
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
+                        android:layout_gravity="center"
+                        android:importantForAccessibility="no"
+                        android:src="@drawable/ic_bandera"
+                        app:tint="#FFFFFF" />
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/trip_arrived_title"
+                    android:textColor="#1D1D27"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvLlegadaLugar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:textColor="#4D4D5C"
+                    android:textSize="16sp"
+                    tools:text="Templo de San Cristóbal" />
+
+                <TextView
+                    android:id="@+id/tvLlegadaResumen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center"
+                    android:textColor="#8A8A99"
+                    android:textSize="13sp"
+                    tools:text="Recorriste 3.9 km en 10 min" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnLlegadaVerLugar"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_marginTop="20dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="@string/trip_view_place"
+                    android:textStyle="bold"
+                    app:backgroundTint="#FF3355"
+                    app:cornerRadius="26dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnLlegadaTerminar"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/trip_finish"
+                    android:textColor="#6B6B7B"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.example.puriyayacucho.guia.ConfetiView
+            android:id="@+id/confetiLlegada"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="false"
+            android:focusable="false"
+            android:importantForAccessibility="no" />
+    </FrameLayout>
+</FrameLayout>

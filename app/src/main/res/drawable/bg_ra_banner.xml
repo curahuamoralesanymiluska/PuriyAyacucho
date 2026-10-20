@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Degradado nocturno para la Realidad Aumentada (morado profundo a rosa Puriy) -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <gradient
+        android:angle="0"
+        android:centerColor="#5B1A73"
+        android:endColor="#FF3355"
+        android:startColor="#1E0F3C"
+        android:type="linear" />
+</shape>

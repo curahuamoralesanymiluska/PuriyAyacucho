@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Flores bordadas al estilo ayacuchano (BordadoView) -->
+    <declare-styleable name="BordadoView">
+        <attr name="bordadoForma" format="enum">
+            <enum name="esquina" value="0" />
+            <enum name="guirnalda" value="1" />
+            <enum name="flor" value="2" />
+        </attr>
+        <attr name="bordadoTono" format="enum">
+            <enum name="color" value="0" />
+            <enum name="blanco" value="1" />
+        </attr>
+        <attr name="bordadoEspejo" format="boolean" />
+    </declare-styleable>
+</resources>

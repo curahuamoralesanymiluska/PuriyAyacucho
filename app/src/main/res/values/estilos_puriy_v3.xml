@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Estilos del rediseño v3 (mismo lenguaje que Inicio y el login).
+         Úsalos en las pantallas internas para que todas se vean de la misma familia. -->
+
+    <!-- ===== Textos ===== -->
+
+    <!-- Línea pequeña en rosa sobre un título: "VIVE AYACUCHO", "MIS RESERVAS"... -->
+    <style name="PuriySobretitulo">
+        <item name="android:letterSpacing">0.16</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/puriy_rosa</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Título grande de pantalla (sobre fondo claro) -->
+    <style name="PuriyTituloPantalla">
+        <item name="android:textColor">@color/puriy_tinta</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- ===== Botones ===== -->
+
+    <!-- Botón principal: píldora con degradado rosa a coral (como INGRESAR del login) -->
+    <style name="PuriyBoton" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/bg_boton_degradado</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:minHeight">54dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">@null</item>
+        <item name="iconTint">#FFFFFF</item>
+    </style>
+
+    <!-- Enlace o acción menor en rosa -->
+    <style name="PuriyBotonTexto" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/puriy_rosa</item>
+        <item name="android:textStyle">bold</item>
+        <item name="rippleColor">#14FF3355</item>
+    </style>
+
+    <!-- Botón "atrás" de vidrio sobre el encabezado rosado -->
+    <style name="PuriyBotonVolverVidrio">
+        <item name="android:layout_width">44dp</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:background">@drawable/bg_icono_vidrio</item>
+        <item name="android:padding">11dp</item>
+        <item name="android:src">@drawable/ic_back</item>
+        <item name="tint">#FFFFFF</item>
+    </style>
+
+    <!-- ===== Guía de bienvenida ===== -->
+
+    <!-- Ventana a pantalla completa y transparente: el fondo oscuro lo pone dialog_bienvenida.xml -->
+    <style name="PuriyDialogoBienvenida" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="colorPrimary">@color/puriy_rosa</item>
+        <item name="colorAccent">@color/puriy_rosa</item>
+    </style>
+</resources>

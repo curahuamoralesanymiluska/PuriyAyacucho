@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Textos de los módulos nuevos: Hoteles, Airbnb, Bares, Recreación, Guía, RA y Boletos -->
+    <string name="btn_buy">BUY</string>
+    <string name="btn_how_to_get">GET DIRECTIONS</string>
+    <string name="btn_view_ar">VIEW IN 3D AR</string>
+    <string name="cat_hotel">Hotel</string>
+    <string name="cat_airbnb">Airbnb</string>
+    <string name="cat_bar">Bar</string>
+    <string name="cat_recreation">Recreation</string>
+    <string name="chip_hotels">Hotels</string>
+    <string name="chip_airbnb">Airbnb</string>
+    <string name="chip_bars">Bars</string>
+    <string name="chip_recreation">Recreation</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_close">Close</string>
+    <string name="cd_less">Less</string>
+    <string name="cd_more">More</string>
+    <string name="cd_place_image">Place photo</string>
+    <string name="label_access">Access</string>
+    <string name="label_activities">Activities</string>
+    <string name="label_altitude">Altitude</string>
+    <string name="label_best_season">Best season</string>
+    <string name="label_dishes">Dishes</string>
+    <string name="label_entry">Entry</string>
+    <string name="label_free_access">Free access</string>
+    <string name="label_services">Services</string>
+    <string name="label_phone">Phone</string>
+    <string name="label_source">Source</string>
+    <string name="label_approx_location">Approximate location on the map</string>
+    <string name="airbnb_search_more">SEARCH MORE ON AIRBNB</string>
+    <string name="guide_title">Personal guide</string>
+    <string name="guide_banner_subtitle">Pick a place and get your route with stops nearby</string>
+    <string name="guide_question">Where do you want to go today?</string>
+    <string name="guide_from">From</string>
+    <string name="guide_to">To (choose a place)</string>
+    <string name="guide_main_square">Huamanga Main Square</string>
+    <string name="guide_my_location">My location</string>
+    <string name="guide_use_my_location">USE MY LOCATION</string>
+    <string name="guide_how_move">How will you get around?</string>
+    <string name="guide_show_near">Show near the route</string>
+    <string name="guide_near_restaurants">Restaurants</string>
+    <string name="guide_near_lodging">Hotels and Airbnb</string>
+    <string name="guide_near_culture">Churches and museums</string>
+    <string name="guide_near_bars">Bars</string>
+    <string name="guide_generate">GENERATE ROUTE</string>
+    <string name="guide_popular_routes">Popular routes</string>
+    <string name="guide_choose_destination">Choose a destination from the list</string>
+    <string name="route_churches">Churches route</string>
+    <string name="route_churches_info">Historic center · on foot</string>
+    <string name="route_wari_quinua">Wari and Quinua</string>
+    <string name="route_wari_quinua_info">Half day · by minibus</string>
+    <string name="my_routes">My routes</string>
+    <string name="my_routes_empty">You have no saved routes yet. Create one from the Personal guide.</string>
+    <string name="my_routes_stops">%1$d stops</string>
+    <string name="mode_transport">Transport</string>
+    <string name="mode_walk">On foot</string>
+    <string name="mode_taxi">Taxi</string>
+    <string name="location_denied">No location permission: we will start from the Main Square.</string>
+    <string name="location_unavailable">We couldn\'t get your location. Check that GPS is on.</string>
+    <string name="route_your_trip_to">Your trip to</string>
+    <string name="route_estimated_fare">Estimated fare</string>
+    <string name="route_free">Free</string>
+    <string name="route_no_transport">No public transport nearby, so we suggest a taxi.</string>
+    <string name="route_tab_steps">Steps</string>
+    <string name="route_tab_nearby">Stops on the way</string>
+    <string name="route_add_stops_hint">Tap + to add a stop to your route</string>
+    <string name="route_no_nearby">No places of these categories within 500 m of the route.</string>
+    <string name="route_start">START ROUTE</string>
+    <string name="route_stop_added">%1$s was added to your route</string>
+    <string name="route_add_stop">Add stop</string>
+    <string name="route_tap_for_details">Tap to see details</string>
+    <string name="route_maps_error">Could not open Google Maps</string>
+    <string name="step_walk_to">Walk to %1$s</string>
+    <string name="step_take_line">Take: %1$s</string>
+    <string name="step_line_detail">Get on at %1$s and off at %2$s\n%3$s · %4$s</string>
+    <string name="step_taxi_to">Take a taxi to %1$s</string>
+    <string name="step_approx">approx.</string>
+    <string name="step_stop">Stop: %1$s</string>
+    <string name="step_stop_detail">Stop added to your route</string>
+    <string name="step_arrive">You arrive at %1$s</string>
+    <string name="step_arrive_detail">Enjoy your visit!</string>
+    <string name="time_minutes">%1$d min</string>
+    <string name="time_hours_minutes">%1$d h %2$d min</string>
+    <string name="events_title">Events and tickets</string>
+    <string name="events_banner_subtitle">Buy tickets for concerts, theater and festivities</string>
+    <string name="events_empty">No events in this category.</string>
+    <string name="filter_all">All</string>
+    <string name="event_type_concert">Concert</string>
+    <string name="event_type_festivity">Festivity</string>
+    <string name="event_type_theater">Theater</string>
+    <string name="event_from_price">From S/ %1$s</string>
+    <string name="purchase_ticket_type">Ticket type</string>
+    <string name="purchase_quantity">Quantity</string>
+    <string name="purchase_summary">Summary</string>
+    <string name="purchase_tickets_line">%1$d × %2$s</string>
+    <string name="purchase_service_fee">Service fee (%1$d%%)</string>
+    <string name="purchase_total">Total</string>
+    <string name="purchase_pay">PAY %1$s</string>
+    <string name="purchase_demo_notice">Demo payment: no real charge is made.</string>
+    <string name="ticket_title">Your ticket</string>
+    <string name="ticket_date">Date</string>
+    <string name="ticket_time">Time</string>
+    <string name="ticket_entries">Tickets</string>
+    <string name="ticket_qr_cd">Ticket QR code</string>
+    <string name="ticket_show_code">Show this code at the entrance</string>
+    <string name="ticket_total_paid">Total paid</string>
+    <string name="ticket_paid">Payment confirmed</string>
+    <string name="ticket_add_calendar">ADD TO MY CALENDAR</string>
+    <string name="ticket_calendar_error">No calendar app available</string>
+    <string name="my_tickets">My tickets</string>
+    <string name="my_tickets_empty">You haven\'t bought tickets yet. Find them in Calendar → Events and tickets.</string>
+    <string name="ra_badge">3D AR</string>
+    <string name="arcore_badge">ARCore 3D</string>
+    <string name="arcore_move_phone">Slowly move your phone pointing at the ground to detect it</string>
+    <string name="arcore_placed">Done! Walk around it. Use two fingers to move, rotate or resize</string>
+    <string name="arcore_more_light">Not enough light: find a brighter spot</string>
+    <string name="arcore_move_slower">Move your phone more slowly</string>
+    <string name="arcore_more_texture">Point at a floor with more texture (not plain or shiny)</string>
+    <string name="arcore_not_available">ARCore is not available: opening the simple version</string>
+    <string name="arcore_model_error">Could not load the 3D model</string>
+    <string name="arcore_info">Info</string>
+    <string name="arcore_reset">Reset</string>
+    <string name="arcore_simple_mode">Problems? Use the simple version</string>
+    <string name="ra_today">Today</string>
+    <string name="ra_reconstruction">Reconstruction</string>
+    <string name="ra_slider_cd">Compare today with the reconstruction</string>
+    <string name="ra_hint">Point the camera at the site and tap the red dots</string>
+    <string name="ra_narration">Narration</string>
+    <string name="ra_capture">Take photo</string>
+    <string name="ra_you_are_at">You are at %1$s</string>
+    <string name="ra_demo_mode">Demo · %1$s</string>
+    <string name="ra_camera_denied">No camera permission: showing the reconstruction on a demo background.</string>
+    <string name="ra_camera_error">Could not start the camera</string>
+    <string name="ra_tts_unavailable">Voice narration is not available on this phone</string>
+    <string name="ra_photo_saved">Photo saved to your gallery</string>
+    <string name="ra_photo_error">Could not save the photo</string>
+    <string name="ra_outside_title">On-site experience</string>
+    <string name="ra_outside_message">Augmented reality turns on when you are at %1$s. Do you want directions or a demo?</string>
+    <string name="ra_view_demo">VIEW DEMO</string>
+    <string name="ra_site_wari">Wari Archaeological Complex</string>
+    <string name="ra_site_quinua">Pampa de la Quinua</string>
+    <string name="ra_site_vilcas">Vilcashuamán</string>
+    <string name="ra_wari_narration">Welcome to the Wari Archaeological Complex, the ancient capital of the Wari Empire, which flourished between the seventh and thirteenth centuries. In front of you is the reconstruction of one of its enclosures. In sectors such as Monjachayuq and Cheqo Wasi, the stone walls reached up to twelve meters high, and an advanced canal system supplied the city. Move the slider to compare how it looks today with how it may have looked at its peak.</string>
+    <string name="ra_wari_poi1_title">High-walled enclosure</string>
+    <string name="ra_wari_poi1_desc">This is how it may have looked in Wari times: stone walls up to 12 meters high around the space.</string>
+    <string name="ra_wari_poi2_title">Water canals</string>
+    <string name="ra_wari_poi2_desc">The Wari built an advanced canal system to bring water to the city.</string>
+    <string name="ra_quinua_narration">You are at the Pampa de la Quinua Historic Sanctuary. Here, on December ninth, eighteen twenty-four, the patriot troops of Marshal Antonio José de Sucre defeated the royalist army in the last great battle of Spanish American independence. The forty-four-meter commemorative obelisk was inaugurated in nineteen seventy-four for the battle\'s one hundred and fiftieth anniversary.</string>
+    <string name="ra_quinua_poi1_title">44 m obelisk</string>
+    <string name="ra_quinua_poi1_desc">Inaugurated in 1974 for the 150th anniversary of the Battle of Ayacucho. You can climb it to see the plain.</string>
+    <string name="ra_quinua_poi2_title">Battlefield</string>
+    <string name="ra_quinua_poi2_desc">On December 9, 1824, the patriot and royalist armies fought here.</string>
+    <string name="ra_vilcas_narration">Welcome to Vilcashuamán, which in Quechua means Sacred Falcon. It was one of the most important administrative centers of Tahuantinsuyo, founded by the Inca Pachacútec in the fifteenth century. In front of you is the reconstruction of the Ushno, the five-platform ceremonial pyramid with the Inca\'s throne at the top. Nearby is the Temple of the Sun and the Moon, which was turned into a colonial church.</string>
+    <string name="ra_vilcas_poi1_title">The Inca\'s throne</string>
+    <string name="ra_vilcas_poi1_desc">At the top of the Ushno is the stone seat from which the Inca presided over ceremonies.</string>
+    <string name="ra_vilcas_poi2_title">Five platforms</string>
+    <string name="ra_vilcas_poi2_desc">The Ushno is a stepped pyramid with five levels.</string>
+    <string-array name="meses_cortos">
+        <item>JAN</item>
+        <item>FEB</item>
+        <item>MAR</item>
+        <item>APR</item>
+        <item>MAY</item>
+        <item>JUN</item>
+        <item>JUL</item>
+        <item>AUG</item>
+        <item>SEP</item>
+        <item>OCT</item>
+        <item>NOV</item>
+        <item>DEC</item>
+    </string-array>
+</resources>

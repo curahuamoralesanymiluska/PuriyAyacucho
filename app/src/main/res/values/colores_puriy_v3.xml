@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta única de Puriy (rediseño v3). Usa estos nombres en lugar de escribir colores sueltos.
+         El rosa principal es #FF3355: reemplaza al #FF3D5A de las pantallas antiguas. -->
+    <color name="puriy_rosa">#FF3355</color>
+
+    <!-- Textos -->
+    <color name="puriy_tinta">#1D1D27</color>
+    <color name="puriy_gris">#8A8A99</color>
+
+    <!-- Fondos, bordes y campos -->
+    <color name="puriy_fondo">#F7F7FA</color>
+    <color name="puriy_borde">#E6E6EE</color>
+    <color name="puriy_linea">#EFEFF4</color>
+</resources>

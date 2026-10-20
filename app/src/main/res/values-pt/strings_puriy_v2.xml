@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Actualización v2: Inicio "Vive Ayacucho", Realidad aumentada, viaje animado y login -->
+    <string name="experiences_overline">Viva Ayacucho</string>
+    <string name="experiences_title">O que você quer viver hoje?</string>
+    <string name="experiences_subtitle">Escolha uma experiência e mostramos os melhores lugares</string>
+    <string name="ar_banner_badge">NOVO · RA 3D</string>
+    <string name="ar_banner_title">Viaje ao passado</string>
+    <string name="ar_banner_subtitle">Veja Wari, Quinua e Vilcashuamán como eram há séculos</string>
+    <string name="ar_banner_action">Explorar em RA</string>
+    <string name="ar_badge_3d">RA 3D</string>
+    <string name="ar_sites_subtitle">Fique no local, aponte a câmera e veja como era.</string>
+    <string name="ar_how_step1">1 · Vá ao local</string>
+    <string name="ar_how_step2">2 · Aponte para o chão</string>
+    <string name="ar_how_step3">3 · Veja o passado!</string>
+    <string name="ar_site_wari_short">Capital do primeiro império andino: veja seus muros de pedra de pé outra vez.</string>
+    <string name="ar_site_quinua_short">Aqui foi selada a independência em 1824. Veja o obelisco de 44 metros.</string>
+    <string name="ar_site_vilcas_short">Centro inca com seu Ushno de cinco plataformas e o trono do inca.</string>
+    <string name="ar_site_distance">a %1$s da Praça Principal</string>
+    <string name="legend_walk">A pé</string>
+    <string name="legend_bus">Van</string>
+    <string name="legend_taxi">Táxi</string>
+    <string name="map_board_here">Suba aqui · %1$s</string>
+    <string name="map_get_off_here">Desça aqui · %1$s</string>
+    <string name="route_osm_credit">Ruas © OpenStreetMap</string>
+    <string name="trip_mode_live">GPS ao vivo</string>
+    <string name="trip_recenter">Seguir o viajante</string>
+    <string name="trip_remaining">Faltam %1$s</string>
+    <string name="trip_distance_eta">%1$s · chega %2$s</string>
+    <string name="trip_step_of">Passo %1$d de %2$d</string>
+    <string name="trip_bus_detail">Suba em %1$s e desça em %2$s · %3$s</string>
+    <string name="trip_waiting_gps">Procurando sua localização…</string>
+    <string name="trip_off_route">Você está a %1$s da rota. Aproxime-se da linha para continuar.</string>
+    <string name="trip_arrived_title">Você chegou!</string>
+    <string name="trip_arrived_summary">Você percorreu %1$s em %2$s</string>
+    <string name="trip_view_place">VER O LUGAR</string>
+    <string name="trip_finish">Terminar viagem</string>
+    <string name="login_sheet_subtitle">Entre para continuar explorando</string>
+    <string name="login_forgot_password">Esqueceu sua senha?</string>
+    <string name="login_fill_fields">Digite seu e-mail e sua senha</string>
+    <string name="login_wrong_credentials">E-mail ou senha incorretos</string>
+    <string name="login_forgot_need_email">Digite seu e-mail acima para enviarmos o link</string>
+    <string name="login_reset_sent">Enviamos um link para %1$s para criar uma nova senha</string>
+    <string name="login_loading">ENTRANDO…</string>
+    <string name="login_social_error">Não foi possível entrar. Tente novamente.</string>
+    <string name="login_facebook_error">Não foi possível entrar com o Facebook. Verifique sua conexão e tente novamente.</string>
+    <string name="login_facebook_not_ready_title">O Facebook ainda não está pronto</string>
+    <string name="login_facebook_not_ready_message">Para entrar com o Facebook, é preciso registrar o app no Meta for Developers e colocar o App ID e o Client Token em facebook.xml. Enquanto isso, entre com seu e-mail ou com o Google.</string>
+    <string name="login_account_exists">Já existe uma conta com esse e-mail. Entre com o Google ou com seu e-mail e senha.</string>
+    <plurals name="experiencias_lugares">
+        <item quantity="one">%d lugar</item>
+        <item quantity="other">%d lugares</item>
+    </plurals>
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tarjeta de una experiencia de Inicio (Iglesias, Museos, Comida...): degradado de color,
+     ícono en círculo de vidrio y el mismo ícono grande y girado como marca de agua. -->
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardModulo"
+    android:layout_width="match_parent"
+    android:layout_height="108dp"
+    android:layout_margin="6dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:stateListAnimator="@animator/presionar_suave"
+    app:cardCornerRadius="24dp"
+    app:cardElevation="6dp"
+    app:rippleColor="#33FFFFFF"
+    app:strokeWidth="0dp">
+
+    <FrameLayout
+        android:id="@+id/flModuloFondo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:background="#FF3355">
+
+        <!-- Burbuja decorativa arriba a la derecha -->
+        <View
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="end|top"
+            android:layout_marginTop="-52dp"
+            android:layout_marginEnd="-34dp"
+            android:background="@drawable/bg_burbuja" />
+
+        <!-- Marca de agua: el ícono grande y girado -->
+        <ImageView
+            android:id="@+id/ivModuloMarca"
+            android:layout_width="86dp"
+            android:layout_height="86dp"
+            android:layout_gravity="end|bottom"
+            android:layout_marginEnd="-14dp"
+            android:layout_marginBottom="-16dp"
+            android:alpha="0.24"
+            android:importantForAccessibility="no"
+            android:rotation="-14"
+            app:tint="#FFFFFF"
+            tools:src="@drawable/ic_cat_iglesia" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="14dp">
+
+            <FrameLayout
+                android:id="@+id/flModuloIcono"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/bg_icono_vidrio">
+
+                <ImageView
+                    android:id="@+id/ivModuloIcono"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:importantForAccessibility="no"
+                    app:tint="#FFFFFF"
+                    tools:src="@drawable/ic_cat_iglesia" />
+            </FrameLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tvModuloNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:shadowColor="#33000000"
+                android:shadowDy="1"
+                android:shadowRadius="3"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:text="Iglesias" />
+
+            <TextView
+                android:id="@+id/tvModuloCantidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:textColor="#E6FFFFFF"
+                android:textSize="12sp"
+                tools:text="12 lugares" />
+        </LinearLayout>
+    </FrameLayout>
+</com.google.android.material.card.MaterialCardView>

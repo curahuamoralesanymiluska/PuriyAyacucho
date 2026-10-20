@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Guía de bienvenida: la personita llega caminando y habla en un globo.
+     Se pasa de mensaje con "Siguiente"; "Saltar" la cierra. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/raizBienvenida"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B3140A1E"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:paddingBottom="24dp">
+
+        <!-- Globo con el mensaje -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardBienvenida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="10dp"
+            app:strokeWidth="0dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- Ramita bordada en la esquina (nunca detrás del texto) -->
+                <com.example.puriyayacucho.ui.BordadoView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="top|end"
+                    app:bordadoForma="esquina"
+                    app:bordadoTono="color" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingStart="22dp"
+                    android:paddingTop="22dp"
+                    android:paddingEnd="22dp"
+                    android:paddingBottom="16dp">
+
+                    <TextView
+                        android:id="@+id/tvBienvenidaPaso"
+                        style="@style/PuriySobretitulo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="52dp"
+                        tools:text="PURIY AYACUCHO · 1 DE 7" />
+
+                    <TextView
+                        android:id="@+id/tvBienvenidaMensaje"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:accessibilityLiveRegion="polite"
+                        android:lineSpacingExtra="3sp"
+                        android:minLines="5"
+                        android:textColor="@color/puriy_tinta"
+                        android:textSize="17sp"
+                        tools:text="¡Hola! Te doy la bienvenida a Puriy Ayacucho. En quechua, «puriy» significa caminar: vamos a recorrer Ayacucho juntos." />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="14dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <!-- Puntitos de avance (se crean en el código) -->
+                        <LinearLayout
+                            android:id="@+id/puntosBienvenida"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:importantForAccessibility="no"
+                            android:orientation="horizontal" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnBienvenidaSaltar"
+                            style="@style/PuriyBotonTexto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="48dp"
+                            android:text="@string/welcome_skip"
+                            android:textColor="@color/puriy_gris" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnBienvenidaSiguiente"
+                            style="@style/PuriyBoton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="48dp"
+                            android:minHeight="48dp"
+                            android:paddingHorizontal="20dp"
+                            android:text="@string/welcome_next"
+                            app:icon="@drawable/ic_arrow_forward_round"
+                            app:iconGravity="textEnd"
+                            app:iconPadding="6dp"
+                            app:iconSize="18dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Colita del globo, hacia la cabeza de la personita -->
+        <ImageView
+            android:id="@+id/colaBienvenida"
+            android:layout_width="28dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="-1dp"
+            android:elevation="10dp"
+            android:importantForAccessibility="no"
+            android:src="@drawable/globo_cola" />
+
+        <com.example.puriyayacucho.bienvenida.GuiaPersonitaView
+            android:id="@+id/personitaGuia"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_marginStart="14dp"
+            android:contentDescription="@string/welcome_guide_cd" />
+    </LinearLayout>
+</FrameLayout>

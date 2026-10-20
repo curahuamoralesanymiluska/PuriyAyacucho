@@ -1,0 +1,10 @@
+# Todos los archivos del proyecto se guardan en UTF-8 sin BOM,
+# así las tildes y la ñ no se dañan.
+root = true
+
+[*]
+charset = utf-8
+insert_final_newline = true
+
+[*.{kt,kts,java,xml,json,md,properties,toml}]
+charset = utf-8

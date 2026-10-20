@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Foto de perfil redonda con la personita de relleno (AvatarPerfilView) -->
+    <declare-styleable name="AvatarPerfilView">
+        <!-- claro: sobre fondos blancos (borde rosa); rosa: sobre degradados rosados (borde blanco) -->
+        <attr name="avatarFondo" format="enum">
+            <enum name="claro" value="0" />
+            <enum name="rosa" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

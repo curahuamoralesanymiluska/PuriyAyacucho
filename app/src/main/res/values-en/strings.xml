@@ -1,0 +1,645 @@
+<resources>
+    <string name="app_name">Puriy Ayacucho</string>
+    <string name="default_web_client_id" translatable="false">116448304003-f5v4tncoam7nspf0mja1t6vcjollf9el.apps.googleusercontent.com</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="hello">Hello!</string>
+    <string name="search_hint">Where do you want to go today?</string>
+    <string name="guest">Guest</string>
+
+    <!-- Bottom Nav Menu -->
+    <string name="menu_home">Home</string>
+    <string name="menu_explore">Explore</string>
+    <string name="menu_calendar">Calendar</string>
+    <string name="menu_favorites">Favorites</string>
+    <string name="menu_profile">Profile</string>
+
+    <!-- Titles & Headers -->
+    <string name="explore_title">Explore Ayacucho</string>
+    <string name="amazing_places">Amazing places in Ayacucho</string>
+    <string name="upcoming_events">Upcoming Events (This Week)</string>
+    <string name="ayacucho_food">Ayacucho Food</string>
+
+    <!-- Chips / Categories -->
+    <string name="chip_temples">Temples</string>
+    <string name="chip_museums">Museums</string>
+    <string name="chip_food">Food</string>
+    <string name="chip_nature">Nature</string>
+
+    <!-- Card Buttons -->
+    <string name="btn_view_details">VIEW DETAILS</string>
+    <string name="btn_video">VIDEO</string>
+
+    <!-- Login & Register -->
+    <string name="login_welcome">Welcome!</string>
+    <string name="login_subtitle">Discover the treasures of Ayacucho</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="btn_login">LOG IN</string>
+    <string name="continue_with">OR CONTINUE WITH</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+    <string name="no_account">Are you new? </string>
+    <string name="register_here">Register here</string>
+    <string name="login_as_guest">Enter as guest</string>
+
+    <string name="register_title">Create your account</string>
+    <string name="register_subtitle">Join the adventure</string>
+    <string name="name_hint">Full name</string>
+    <string name="confirm_password_hint">Confirm password</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="already_have_account">Already have an account? </string>
+    <string name="login_here">Log in</string>
+
+    <!-- Categories & Common -->
+    <string name="cat_museum">Museum</string>
+    <string name="cat_restaurant">Restaurant</string>
+    <string name="cat_nature">Nature</string>
+    <string name="cat_festivity">Festivity</string>
+    <string name="rec_recommended">Recommended visit</string>
+    <string name="rec_try_dishes">Try their typical dishes</string>
+    <string name="no_festivities">NO FESTIVITIES IN %1$s</string>
+    <string name="month_festivities">FESTIVITIES IN %1$s</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="language">Language</string>
+
+    <!-- Profile -->
+    <string name="my_favorites">My Favorites</string>
+    <string name="logout">Log Out</string>
+
+    <!-- Temples and Tourist Places (Name, Description, Recommendation) -->
+
+    <!-- Temple 1 -->
+    <string name="temple_1_name">Cathedral Basilica of Ayacucho</string>
+    <string name="temple_1_desc">Built between 1612 and 1672. It is the most important church in the city, famous for its wood-carved and gold-leafed altarpieces.</string>
+    <string name="temple_1_rec">Visit it at night to appreciate its illumination.</string>
+
+    <!-- Temple 2 -->
+    <string name="temple_2_name">Temple of San Cristóbal</string>
+    <string name="temple_2_desc">Considered the oldest temple in the city (1540). It has a single tower and a simple but historical architecture.</string>
+    <string name="temple_2_rec">Key point in the Holy Week processions.</string>
+
+    <!-- Temple 3 -->
+    <string name="temple_3_name">Temple of La Merced</string>
+    <string name="temple_3_desc">Built in the 16th century, it stands out for its stone facade and side tower. It houses a large bell.</string>
+    <string name="temple_3_rec">Admire the canvases of the Ayacucho school.</string>
+
+    <!-- Temple 4 -->
+    <string name="temple_4_name">Temple of Santo Domingo</string>
+    <string name="temple_4_desc">It stands out for its twin towers and gray stone facade. Its architecture is one of the most elegant.</string>
+    <string name="temple_4_rec">Ideal for photography at sunset.</string>
+
+    <!-- Temple 5 -->
+    <string name="temple_5_name">Temple of San Juan de Dios</string>
+    <string name="temple_5_desc">Located next to the old colonial hospital. It holds a rich history of charity and faith.</string>
+    <string name="temple_5_rec">Observe its baroque style main altar.</string>
+
+    <!-- Temple 6 -->
+    <string name="temple_6_name">Temple of San Francisco de Asís</string>
+    <string name="temple_6_desc">16th-century church that has a valuable colonial library and one of the largest bells in the city.</string>
+    <string name="temple_6_rec">Visit its library if you have the chance.</string>
+
+    <!-- Temple 7 -->
+    <string name="temple_7_name">Temple of Santa Clara de Asís</string>
+    <string name="temple_7_desc">Famous for its Mudejar coffered ceiling and golden baroque altarpieces. It was the first monastery in the city.</string>
+    <string name="temple_7_rec">Don\'t leave without buying sweets from the nuns.</string>
+
+    <!-- Temple 8 -->
+    <string name="temple_8_name">Temple of Santa Ana</string>
+    <string name="temple_8_desc">Located in the artisans\' neighborhood. It is a very important cultural and religious center for retablo makers.</string>
+    <string name="temple_8_rec">Visit the nearby artisan workshops.</string>
+
+    <!-- Temple 9 -->
+    <string name="temple_9_name">Temple of Santa María Magdalena</string>
+    <string name="temple_9_desc">Located in the traditional artisans\' neighborhood of La Magdalena. Simple but imposing facade.</string>
+    <string name="temple_9_rec">Tour the neighborhood to see Huamanga stone carvings.</string>
+
+    <!-- Temple 10 -->
+    <string name="temple_10_name">Temple of La Compañía de Jesús</string>
+    <string name="temple_10_desc">Located facing the Main Square. Its imposing pink volcanic stone facade is unique.</string>
+    <string name="temple_10_rec">Observe the details of the Jesuit carvings.</string>
+
+    <!-- Temple 11 -->
+    <string name="temple_11_name">Temple of Nuestra Señora de Loreto</string>
+    <string name="temple_11_desc">Located next to La Compañía de Jesús, it stands out for its elegance and baroque details.</string>
+    <string name="temple_11_rec">Appreciate the harmony of its facade with the surroundings.</string>
+
+    <!-- Temple 12 -->
+    <string name="temple_12_name">Temple of San Agustín</string>
+    <string name="temple_12_desc">Church with neoclassical and baroque altarpieces. It is highly visited during its festivity in August.</string>
+    <string name="temple_12_rec">Venerate the image of the Virgin of Consolation.</string>
+
+    <!-- Temple 13 -->
+    <string name="temple_13_name">Temple of San Sebastián</string>
+    <string name="temple_13_desc">Located in the upper part of the city, it offers a sober architecture and well-preserved altarpieces.</string>
+    <string name="temple_13_rec">Admire the view of the city from the area.</string>
+
+    <!-- Temple 14 -->
+    <string name="temple_14_name">Temple of Belén</string>
+    <string name="temple_14_desc">A small and charming colonial church with an atmosphere of great peace.</string>
+    <string name="temple_14_rec">Ideal for moments of silent prayer.</string>
+
+    <!-- Temple 15 -->
+    <string name="temple_15_name">Temple of Santa Teresa</string>
+    <string name="temple_15_desc">Monastery of the Discalced Carmelite Nuns. It has an impressive main altarpiece.</string>
+    <string name="temple_15_rec">Try the traditional sweets at its porter\'s lodge.</string>
+
+    <!-- Temple 16 -->
+    <string name="temple_16_name">Temple of San Francisco de Paula</string>
+    <string name="temple_16_desc">It features carved altarpieces and colonial canvases that narrate ancient religious stories.</string>
+    <string name="temple_16_rec">Appreciate the paintings of the high choir.</string>
+
+    <!-- Temple 17 -->
+    <string name="temple_17_name">Temple of La Buena Muerte</string>
+    <string name="temple_17_desc">Also known as Buen Pastor. It stands out for its simplicity and history linked to charity.</string>
+    <string name="temple_17_rec">Observe its wood carvings.</string>
+
+    <!-- Temple 18 -->
+    <string name="temple_18_name">Temple of La Amargura</string>
+    <string name="temple_18_desc">Small temple linked to the devotion of the Stations of the Cross and the moments of reflection during Holy Week.</string>
+    <string name="temple_18_rec">Visit it during the night processions.</string>
+
+    <!-- Temple 19 -->
+    <string name="temple_19_name">Temple of Carmen Alto</string>
+    <string name="temple_19_desc">Located in the historic muleteers\' district, a strategic point of culture and faith.</string>
+    <string name="temple_19_rec">Try typical gastronomy in the nearby market.</string>
+
+    <!-- Temple 20 -->
+    <string name="temple_20_name">Temple of Pampa San Agustín</string>
+    <string name="temple_20_desc">Historic chapel that represents popular faith in the peripheral areas of the center.</string>
+    <string name="temple_20_rec">Observe its colonial rural architecture.</string>
+
+    <!-- Temple 21 -->
+    <string name="temple_21_name">Temple of San Juan Bautista</string>
+    <string name="temple_21_desc">Main church of the San Juan district, center of great popular celebrations.</string>
+    <string name="temple_21_rec">Enjoy the festivities in the main square.</string>
+
+    <!-- Temple 22 -->
+    <string name="temple_22_name">Temple of Soquiaqato</string>
+    <string name="temple_22_desc">Located in one of the most traditional neighborhoods, center of the festivity of the Lord of the Sentence.</string>
+    <string name="temple_22_rec">Ideal to experience Ayacucho neighborhood faith.</string>
+
+    <!-- Temple 23 -->
+    <string name="temple_23_name">Temple of Conchopata</string>
+    <string name="temple_23_desc">Small chapel near the archaeological zone, surrounded by pre-Inca and colonial history.</string>
+    <string name="temple_23_rec">Visit the nearby pottery workshops.</string>
+
+    <!-- Temple 24 -->
+    <string name="temple_24_name">Temple of El Calvario</string>
+    <string name="temple_24_desc">It symbolizes the way of the cross and offers a panoramic view of Huamanga.</string>
+    <string name="temple_24_rec">Place of pilgrimage on Good Friday.</string>
+
+    <!-- Temple 25 -->
+    <string name="temple_25_name">Temple of Nuestra Señora del Pilar</string>
+    <string name="temple_25_desc">Chapel dedicated to the Virgin of the Pillar, with simple and cozy architecture.</string>
+    <string name="temple_25_rec">Appreciate the tranquility of its interior.</string>
+
+    <!-- Temple 26 -->
+    <string name="temple_26_name">General Cemetery Chapel</string>
+    <string name="temple_26_desc">Dedicated to eternal rest and prayer for the deceased.</string>
+    <string name="temple_26_rec">Visit the chapel on All Saints\' Day.</string>
+
+    <!-- Temple 27 -->
+    <string name="temple_27_name">Temple of Señor de Quinuapata</string>
+    <string name="temple_27_desc">Traditional neighborhood church with a very picturesque square.</string>
+    <string name="temple_27_rec">Enjoy the tranquility of the neighborhood.</string>
+
+    <!-- Temple 28 -->
+    <string name="temple_28_name">Temple of Capillapata</string>
+    <string name="temple_28_desc">Emblematic church that underwent reconstruction to preserve its colonial structure.</string>
+    <string name="temple_28_rec">Observe the historical restoration efforts.</string>
+
+    <!-- Temple 29 -->
+    <string name="temple_29_name">Temple of Señor de Arequipa</string>
+    <string name="temple_29_desc">Small church of deep faith, highly attended by the locals in the area.</string>
+    <string name="temple_29_rec">Ideal place for meditation.</string>
+
+    <!-- Temple 30 -->
+    <string name="temple_30_name">Temple of Virgen del Rosario de Chiquinquirá</string>
+    <string name="temple_30_desc">Dedicated to the patron saint of Colombia, but with a strong tradition in Huamanga.</string>
+    <string name="temple_30_rec">Appreciate the local religious art.</string>
+
+    <!-- Temple 31 -->
+    <string name="temple_31_name">Temple of Virgen de Fátima</string>
+    <string name="temple_31_desc">Modern chapel dedicated to the Virgin of Fatima, a center of Marian devotion.</string>
+    <string name="temple_31_rec">Attend Sunday mass.</string>
+
+    <!-- Temple 32 -->
+    <string name="temple_32_name">Temple of Señor de las Maravillas</string>
+    <string name="temple_32_desc">Modern temple that welcomes a large number of faithful during its annual festivities.</string>
+    <string name="temple_32_rec">Visit it during its patron saint festivities.</string>
+
+    <!-- Temple 33 -->
+    <string name="temple_33_name">Temple of Señor de Pampa Cruz</string>
+    <string name="temple_33_desc">Located in an elevated area, it is a reference point for the faithful of the sector.</string>
+    <string name="temple_33_rec">Enjoy the view from outside the temple.</string>
+
+    <!-- Natural Places -->
+    <string name="nat_1_name">Huaraca Forest</string>
+    <string name="nat_1_desc">A beautiful Andean forest ideal for hiking, photography, and connecting directly with the nature of Vinchos.</string>
+
+    <string name="nat_2_name">Chapalla Andean Cenote</string>
+    <string name="nat_2_desc">Impressive natural formation hidden in the Andes, surrounded by unique rock formations and landscapes.</string>
+
+    <string name="nat_3_name">Intiwarkuna Viewpoint</string>
+    <string name="nat_3_desc">Natural viewpoint from where you can see the entire city of Huamanga and its surroundings with panoramic landscapes.</string>
+
+    <string name="nat_4_name">Qorihuillca Crevasses</string>
+    <string name="nat_4_desc">Narrow rock formations that create canyon-like passages. Perfect place for adventure tourism and photography.</string>
+
+    <string name="nat_5_name">Campanayuq Rural Waterfalls</string>
+    <string name="nat_5_desc">Small natural waterfalls formed by runoff and rains in rural areas, surrounded by local vegetation.</string>
+
+    <string name="nat_6_name">Enchanted Route of the Condors</string>
+    <string name="nat_6_desc">Andean route that crosses mountainous landscapes where you can observe condors in their natural habitat and traditional communities.</string>
+
+    <string name="nat_7_name">Quinua Nature Trails</string>
+    <string name="nat_7_desc">Alternative routes among Andean fields and rural landscapes that allow you to enjoy nature away from mass tourism.</string>
+
+    <string name="nat_8_name">Piquimachay Natural Zone</string>
+    <string name="nat_8_desc">Natural landscape with prehistoric caves and mountainous areas, ideal for exploration and uncrowded walks.</string>
+
+    <string name="nat_9_name">Yanacocha Lagoon (Ayacucho)</string>
+    <string name="nat_9_desc">High Andean lagoon of dark waters surrounded by pastures and mountains. It is a quiet place rarely visited by tourists.</string>
+
+    <string name="nat_10_name">Campanayoq Hill</string>
+    <string name="nat_10_desc">Mountainous formation with panoramic views and natural remains. Ideal for trekking and exploration.</string>
+
+    <string name="nat_11_name">Muyu orqo</string>
+    <string name="nat_11_desc">Natural gorge with rock formations and Andean vegetation, rarely frequented by visitors.</string>
+
+    <string name="nat_12_name">Paqcha Chirapaq Waterfall</string>
+    <string name="nat_12_desc">Beautiful waterfall whose name in Quechua means \'rainbow waterfall\'. It is a quiet place surrounded by native vegetation and rock formations.</string>
+
+    <string name="nat_13_name">The Swamp (El Pantano)</string>
+    <string name="nat_13_desc">Natural wetland of great historical importance located near the Historical Sanctuary of the Pampa de Ayacucho. It is an ecosystem that houses migratory birds and native flora.</string>
+
+    <string name="nat_14_name">Hatun Condoray</string>
+    <string name="nat_14_desc">A natural viewpoint and archaeological site of Wari-Chanka origin. It is famous for being one of the best spots in the region for adventure sports and for its rock formations that offer a spectacular view of the valley.</string>
+
+    <string name="nat_15_name">Rosas Pampa de Vinchos</string>
+    <string name="nat_15_desc">Vast Andean plains with open landscapes and mountain views, ideal for disconnecting from urban noise.</string>
+
+    <string name="nat_16_name">Qosniccpaccha Waterfall</string>
+    <string name="nat_16_desc">Its name means \'smoking waterfall\' due to the mist it generates when impacting from its more than 100 meters of height. It is a destination of pure adventure, with a path that crosses impressive crevasses, rivers, and rock formations.</string>
+
+    <string name="nat_17_name">Uchkuera</string>
+    <string name="nat_17_desc">Noted for offering experiences that combine impressive Andean landscapes with cultural immersion.</string>
+
+    <string name="nat_18_name">Uchillki Lagoon</string>
+    <string name="nat_18_desc">A serene lagoon of calm waters located in the southern circuit of Ayacucho. It is an ideal destination for ecotourism where you can enjoy water activities surrounded by an impressive Andean landscape and unique rock formations.</string>
+
+    <string name="nat_19_name">Puya Raimondi Forest - Manallasacc</string>
+    <string name="nat_19_desc">Extensive forest that houses thousands of specimens of the Puya Raimondi (Titanka), the largest inflorescence in the world. It is a high mountain ecosystem where these ancient plants bloom only once in their lifetime before dying.</string>
+
+    <string name="nat_20_name">Niñoyujay Hot Springs</string>
+    <string name="nat_20_desc">Natural pools of thermo-medicinal waters rich in minerals. It is a rustic and quiet place, surrounded by Andean landscapes, ideal for resting and relieving muscle or joint ailments.</string>
+
+    <string name="nat_21_name">Acuchimay Viewpoint</string>
+    <string name="nat_21_desc">From this natural viewpoint you have a panoramic view of the entire city of Huamanga. It is an emblemati place with monuments and green areas.</string>
+
+    <string name="nat_22_name">Pumapaqcha Waterfall</string>
+    <string name="nat_22_desc">Its name in Quechua means \'waterfall of the puma\'. It is an impressive cascade of crystal clear waters descending between unique rock formations. It is considered a sacred place of purification by locals.</string>
+
+    <string name="nat_23_name">Huatatas</string>
+    <string name="nat_23_desc">Warm and picturesque valley known for its pleasant climate and gastronomic offer. It is the favorite place to enjoy typical dishes outdoors, surrounded by fruit orchards and the Huatatas River.</string>
+
+    <string name="nat_24_name">Dwelling of the Apus (Morada de los Apus)</string>
+    <string name="nat_24_desc">Impressive theme park of giant sculptures carved in stone. The works represent Andean deities, mystical figures, and the worldview of ancient Peruvians, creating a magical atmosphere in the middle of the mountain.</string>
+
+    <string name="nat_25_name">Belén Temple Atrium Viewpoint</string>
+    <string name="nat_25_desc">Located in the traditional neighborhood of Belén, this viewpoint offers an exceptional panoramic view of the city of Ayacucho and the surrounding hills. The 17th-century temple stands out for its stone architecture and historical importance in local faith.</string>
+
+    <string name="nat_26_name">Wari Archaeological Complex</string>
+    <string name="nat_26_desc">Ancient capital of the Wari Empire (7th to 13th centuries). It is an immense pre-Hispanic stone city where sectors such as Monjachayuq and Cheqo Wasi stand out. Its walls up to 12 meters high and advanced canal system reflect the greatness of this culture.</string>
+
+    <string name="nat_27_name">Puncupata Viewpoint</string>
+    <string name="nat_27_desc">A spectacular natural balcony located in the highlands of the city. Its name means \'upper part of the door\', and it offers a 360-degree view of the entire Huamanga valley. It is a favorite place to watch the sunset and enjoy the fresh air.</string>
+
+    <string name="nat_28_name">Infiernillo Cave</string>
+    <string name="nat_28_desc">Impressive rock formation and deep natural cavern. Its name comes from the darkness and mysterious air currents that emanate from its interior. It is a site of archaeological and geological interest where stalactites and whimsical formations can be seen.</string>
+
+    <string name="nat_29_name">Occochaca Waterfall</string>
+    <string name="nat_29_desc">Beautiful waterfall of crystal clear water surrounded by lush vegetation and rock formations. It is a perfect place to connect with nature, where the sound of the water and the singing of the birds create an atmosphere of absolute peace.</string>
+
+    <string name="nat_30_name">Turquoise Waters of Millpu</string>
+    <string name="nat_30_desc">Spectacular turquoise natural pools formed along a canyon, considered one of the most beautiful natural jewels of Ayacucho.</string>
+
+    <!-- Festivities (Name, Description, Recommendation) -->
+
+    <!-- ID 1 -->
+    <string name="fest_1_name">Adoration of the Christ Child and Huaylijía and Huera dances</string>
+    <string name="fest_1_desc">Andean Christmas tradition where the Child Jesus is worshiped with typical dances like the huaylía, highlighting religious fervor and native music.</string>
+    <string name="fest_1_rec">Bring a camera to capture the colorful clothing of the dancers and arrive early at the downtown churches.</string>
+
+    <!-- ID 2 -->
+    <string name="fest_2_name">Descent of the Kings</string>
+    <string name="fest_2_desc">Commemoration of the arrival of the Three Wise Men with processions through the main streets, accompanied by chants and biblical representations.</string>
+    <string name="fest_2_rec">It is a very family-friendly event; ideal for enjoying the local gastronomy offered around the Main Square.</string>
+
+    <!-- ID 3 -->
+    <string name="fest_3_name">Feast of San Sebastián</string>
+    <string name="fest_3_desc">Tribute to the martyr Saint Sebastian. It includes solemn masses and a traditional procession through the neighborhood of the same name, rescuing ancient customs.</string>
+    <string name="fest_3_rec">Do not forget to try the traditional punch usually handed out by the mayordomos during the eve.</string>
+
+    <!-- ID 4 -->
+    <string name="fest_4_name">Feast of the Virgin of Candelaria</string>
+    <string name="fest_4_desc">Marian festivity of great importance that unites Catholic faith with Andean mysticism through prayers and marching bands.</string>
+    <string name="fest_4_rec">Participate in the preceding novenas to better understand the deep religious roots of this celebration in the region.</string>
+
+    <!-- ID 5 -->
+    <string name="fest_5_name">Staging of María Parado de Bellido\'s Execution</string>
+    <string name="fest_5_desc">Patriotic event recreating the sacrifice of the Ayacucho heroine in the Main Square, remembering her bravery for independence.</string>
+    <string name="fest_5_rec">Arrive early to get a spot near the main stage and better appreciate the theatrical performance.</string>
+
+    <!-- ID 6 -->
+    <string name="fest_6_name">Carnivals</string>
+    <string name="fest_6_desc">National Cultural Heritage. Characterized by playing with water, talcum powder, and comparsas (troupes) singing satirical and joyful songs throughout the city.</string>
+    <string name="fest_6_rec">Wear clothes you don\'t mind getting dirty and protect your electronic devices with waterproof bags.</string>
+
+    <!-- ID 7 -->
+    <string name="fest_7_name">Patronal Feast of the Lord of Untuna</string>
+    <string name="fest_7_desc">Central religious event in Lucanas devoted to the image of the Lord of Untuna with masses, processions, and communal fairs.</string>
+    <string name="fest_7_rec">It is a good opportunity to discover the landscapes of the Lucanas province and its livestock culture.</string>
+
+    <!-- ID 8 -->
+    <string name="fest_8_name">Feast of the Crosses</string>
+    <string name="fest_8_desc">Communities bring the crosses down from the tutelary hills to the temples to be blessed, in a ritual symbolizing crop protection.</string>
+    <string name="fest_8_rec">Wear sunscreen and a hat, as many activities take place in open spaces and along trails.</string>
+
+    <!-- ID 9 -->
+    <string name="fest_9_name">Feast of the Virgin of Fatima</string>
+    <string name="fest_9_desc">Spiritual celebration with public prayers and nocturnal processions illuminated by candles, creating an atmosphere of peace and devotion.</string>
+    <string name="fest_9_rec">Respect the silence during moments of prayer and enjoy the artistic illumination of the churches.</string>
+
+    <!-- ID 10 -->
+    <string name="fest_10_name">Feast of San Juan</string>
+    <string name="fest_10_desc">The Feast of San Juan in Ayacucho, celebrated on June 24, is a mix of religious fervor and Andean tradition, standing out especially in the San Juan Bautista district.</string>
+    <string name="fest_10_rec">Enjoy the puca picante festival, chicharrón, artisan fairs, and cultural activities by visiting local churches and supporting local producers.</string>
+
+    <!-- ID 11 -->
+    <string name="fest_11_name">Corpus Christi</string>
+    <string name="fest_11_desc">Solemn procession of the Blessed Sacrament, a celebration of deep faith and Andean syncretism, connected to the great feast of the Lord of the Ascension.</string>
+    <string name="fest_11_rec">It is essential to see the scissors dancers, who are strongly linked to religious celebrations in the Lucanas province.</string>
+
+    <!-- ID 12 -->
+    <string name="fest_12_name">Feast of the Virgin of Carmen</string>
+    <string name="fest_12_desc">Among handkerchiefs, dances, and promises, Huamanga surrenders to the feet of its Mamacha Carmen, patroness of Ayacucho folklore.</string>
+    <string name="fest_12_rec">Don\'t miss the main procession that usually leaves from the Santa Teresa Temple, where the image is carried on a litter by the brotherhood.</string>
+
+    <!-- ID 13 -->
+    <string name="fest_13_name">Patronal Feast of Santiago</string>
+    <string name="fest_13_desc">\'Tayta Shanti\' is celebrated with cattle branding and ritual songs, giving thanks for the reproduction of animals and prosperity.</string>
+    <string name="fest_13_rec">If you visit a rural estate, respectfully participate in the toast with chicha de jora offered by the cattle owners.</string>
+
+    <!-- ID 14 -->
+    <string name="fest_14_name">National Holidays, Bulls and Waqrapukus</string>
+    <string name="fest_14_desc">A combination of national civics and local traditions. The sound of the waqrapukus (horn trumpets) announcing the bullfights stands out.</string>
+    <string name="fest_14_rec">Visit the Pampa de la Quinua during these days to live a complete historical and cultural experience.</string>
+
+    <!-- ID 15 -->
+    <string name="fest_15_name">Feast of the Virgin of the Snows</string>
+    <string name="fest_15_desc">Iconic celebration in Coracora that includes the impressive \'Ingreso de Chamiza\' (burning of dry bushes) and grand bullfighting shows.</string>
+    <string name="fest_15_rec">Prepare for low nighttime temperatures and make sure to book transportation in advance, as the flow of travelers is very high.</string>
+
+    <!-- ID 16 -->
+    <string name="fest_16_name">Herranza Ritual or Cattle Branding</string>
+    <string name="fest_16_desc">Ancestral ceremony of gratitude to the earth where colored ribbons are placed on the cattle, accompanied by tinya and violin music.</string>
+    <string name="fest_16_rec">Pay close attention to the symbolism of the ribbon colors; each family has its own identity.</string>
+
+    <!-- ID 17 -->
+    <string name="fest_17_name">Feast of the Virgin of the Assumption</string>
+    <string name="fest_17_desc">Important agricultural and religious fair that boosts the local economy, celebrated with typical dances and dishes based on alpaca and lamb meat.</string>
+    <string name="fest_17_rec">It is the ideal place to buy high-quality dairy products and wool textiles at producer prices.</string>
+
+    <!-- ID 18 -->
+    <string name="fest_18_name">Procession of San Isidro Labrador</string>
+    <string name="fest_18_desc">The patron of farmers roams the streets blessing the ox yokes and work tools to ensure a good harvest.</string>
+    <string name="fest_18_rec">Appreciate the decoration of the yokes, which are usually adorned with the best fruits of the season.</string>
+
+    <!-- ID 19 -->
+    <string name="fest_19_name">Feast of San Bartolomé</string>
+    <string name="fest_19_desc">Central festivity in Cangallo highlighting the culture of the Morochucos, brave horsemen who perform feats on horseback in the pampas.</string>
+    <string name="fest_19_rec">Do not miss the horse races; they are the main event and showcase the great skill of local riders.</string>
+
+    <!-- ID 20 -->
+    <string name="fest_20_name">Patronal Feast of San Miguel</string>
+    <string name="fest_20_desc">Celebration in the VRAEM area that integrates elements of the jungle and highlands, with colorful parades and coffee and cocoa exhibitions.</string>
+    <string name="fest_20_rec">Take the opportunity to visit the nearby waterfalls and enjoy the warm climate of the tropical zone.</string>
+
+    <!-- ID 21 -->
+    <string name="fest_21_name">Yarqa Aspi or Irrigation Ditch Cleaning</string>
+    <string name="fest_21_desc">Festive community work where irrigation canals are cleaned to receive rainwater, accompanied by dances and shared food.</string>
+    <string name="fest_21_rec">It is a unique experience of Andean coexistence; politely ask for permission to share the table with the community members.</string>
+
+    <!-- ID 22 -->
+    <string name="fest_22_name">Feast of the Lord of Quinuapata</string>
+    <string name="fest_22_desc">Traditional neighborhood celebration in Huamanga that keeps faith alive with prayers, firework castles, and civil music bands.</string>
+    <string name="fest_22_rec">Visit the neighborhood market during these days to taste the most authentic homemade seasoning in the city.</string>
+
+    <!-- ID 23 -->
+    <string name="fest_23_name">Water Festival</string>
+    <string name="fest_23_desc">Ritual of gratitude to the springs and water sources, fundamental to the Andean worldview and agriculture in the Lucanas province.</string>
+    <string name="fest_23_rec">Listen to the elders\' stories about the origin of the springs; they are fascinating tales about respect for nature.</string>
+
+    <!-- ID 24 -->
+    <string name="fest_24_name">Feast of the Virgin of Las Mercedes</string>
+    <string name="fest_24_desc">Tribute to the Grand Marshal of Peru. Includes military and religious parades, highlighting the solemnity and respect for the patroness of arms.</string>
+    <string name="fest_24_rec">Observe the elegance of the procession, which is usually accompanied by the police or army music band.</string>
+
+    <!-- ID 25 -->
+    <string name="fest_25_name">Patronal Feast of San Francisco</string>
+    <string name="fest_25_desc">Celebration highlighting humility and love for animals, typical of the Franciscan order, with liturgical activities and popular fairs.</string>
+    <string name="fest_25_rec">It is a good moment for reflection and to enjoy the colonial architecture of the local churches.</string>
+
+    <!-- ID 26 -->
+    <string name="fest_26_name">All Saints\' Celebration</string>
+    <string name="fest_26_desc">Tradition of visiting cemeteries bringing music and food. In Ayacucho, the baptism of tantawawas (baby-shaped breads) is fundamental.</string>
+    <string name="fest_26_rec">Visit artisanal bakeries to buy the best tantawawas and bread horses.</string>
+
+    <!-- ID 27 -->
+    <string name="fest_27_name">Ayacucho Folklore Day</string>
+    <string name="fest_27_desc">Artistic gala featuring the best music and dance groups of the region, celebrating Ayacucho\'s rich cultural heritage.</string>
+    <string name="fest_27_rec">Look for the schedule at the UNSCH Cultural Center to attend Ayacucho guitar concerts.</string>
+
+    <!-- ID 30 -->
+    <string name="fest_30_name">Anniversary of the Battle of Ayacucho and Tusuy and Nichik Dance</string>
+    <string name="fest_30_desc">Commemoration of the victory on the Pampa de la Quinua. Includes the warrior dance of tusuy and nichik representing the soldiers\' courage.</string>
+    <string name="fest_30_rec">Bring warm clothes and sunscreen; the weather on the pampa can quickly change from intense sun to cold wind.</string>
+
+    <!-- ID 31 -->
+    <string name="fest_31_name">Procession of the Virgin of Sorrows</string>
+    <string name="fest_31_desc">The procession of the Virgin of Sorrows in Ayacucho is a central act of faith, especially highlighting Friday of Sorrows and Good Friday.</string>
+    <string name="fest_31_rec">It is recommended to bring candles, warm clothes for the night, and arrive early around the square to observe the floral carpets.</string>
+
+    <!-- ID 32 -->
+    <string name="fest_32_name">Palm Sunday</string>
+    <string name="fest_32_desc">Triumphal entry of Jesus. The faithful flock to churches with woven olive palms to be blessed, marking the start of Ayacucho\'s Holy Week.</string>
+    <string name="fest_32_rec">Buy your palms early around the Main Square and enjoy the festive yet solemn atmosphere.</string>
+
+    <!-- ID 33 -->
+    <string name="fest_33_name">Holy Week: Easter Sunday</string>
+    <string name="fest_33_desc">The most important religious festivity in Peru. It culminates with the majestic procession of the Risen Christ on an immense litter illuminated by thousands of candles at dawn.</string>
+    <string name="fest_33_rec">Wake up early (4:00 AM) to find a spot in the Main Square and witness the litter leaving the Cathedral. It is an unforgettable sight.</string>
+
+    <!-- ID 34 -->
+    <string name="fest_34_name">Anniversary of the Foundation of Huamanga</string>
+    <string name="fest_34_desc">Civic and cultural celebration for the Spanish foundation of the city. Includes parades, serenades, and gastronomic fairs.</string>
+    <string name="fest_34_rec">Participate in the serenade the night before in the Main Square and enjoy live Ayacucho music.</string>
+
+    <!-- Museums -->
+
+    <!-- Museum 1 -->
+    <string name="museo_1_name">Hipólito Unanue Regional Historical Museum</string>
+    <string name="museo_1_desc">The main museum of Ayacucho, created in 1946. It presents 15,000 years of history, from the Pikimachay Cave findings to the colonial era.</string>
+    <string name="museo_1_content">Located in the Simón Bolívar Cultural Center, this Ministry of Culture museum has five permanent rooms. The first room addresses Andean prehistory with findings from the Pikimachay Cave: lithic tools, extinct fauna bones, and plant remains from 20,000 years ago. The second room presents the Wari Culture (500–1100 AD), the first major urban civilization of the Andes, with polychrome ceramics, textiles with four-pointed caps, and scale models of the 2,000-hectare walled metropolis. The third room exhibits Wari daily life and the subsequent Chanka Culture. The fourth and fifth rooms show colonial and historical-artistic art: viceregal paintings, Huamanga stone sculptures, and historical documents. Hours: Tuesday to Sunday.</string>
+
+    <!-- Museum 2 -->
+    <string name="museo_2_name">Wari Site Museum</string>
+    <string name="museo_2_desc">Inaugurated in 1996 next to the Wari Archaeological Complex, it exhibits ceramics, lithics, textiles, and monoliths from site excavations.</string>
+    <string name="museo_2_content">The Wari Site Museum is located at km 23 of the Ayacucho–Quinua highway. It is the gateway to the Wari Monumental Archaeological Complex, capital of the first pan-Andean culture (500–1100 AD). The museum exhibits pieces recovered in excavations: Conchopata-style ceramics with representations of the Staff God, carved lithics, textiles with geometric designs, monoliths, and metal objects. Explanatory panels describe the urban organization of the site, which had differentiated neighborhoods, temples, artisan workshops, and hydraulic systems. Administrated by the Ministry of Culture of Peru.</string>
+
+    <!-- Museum 3 -->
+    <string name="museo_3_name">Quinua Site Museum – House of the Capitulation</string>
+    <string name="museo_3_desc">Inaugurated on December 9, 1974, it commemorates the Battle of Ayacucho of 1824. It exhibits weapons, uniforms, and the room where the independence of South America was sealed.</string>
+    <string name="museo_3_content">Located in the main square of the town of Quinua, 35 km from Ayacucho. It commemorates the sesquicentennial of the battle that consolidated the independence of South America. Its rooms exhibit weapons of the era (rifles, sabers, cannon models), uniforms of the royalist and patriot armies, strategic maps, and paintings illustrating the battle. The highlight is the room where General José de Sucre and Viceroy La Serna signed the Capitulation of Ayacucho on December 9, 1824. Quinua is also famous for its ceramics, with typical clay churches on the rooftops.</string>
+
+    <!-- Museum 4 -->
+    <string name="museo_4_name">Mariscal Andrés A. Cáceres Historical Museum</string>
+    <string name="museo_4_desc">Located in the Vivanco Colonial House (17th century), with rooms dedicated to the hero of the Pacific War. It features unique limestone arches and Cusco School paintings.</string>
+    <string name="museo_4_content">Occupying the Vivanco House built between 1640 and 1700, this is one of the best-preserved colonial mansions in Ayacucho. The entrance leads to a courtyard with artistic stone paving forming diamonds, human figures, and animals. The stable is unique in Peru: two rows of five limestone arches. The rooms exhibit photographs of Cáceres, Pacific War weapons, personal objects, uniforms, coins, and the reproduction of his bedroom. It also houses canvases from the Cusco and Ayacucho schools. Administrated by the Peruvian Army.</string>
+
+    <!-- Museum 5 -->
+    <string name="museo_5_name">ANFASEP Memory Museum – So that it does not happen again</string>
+    <string name="museo_5_desc">Peru\'s first memory museum, inaugurated in 2006. It documents the 1980–2000 internal armed conflict with testimonies, photographs, and art.</string>
+    <string name="museo_5_content">Built by ANFASEP (National Association of Relatives of the Kidnapped, Detained and Disappeared of Peru), founded in 1983 by mothers and wives of the disappeared. The first room recreates a torture chamber and a grave, with sculptures symbolizing the violence. The second room exhibits photographs of the disappeared, victims\' clothing, and the organization\'s original banner. The third room shows the historical timeline of the conflict. The exterior displays murals up to 9 meters representing episodes of violence. The artisan shop sells retablos and textiles made by the members.</string>
+
+    <!-- Museum 6 -->
+    <string name="museo_6_name">Joaquín López Antay House Museum</string>
+    <string name="museo_6_desc">House and workshop of the master retablo maker Joaquín López Antay (1897–1981). Shows the life and work of the creator of the modern Ayacucho retablo.</string>
+    <string name="museo_6_content">Joaquín López Antay transformed the traditional \"San Marcos\" into a narrative folk art of universal projection. In 1975, he received the National Culture Prize, sparking a historical debate on the value of popular art. His house-workshop in the Santa Ana neighborhood displays original retablos from different periods of his life, photographs, and the workshop where he created his works. Guides explain the process of making the retablo: the wooden box, the potato dough, and the hand-painted plaster figures that narrate Andean life.</string>
+
+    <!-- Museum 7 -->
+    <string name="museo_7_name">The House of the Retablo – Master Silverio Ataucusi</string>
+    <string name="museo_7_desc">Gallery-workshop of the master retablo maker Silverio Ataucusi Sulca. Exhibits traditional retablos and offers live workshops on the creation process.</string>
+    <string name="museo_7_content">A living space where Master Silverio Ataucusi and his family maintain the Ayacucho retablo tradition. The retablo is a two-story wooden box representing religious and traditional scenes using hand-painted potato paste figures. The ground floor exhibits retablos of different themes: livestock, Holy Week, carnivals, and patron saint festivals. Visitors can observe the different stages of production. Recommended to reach by taxi from the Main Square (approx. 15 min).</string>
+
+    <!-- Museum 9 -->
+    <string name="museo_9_name">San José de Quinua Textile Museum</string>
+    <string name="museo_9_desc">Displays the pre-Columbian textile tradition of the Quinua communities. Textiles are made on backstrap looms using alpaca, cotton, and sheep wool.</string>
+    <string name="museo_9_content">This museum documents the pre-Columbian textile activity still alive in the area. Backstrap loom weaving (callhua) is a technique dating back thousands of years. Artisans create blankets, ponchos, and bags using techniques like tapestry and brocade. Designs reproduce iconography of pre-Hispanic origin: diamonds, animal figures, and agricultural scenes with natural colors obtained from plants and minerals. The museum shows the complete process: shearing, washing, spinning, natural dyeing, and weaving.</string>
+
+    <!-- Museum 10 -->
+    <string name="museo_10_name">Vilcashuamán Site Museum</string>
+    <string name="museo_10_desc">Next to the Inca Complex of Vilcashuamán (15th century). Exhibits Inca lithic pieces, ceramics, and textiles, explaining the importance of this administrative center.</string>
+    <string name="museo_10_content">Vilcashuamán (\"Sacred Falcon\") was one of the most important administrative centers of the Tahuantinsuyo, founded by Inca Pachacútec. The site museum exhibits pieces recovered in excavations: imperial-style Inca ceramics, carved stones, textiles, and metal objects. Explanatory panels describe the main sectors: the Ushnu (ceremonial pyramid), the Temple of the Sun and Moon, Pachacútec Square, and the Kallanka palace. The museum visit complements the tour of the surrounding archaeological complex.</string>
+
+    <!-- Museum 11 -->
+    <string name="museo_11_name">Civic-Religious Museum – Ayacucho Cathedral</string>
+    <string name="museo_11_desc">Located in the Cathedral Basilica of Ayacucho (17th century). Exhibits colonial sacred art, Cusco School paintings, and liturgical ornaments.</string>
+    <string name="museo_11_content">The Cathedral, built between 1612 and 1672, is the city\'s most important temple. Its museum houses a valuable collection of colonial sacred art. Highlights include Cusco School paintings from the 17th and 18th centuries representing the Virgin and saints. The collection includes liturgical ornaments embroidered in gold and silver thread, chalices, silver monstrances, and processional sculptures in carved wood. The temple itself, with its golden altarpieces, is an integral part of the visit.</string>
+
+    <!-- Museum 12 -->
+    <string name="museo_12_name">Ayacucho Museum Café</string>
+    <string name="museo_12_desc">A cultural space in the historic center combining a café and gallery. Exhibits historical photographs, local crafts, and contemporary art.</string>
+    <string name="museo_12_content">A multifunctional cultural space located in the heart of the historic center. It combines a café with temporary and permanent exhibitions of historical photographs documenting Ayacucho\'s transformation since the late 19th century. The walls display local crafts—retablos, textiles, ceramics—and works by contemporary Ayacucho artists. It is an ideal starting point for tourists; the staff can provide guidance on tours and artisan workshops. The menu offers local products like chocolate and highland coffee.</string>
+
+    <!-- Museum 13 -->
+    <string name="museo_13_name">Pampa de la Quinua Historical Sanctuary – Site Museum</string>
+    <string name="museo_13_desc">At the site of the Battle of Ayacucho (Dec 9, 1824). Exhibits panels, models, and military objects next to the 44-meter Obelisk.</string>
+    <string name="museo_13_content">The Pampa de la Quinua is the stage where patriot troops defeated the royalist army in the last great battle of South American independence. The site museum exhibits panels with strategic maps, models of the battlefield, period weaponry (bayonets, muskets), uniforms, and flags. A section explains the composition of the armies and the military leaders. The 44-meter commemorative Obelisk is a landmark that can be climbed for panoramic views of the plain. The area is a protected National Sanctuary.</string>
+
+    <!-- Museum 14 -->
+    <string name="museo_14_name">Boza and Solís Mansion</string>
+    <string name="museo_14_desc">17th-century colonial mansion in the historic center. Displays Cusco School paintings, colonial furniture, and typical Huamanga architecture.</string>
+    <string name="museo_14_content">One of the best-preserved colonial mansions in Ayacucho\'s historic center. Built in the 17th century, it exhibits typical Huamanga domestic architecture with its cobblestone courtyard, stone arches, and carved wooden balconies. The rooms display Cusco School paintings, viceregal furniture, and historical documents. It is a living testimony of Huamanga\'s splendor during the Viceroyalty when the city was a key administrative and commercial hub between Lima and Cusco.</string>
+
+    <!-- Museum 15 -->
+    <string name="museo_15_name">Pikimachay Cave and Site Museum</string>
+    <string name="museo_15_desc">Evidence of some of the oldest human presence in South America (20,000 BC). Exhibits replicas of Paleolithic tools and extinct fauna bones.</string>
+    <string name="museo_15_content">Pikimachay (\"Flea Cave\") was excavated in the 1960s, revealing evidence of human occupation dating back to 20,000 BC. It is one of the most important archaeological sites in South America for studying the settlement of the Americas. Findings include Andean Paleolithic stone tools, bones of extinct animals like mastodons and saber-toothed tigers, and plant remains. The site museum presents replicas of these findings with explanatory panels on the archaeological research process and the life of the region\'s first inhabitants.</string>
+
+    <!-- Restaurants -->
+
+    <!-- Restaurant 1 -->
+    <string name="rest_1_name">ViaVia Cafe Ayacucho</string>
+    <string name="rest_1_desc">The favorite restaurant on the Main Square. Peruvian and international cuisine with an unbeatable view of the Huamanga Cathedral. Specialty in quinoa chaufa, natural juices, Belgian beers, and vegetarian/vegan options.</string>
+
+    <!-- Restaurant 2 -->
+    <string name="rest_2_name">Sukre Cocina Peruana</string>
+    <string name="rest_2_desc">High-class restaurant facing the Main Square. Fusion of regional Ayacucho cuisine with modern techniques. Famous for its Huamanguino-style chicharrón, corn-crusted trout, and an elegant menu of Latin American dishes.</string>
+
+    <!-- Restaurant 3 -->
+    <string name="rest_3_name">Restaurante La Huamanguina</string>
+    <string name="rest_3_desc">The ultimate reference for Ayacucho cuisine in the city, located on the second floor of Jr. Asamblea. Its Puca Picante is considered the best in Ayacucho. Offers artisanal macerated drinks of lemon balm, wayramuña, and passion fruit.</string>
+
+    <!-- Restaurant 4 -->
+    <string name="rest_4_name">Restaurante Las Flores</string>
+    <string name="rest_4_desc">Spacious typical Ayacucho cuisine restaurant on Jr. Olaya, very popular among locals. Stands out for its roasted pork, Huamanguino chicharrón, and a huge variety of artisanal macerated drinks. View of the Main Square.</string>
+
+    <!-- Restaurant 5 -->
+    <string name="rest_5_name">El Nino Restaurant</string>
+    <string name="rest_5_desc">Peruvian and Italian cuisine restaurant near the Main Square. Beloved by locals and tourists alike. The owner, Niño, attends personally. Specialty in grilled trout, rotisserie chicken, pizzas, and live music on weekends.</string>
+
+    <!-- Restaurant 6 -->
+    <string name="rest_6_name">Mestizo Restaurante &amp; Café Lounge</string>
+    <string name="rest_6_desc">Traditional and modern Peruvian fusion restaurant on Jr. Cuzco, 2 blocks from the Main Square. Contemporary colonial atmosphere with a garden. Executive menu for 15 soles. A Michelin pre-star candidate according to reviews.</string>
+
+    <!-- Restaurant 7 -->
+    <string name="rest_7_name">Fuziones Restaurante</string>
+    <string name="rest_7_desc">Signature cuisine with organic and hydroponic ingredients. The best meat cuts in the city. Located 3 blocks from the Main Square in a charming alley. Its Tacu Tacu Lomo and Ribeye Steak are visitor favorites.</string>
+
+    <!-- Restaurant 8 -->
+    <string name="rest_8_name">Magia Negra Taberna Trattoria</string>
+    <string name="rest_8_desc">The best pizzeria in Ayacucho according to multiple reviews. Bohemian tavern-bar atmosphere with dark and rock decor. Offers artisanal pizzas, craft beers, sangria, pastas, and infusions. Ideal for groups of friends.</string>
+
+    <!-- Restaurant 9 -->
+    <string name="rest_9_name">Koi – Cocina Nikkei</string>
+    <string name="rest_9_desc">The only Nikkei (Japanese-Peruvian fusion) restaurant in Ayacucho. Offers tiraditos, stuffed causas with local ingredients, sushi with Andean trout, and Nikkei-style ceviches. One of the highest-rated restaurants in the city.</string>
+
+    <!-- Restaurant 10 -->
+    <string name="rest_10_name">La Casona Restaurant Turístico</string>
+    <string name="rest_10_desc">Tourist restaurant in a colonial mansion on Jr. Bellido, one of the best-known in the city for travelers. Extensive menu of typical Ayacucho and Creole dishes. Colonial atmosphere with an inner courtyard and live music on certain days.</string>
+
+    <!-- Restaurant 11 -->
+    <string name="rest_11_name">Las Tinajas Chicken &amp; Grill</string>
+    <string name="rest_11_desc">Restaurant with a privileged view of the Main Square. Specialty in wood-fired rotisserie chicken and grills. Juicy chicken with freshly made fries. Very crowded, arriving early is recommended. Lemongrass lemonade is a must.</string>
+
+    <!-- Restaurant 12 -->
+    <string name="rest_12_name">Restaurant KIBO</string>
+    <string name="rest_12_desc">Spacious restaurant 5 minutes from the center, in a quiet residential area. Offers a daily typical menu and an extensive à la carte menu. Always full of locals, a sign of its quality and price. A favorite for family lunches.</string>
+
+    <!-- Restaurant 13 -->
+    <string name="rest_13_name">Restaurante Carbón y Vino</string>
+    <string name="rest_13_desc">Located in a charming old mansion with gardens and diverse spaces. The ideal place for family breakfast or lunch. Succulent charcoal-grilled meats, puca picante, and selected wines. Warm and cozy atmosphere.</string>
+
+    <!-- Restaurant 14 -->
+    <string name="rest_14_name">Planta Lovers</string>
+    <string name="rest_14_desc">The main vegan and vegetarian restaurant in Ayacucho, facing the Main Square. Exclusive plant-based catalog with smoothies, bowls, salads, and meat-free dishes. The healthiest alternative in the historic center.</string>
+
+    <!-- Restaurant 15 -->
+    <string name="rest_15_name">Retablo – Pollos a la Brasa</string>
+    <string name="rest_15_desc">Specialists in grilled chicken and steakhouse meats. Very popular in the María Parado de Bellido neighborhood. Delivery available. The best hamburgers and anticuchos in the sector. Family atmosphere.</string>
+
+    <!-- Restaurant 16 -->
+    <string name="rest_16_name">Puka\'s Wasi</string>
+    <string name="rest_16_desc">Chifa-Peruvian cuisine restaurant with excellent tiradito. Fusion of Chinese techniques with Andean ingredients: seafood chaufa, wonton soup with mint, and lomo saltado. The quinoa chifa with bean sprouts is a hit.</string>
+
+    <!-- Restaurant 17 -->
+    <string name="rest_17_name">Antaqa Café de Especialidad</string>
+    <string name="rest_17_desc" formatted="false">The coziest specialty coffee shop in Ayacucho. Serves 100% single-origin coffee from the VRAEM (Apurímac and Ene River Valley), artisanally roasted. Artisanal breakfasts, homemade pastries, and hot Ayacucho chocolate.</string>
+
+    <!-- Restaurant 18 -->
+    <string name="rest_18_name">Patio Colonial</string>
+    <string name="rest_18_desc">Contemporary Peruvian cuisine restaurant in the heart of the historic center. Open colonial courtyard with flowers and viceregal architecture. Signature dishes with local ingredients: Ayacucho river trout, native quinoa, and native potatoes.</string>
+
+    <!-- Restaurant 19 -->
+    <string name="rest_19_name">Tu Casa Restaurante</string>
+    <string name="rest_19_desc">Typical Ayacucho breakfast and lunch restaurant, popular among locals. Famous for Huamanguino mondongo (tripe and white corn dish) and artisanal Huamanguino chorizo. Fast service, family atmosphere.</string>
+
+    <!-- Restaurant 20 -->
+    <string name="rest_20_name">Quinta Recreo Cameycar</string>
+    <string name="rest_20_desc">One of the restaurants with the best food in all of Ayacucho, near the Acuchimay Viewpoint. Specialty in Peruvian highland dishes: cuy chactado, pachamanca, and puca picante. Attended by city tours and tourist transport. Open-air country estate atmosphere.</string>
+</resources>

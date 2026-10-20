@@ -1,0 +1,677 @@
+<resources>
+    <string name="app_name">Puriy Ayacucho</string>
+    <string name="default_web_client_id" translatable="false">116448304003-f5v4tncoam7nspf0mja1t6vcjollf9el.apps.googleusercontent.com</string>
+    <string name="error">Error</string>
+    <string name="success">Éxito</string>
+    <string name="hello">¡Hola!</string>
+    <string name="search_hint">¿A dónde quieres ir hoy?</string>
+    <string name="guest">Invitado</string>
+
+    <!-- Bottom Nav Menu -->
+    <string name="menu_home">Inicio</string>
+    <string name="menu_explore">Explorar</string>
+    <string name="menu_calendar">Calendario</string>
+    <string name="menu_favorites">Favoritos</string>
+    <string name="menu_profile">Perfil</string>
+
+    <!-- Titles & Headers -->
+    <string name="explore_title">Explorar Ayacucho</string>
+    <string name="amazing_places">Lugares asombrosos en Ayacucho</string>
+    <string name="upcoming_events">Eventos Próximos (Esta Semana)</string>
+    <string name="ayacucho_food">Comida Ayacuchana</string>
+
+    <!-- Chips / Categories -->
+    <string name="chip_temples">Templos</string>
+    <string name="chip_museums">Museos</string>
+    <string name="chip_food">Comida</string>
+    <string name="chip_nature">Naturaleza</string>
+
+    <!-- Card Buttons -->
+    <string name="btn_view_details">VER DETALLES</string>
+    <string name="btn_video">VIDEO</string>
+
+    <!-- Login & Register -->
+    <string name="login_welcome">¡Bienvenido!</string>
+    <string name="login_subtitle">Descubre los tesoros de Ayacucho</string>
+    <string name="email_hint">Correo electrónico</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="btn_login">INICIAR SESIÓN</string>
+    <string name="continue_with">O CONTINÚA CON</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+    <string name="no_account">¿Eres nuevo? </string>
+    <string name="register_here">Regístrate aquí</string>
+    <string name="login_as_guest">Entrar como invitado</string>
+
+    <string name="register_title">Crea tu cuenta</string>
+    <string name="register_subtitle">Únete a la aventura</string>
+    <string name="name_hint">Nombre completo</string>
+    <string name="confirm_password_hint">Confirmar contraseña</string>
+    <string name="btn_register">REGISTRARME</string>
+    <string name="already_have_account">¿Ya tienes cuenta? </string>
+    <string name="login_here">Inicia sesión</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Configuración</string>
+    <string name="language">Idioma</string>
+
+    <!-- Profile -->
+    <string name="my_favorites">Mis Favoritos</string>
+    <string name="logout">Cerrar Sesión</string>
+
+    <!-- Categories & Common -->
+    <string name="cat_museum">Museo</string>
+    <string name="cat_restaurant">Restaurante</string>
+    <string name="cat_nature">Naturaleza</string>
+    <string name="cat_festivity">Festividad</string>
+    <string name="rec_recommended">Visita recomendada</string>
+    <string name="rec_try_dishes">Prueba sus platos típicos</string>
+    <string name="no_festivities">NO HAY FESTIVIDADES EN %1$s</string>
+    <string name="month_festivities">FESTIVIDADES DE %1$s</string>
+
+    <!-- Templo, Inlesya, Huaca (Suti, Willakuy, Yuyaychay) -->
+
+    <!-- Templo 1 -->
+    <string name="temple_1_name">Basílica Catedral de Ayacucho</string>
+    <string name="temple_1_desc">1612, 1672 watakunapi ruwasqam. Llaqtapi aswan hatun inlesyam, qoriwan llusisqa sumaq k\'ullu retablokunayuqmi.</string>
+    <string name="temple_1_rec">Tutapi watukuy sumaq achkiynin qawanapaq.</string>
+
+    <!-- Templo 2 -->
+    <string name="temple_2_name">Templo de San Cristóbal</string>
+    <string name="temple_2_desc">Ayacucho llaqtapi aswan ñawpaq inlesyam (1540). Huk torreyuqllam, sumaq mawk\'a pirqasqam.</string>
+    <string name="temple_2_rec">Semana Santapi puririypaq chawpinmi.</string>
+
+    <!-- Templo 3 -->
+    <string name="temple_3_name">Templo de La Merced</string>
+    <string name="temple_3_desc">XVI pachakwatapi pirqasqam, rumi fachatayuq. Hatun campanayuqmi.</string>
+    <string name="temple_3_rec">Ayacucho pinturakunata sumaqta qaway.</string>
+
+    <!-- Templo 4 -->
+    <string name="temple_4_name">Templo de Santo Domingo</string>
+    <string name="temple_4_desc">Iskay kuskachasqa torreyuqmi, oqe rumiwan ruwasqa. Aswan sumaq inlesyakunamanta hukninmi.</string>
+    <string name="temple_4_rec">Inti chinkaykuyta fotota hurqunapaq sumaqmi.</string>
+
+    <!-- Templo 5 -->
+    <string name="temple_5_name">Templo de San Juan de Dios</string>
+    <string name="temple_5_desc">Ñawpaq colonial unquqkunapa wasin waqtapi kachkan. Khuyapayakuymanta iñiymantawan hatun willakuyniyuqmi.</string>
+    <string name="temple_5_rec">Barroco rurasqa hatun altarninta qaway.</string>
+
+    <!-- Templo 6 -->
+    <string name="temple_6_name">Templo de San Francisco de Asís</string>
+    <string name="temple_6_desc">XVI pachakwatapi ruwasqa inlesyam, hatun colonial bibliotecayuqmi, llaqtapi aswan hatun campanayuqmi.</string>
+    <string name="temple_6_rec">Atispaykiqa bibliotecanta watukuy.</string>
+
+    <!-- Templo 7 -->
+    <string name="temple_7_name">Templo de Santa Clara de Asís</string>
+    <string name="temple_7_desc">Mudéjar techo rurasqanwan, qori retablokunawanpas riqsisqam. Llaqtapi ñawpaq kaq monasteriom karqa.</string>
+    <string name="temple_7_rec">Madrekunapa miskinkunata rantikuspa riy.</string>
+
+    <!-- Templo 8 -->
+    <string name="temple_8_name">Templo de Santa Ana</string>
+    <string name="temple_8_desc">Artesanokunapa llaqtanpim kachkan. Retablo ruwaqkunapaq aswan allin iñiy wasim.</string>
+    <string name="temple_8_rec">Artesania ruraqkunapa wasinta watukuy.</string>
+
+    <!-- Templo 9 -->
+    <string name="temple_9_name">Templo de Santa María Magdalena</string>
+    <string name="temple_9_desc">Magdalena artesanokunapa mawk\'a barriopim tarikun. Sumaq hatun rumi fachatayuqmi.</string>
+    <string name="temple_9_rec">Huamanga rumi rurasqakunata qawanapaq barriota puriy.</string>
+
+    <!-- Templo 10 -->
+    <string name="temple_10_name">Templo de La Compañía de Jesús</string>
+    <string name="temple_10_desc">Plaza Mayor waqtapim kachkan. Puka rumiwan ruwasqa fachatayuqmi, mana tupachiy atinam.</string>
+    <string name="temple_10_rec">Jesuita rurasqankunapa sumaq kayninta qaway.</string>
+
+    <!-- Templo 11 -->
+    <string name="temple_11_name">Templo de Nuestra Señora de Loreto</string>
+    <string name="temple_11_desc">Compañía de Jesús waqtapim kachkan, sumaq kachayninwan barroco rurasqankunawan riqsisqam.</string>
+    <string name="temple_11_rec">Sumaq fachatanta ruyriqninwan tupaqta qaway.</string>
+
+    <!-- Templo 12 -->
+    <string name="temple_12_name">Templo de San Agustín</string>
+    <string name="temple_12_desc">Neoclásico, barroco retablokunayuqmi. Agosto killapi rayminpi achka runakunapa watukusqanmi.</string>
+    <string name="temple_12_rec">Virgen de la Consolación mamachata yupaychay.</string>
+
+    <!-- Templo 13 -->
+    <string name="temple_13_name">Templo de San Sebastián</string>
+    <string name="temple_13_desc">Llaqtapa pata lawninpim kachkan, sumaq takyasqa mawk\'a retablokunayuqmi.</string>
+    <string name="temple_13_rec">Chaymanta llaqtata sumaqta qaway.</string>
+
+    <!-- Templo 14 -->
+    <string name="temple_14_name">Templo de Belén</string>
+    <string name="temple_14_desc">Huchuy sumaq colonial inlesyam, ancha hawkayayniyuq.</string>
+    <string name="temple_14_rec">Upallalla oracion ruranapaq sumaqmi.</string>
+
+    <!-- Templo 15 -->
+    <string name="temple_15_name">Templo de Santa Teresa</string>
+    <string name="temple_15_desc">Madres Carmelitas Descalzaspa monasterionmi. Ancha sumaq hatun retabloyuqmi.</string>
+    <string name="temple_15_rec">Punku cuidaqkunapa miskinkunata malliy.</string>
+
+    <!-- Templo 16 -->
+    <string name="temple_16_name">Templo de San Francisco de Paula</string>
+    <string name="temple_16_desc">K\'ullumanta ruwasqa retablokunayuqmi, mawk\'a iñiy willakuykunata qawachiq colonial cuadrokunayuqmi.</string>
+    <string name="temple_16_rec">Pata coropi pinturakunata qaway.</string>
+
+    <!-- Templo 17 -->
+    <string name="temple_17_name">Templo de La Buena Muerte</string>
+    <string name="temple_17_desc">Buen Pastor sutinwanpas riqsisqam. Khuyapayakuy historiawan tupasqanmantam riqsisqa.</string>
+    <string name="temple_17_rec">K\'ullu rurasqankunata qaway.</string>
+
+    <!-- Templo 18 -->
+    <string name="temple_18_name">Templo de La Amargura</string>
+    <string name="temple_18_desc">Huchuy iñiy wasim, Semana Santa punchawkunapi yuyaymananapaq, Vía Crucis iñiywan tupasqam.</string>
+    <string name="temple_18_rec">Tuta puririykunapi watukuy.</string>
+
+    <!-- Templo 19 -->
+    <string name="temple_19_name">Templo del Carmen Alto</string>
+    <string name="temple_19_desc">Carmen Alto arrierokunapa ñawpaq llaqtanpim tarikun, iñiypa culturapa chawpinmi.</string>
+    <string name="temple_19_rec">Llaqtapa mikuyninta mercadopi malliy.</string>
+
+    <!-- Templo 20 -->
+    <string name="temple_20_name">Templo de Pampa San Agustín</string>
+    <string name="temple_20_desc">Pampa San Agustinpi llaqta runakunapa iñiyninta qawachiq mawk\'a capillam.</string>
+    <string name="temple_20_rec">Colonial chakra rurasqanta qaway.</string>
+
+    <!-- Templo 21 -->
+    <string name="temple_21_name">Templo de San Juan Bautista</string>
+    <string name="temple_21_desc">San Juan distritopi aswan hatun inlesyam, llaqta runakunapa hatun rayminkunapa chawpinmi.</string>
+    <string name="temple_21_rec">Hawanpi mondongo caldota malliy.</string>
+
+    <!-- Templo 22 -->
+    <string name="temple_22_name">Templo de Soquiaqato</string>
+    <string name="temple_22_desc">Mawk\'a riqsisqa barriopim kachkan, Señor de la Sentencia raymipa chawpinmi.</string>
+    <string name="temple_22_rec">Ayacuchopa barrio iñiynin yachanapaq sumaqmi.</string>
+
+    <!-- Templo 23 -->
+    <string name="temple_23_name">Templo de Conchopata</string>
+    <string name="temple_23_desc">Conchopata ñawpaq huaca waqtampi huchuy capillam, Inkap ñawpaqnin mawk\'a willakuykunawan muyurisqa.</string>
+    <string name="temple_23_rec">Manka ruraqkunapa wasinta watukuy.</string>
+
+    <!-- Templo 24 -->
+    <string name="temple_24_name">Templo de El Calvario</string>
+    <string name="temple_24_desc">Cruzpa ñannintam qawachin, chaymantam tukuynin Huamanga llaqta sumaqta qawakun.</string>
+    <string name="temple_24_rec">Viernes Santopi peregrino puririypaqmi.</string>
+
+    <!-- Templo 25 -->
+    <string name="temple_25_name">Templo de Nuestra Señora del Pilar</string>
+    <string name="temple_25_desc">Virgen del Pilar mamachaman yupaychasqa capillam, sumaq hawka wasim.</string>
+    <string name="temple_25_rec">Ukunpi hawkayayta maskay.</string>
+
+    <!-- Templo 26 -->
+    <string name="temple_26_name">Capilla del Cementerio General</string>
+    <string name="temple_26_desc">Wañuqkunapaq mañakunapaq, wiñay samaypaq yupaychasqa capillam.</string>
+    <string name="temple_26_rec">Llapan Santukuna punchawpi kay capillata watukuy.</string>
+
+    <!-- Templo 27 -->
+    <string name="temple_27_name">Templo de Señor de Quinuapata</string>
+    <string name="temple_27_desc">Riqsisqa barrio inlesyam, sumaq huchuy plazayuqmi.</string>
+    <string name="temple_27_rec">Barriopa hawkayayninwan kusikuy.</string>
+
+    <!-- Templo 28 -->
+    <string name="temple_28_name">Templo de Capillapata</string>
+    <string name="temple_28_desc">Mawk\'a colonial rurasqanta waqaychanapaq musuqmanta allichasqa inlesyam.</string>
+    <string name="temple_28_rec">Mawk\'a wasi allichasqankuta qaway.</string>
+
+    <!-- Templo 29 -->
+    <string name="temple_29_name">Templo de Señor de Arequipa</string>
+    <string name="temple_29_desc">Iñiyniyuq runakunapa achka huñunakunan huchuy inlesyam.</string>
+    <string name="temple_29_rec">Samanapaq yuyaymananapaq sumaqmi.</string>
+
+    <!-- Templo 30 -->
+    <string name="temple_30_name">Templo de Virgen del Rosario de Chiquinquirá</string>
+    <string name="temple_30_desc">Colombia llaqtapa mamachanman yupaychasqam, ichaqa Huamanga llaqtapi ancha riqsisqam.</string>
+    <string name="temple_30_rec">Llaqtapa iñiy artenta qaway.</string>
+
+    <!-- Templo 31 -->
+    <string name="temple_31_name">Templo de Virgen de Fátima</string>
+    <string name="temple_31_desc">Virgen de Fátima mamachaman yupaychasqa musuq capillam.</string>
+    <string name="temple_31_rec">Domingo misaman riy.</string>
+
+    <!-- Templo 32 -->
+    <string name="temple_32_name">Templo de Señor de las Maravillas</string>
+    <string name="temple_32_desc">Watapi rayminkunapi achka iñiqkunata chaskiq musuq templom.</string>
+    <string name="temple_32_rec">Patronal rayminkunapi watukuy.</string>
+
+    <!-- Templo 33 -->
+    <string name="temple_33_name">Templo de Señor de Pampa Cruz</string>
+    <string name="temple_33_desc">Pata urqupim kachkan, chay lawpi iñiqkunapa huñunakunanmi.</string>
+    <string name="temple_33_rec">Inlesya hawamanta sumaq qawariyta munay.</string>
+
+    <!-- Lugares Naturales -->
+    <string name="nat_1_name">Bosque de Huaraca</string>
+    <string name="nat_1_desc">Un hermoso bosque andino ideal para el senderismo, la fotografía y la conexión directa con la naturaleza de Vinchos.</string>
+
+    <string name="nat_2_name">Cenote Andino Chapalla</string>
+    <string name="nat_2_desc">Impresionante formación natural escondida en los Andes, rodeada de formaciones rocosas y paisajes únicos.</string>
+
+    <string name="nat_3_name">Mirador Intiwarkuna</string>
+    <string name="nat_3_desc">Mirador natural desde donde se aprecia toda la ciudad de Huamanga y sus alrededores con paisajes panorámicos.</string>
+
+    <string name="nat_4_name">Grietas de Qorihuillca</string>
+    <string name="nat_4_desc">Formaciones rocosas estrechas que generan pasajes tipo cañón. Lugar perfecto para turismo de aventura y fotografía.</string>
+
+    <string name="nat_5_name">Cascadas Rurales de Campanayuq</string>
+    <string name="nat_5_desc">Pequeñas cascadas naturales formadas por escorrentías y lluvias en zonas rurales, rodeadas de vegetación local.</string>
+
+    <string name="nat_6_name">Ruta Encantada de los Cóndores</string>
+    <string name="nat_6_desc">Ruta andina que atraviesa paisajes montañosos donde se puede observar cóndores en su hábitat natural y comunidades tradicionales.</string>
+
+    <string name="nat_7_name">Senderos Naturales de Quinua</string>
+    <string name="nat_7_desc">Rutas alternativas entre campos andinos y paisajes rurales que permiten disfrutar de la naturaleza lejos del turismo masivo.</string>
+
+    <string name="nat_8_name">Zona Natural de Piquimachay</string>
+    <string name="nat_8_desc">Paisaje natural con cuevas prehistóricas y áreas montañosas, ideal para exploración y caminatas poco concurridas.</string>
+
+    <string name="nat_9_name">Laguna de Yanacocha (Ayacucho)</string>
+    <string name="nat_9_desc">Laguna altoandina de aguas oscuras rodeada de pastizales y montañas. Es un lugar tranquilo poco visitado por turistas.</string>
+
+    <string name="nat_10_name">Cerro Campanayoq</string>
+    <string name="nat_10_desc">Formación montañosa con vistas panorámicas y restos naturales. Ideal para trekking y exploración.</string>
+
+    <string name="nat_11_name">Muyu orqo</string>
+    <string name="nat_11_desc">Quebrada natural con formaciones rocosas y vegetación andina, poco frecuentada por visitantes.</string>
+
+    <string name="nat_12_name">Cascada Paqcha Chirapaq</string>
+    <string name="nat_12_desc">Hermosa caída de agua cuyo nombre en quechua significa \'caída de agua del arcoíris\'. Es un lugar tranquilo rodeado de vegetación nativa y formaciones rocosas.</string>
+
+    <string name="nat_13_name">El Pantano</string>
+    <string name="nat_13_desc">Humedal natural de gran importancia histórica ubicado cerca del Santuario Histórico de la Pampa de Ayacucho. Es un ecosistema que alberga aves migratorias y flora nativa.</string>
+
+    <string name="nat_14_name">Hatun Condoray</string>
+    <string name="nat_14_desc">Un mirador natural y sitio arqueológico de origen Wari-Chanka. Es famoso por ser uno de los mejores puntos de la región para deportes de aventura y por sus formaciones rocosas que ofrecen una vista espectacular del valle.</string>
+
+    <string name="nat_15_name">Rosas Pampa de Vinchos</string>
+    <string name="nat_15_desc">Amplias llanuras andinas con paisajes abiertos y vistas de montañas, ideales para desconectarse del ruido urbano.</string>
+
+    <string name="nat_16_name">Catarata Qosniccpaccha</string>
+    <string name="nat_16_desc">Su nombre significa \'caída de agua humeante\' debido a la neblina que genera al impactar desde sus más de 100 metros de altura. Es un destino de aventura pura, con un camino que atraviesa grietas, ríos y formaciones rocosas impresionantes.</string>
+
+    <string name="nat_17_name">Uchkuera</string>
+    <string name="nat_17_desc">Destacada por ofrecer experiencias que combinan paisajes andinos impresionantes con inmersión cultural.</string>
+
+    <string name="nat_18_name">Laguna de Uchillki</string>
+    <string name="nat_18_desc">Una serena laguna de aguas tranquilas ubicada en el circuito sur de Ayacucho. Es un destino ideal para el ecoturismo donde se pueden realizar actividades acuáticas rodeado de un paisaje andino impresionante y formaciones rocosas únicas.</string>
+
+    <string name="nat_19_name">Bosque de Puyas de Raimondi - Manallasacc</string>
+    <string name="nat_19_desc">Extenso bosque que alberga miles de ejemplares de la Puya de Raimondi (Titanka), la inflorescencia más grande del mundo. Es un ecosistema de alta montaña donde estas plantas milenarias florecen una sola vez en su vida antes de morir.</string>
+
+    <string name="nat_20_name">Aguas Termales de Niñoyujay</string>
+    <string name="nat_20_desc">Pozas naturales de aguas termo-medicinales ricas en minerales. Es un lugar rústico y tranquilo, rodeado de paisajes andinos, ideal para el descanso y el alivio de dolencias musculares o articulares.</string>
+
+    <string name="nat_21_name">Mirador de Acuchimay</string>
+    <string name="nat_21_desc">Desde este mirador natural se tiene una vista panorámica de toda la ciudad de Huamanga. Es un lugar emblemático con monumentos y áreas verdes.</string>
+
+    <string name="nat_22_name">Catarata Pumapaqcha</string>
+    <string name="nat_22_desc">Su nombre en quechua significa \'caída de agua del puma\'. Es una impresionante cascada de aguas cristalinas que desciende entre formaciones rocosas únicas. Es considerada un lugar sagrado y de purificación por los lugareños.</string>
+
+    <string name="nat_23_name">Huatatas</string>
+    <string name="nat_23_desc">Valle cálido y pintoresco conocido por su clima agradable y su oferta gastronómica. Es el lugar predilecto para disfrutar de platos típicos al aire libre, rodeado de huertos de árboles frutales y el río Huatatas.</string>
+
+    <string name="nat_24_name">Morada de los Apus</string>
+    <string name="nat_24_desc">Impresionante parque temático de esculturas gigantes talladas en piedra. Las obras representan deidades andinas, figuras místicas y la cosmovisión de los antiguos peruanos, creando un ambiente mágico en plena montaña.</string>
+
+    <string name="nat_25_name">Mirador del atrio del Templo de Belén</string>
+    <string name="nat_25_desc">Ubicado en el tradicional barrio de Belén, este mirador ofrece una vista panorámica excepcional de la ciudad de Ayacucho y los cerros circundantes. El templo, que data del siglo XVII, destaca por su arquitectura de piedra y su importancia histórica en la fe local.</string>
+
+    <string name="nat_26_name">Complejo Arqueológico Wari</string>
+    <string name="nat_26_desc">Antigua capital del Imperio Wari (siglos VII al XIII). Es una inmensa ciudad prehispánica de piedra donde destacan sectores como Monjachayuq y Cheqo Wasi. Sus muros de hasta 12 metros de altura y su avanzado sistema de canales reflejan la grandeza de esta cultura.</string>
+
+    <string name="nat_27_name">Mirador de Puncupata</string>
+    <string name="nat_27_desc">Un espectacular balcón natural ubicado en las zonas altas de la ciudad. Su nombre significa \'parte alta de la puerta\', y ofrece una vista de 360 grados de todo el valle de Huamanga. Es un lugar predilecto para ver el atardecer y disfrutar del aire puro.</string>
+
+    <string name="nat_28_name">Cueva de Infiernillo</string>
+    <string name="nat_28_desc">Impresionante formación rocosa y caverna natural de gran profundidad. Su nombre proviene de la oscuridad y las misteriosas corrientes de aire que emanan de su interior. Es un sitio de interés arqueológico y geológico donde se pueden apreciar estalactitas y formaciones caprichosas.</string>
+
+    <string name="nat_29_name">Cascada de Occochaca</string>
+    <string name="nat_29_desc">Hermosa caída de agua cristalina rodeada de una exuberante vegetación y formaciones rocosas. Es un lugar perfecto para conectarse con la naturaleza, donde el sonido del agua y el canto de las aves crean un ambiente de paz absoluta.</string>
+
+    <string name="nat_30_name">Aguas Turquesas de Millpu</string>
+    <string name="nat_30_desc">Espectaculares piscinas naturales de color turquesa formadas a lo largo de un cañón, consideradas una de las joyas naturales más hermosas de Ayacucho.</string>
+
+    <!-- Festividades (Nombre, Descripción, Recomendación) -->
+
+    <!-- ID 1 -->
+    <string name="fest_1_name">Adoración del Niño y danzas de la huaylijía y de huera</string>
+    <string name="fest_1_desc">Tradición navideña andina donde se rinde culto al Niño Jesús con danzas típicas como la huaylía, destacando el fervor religioso y la música autóctona.</string>
+    <string name="fest_1_rec">Lleva una cámara para capturar la colorida vestimenta de los danzantes y llega temprano a las iglesias del centro.</string>
+
+    <!-- ID 2 -->
+    <string name="fest_2_name">Bajada de Reyes</string>
+    <string name="fest_2_desc">Conmemoración de la llegada de los Reyes Magos con procesiones que recorren las calles principales, acompañadas de cánticos y representaciones bíblicas.</string>
+    <string name="fest_2_rec">Es un evento muy familiar; ideal para disfrutar de la gastronomía local que se ofrece en los alrededores de la Plaza Mayor.</string>
+
+    <!-- ID 3 -->
+    <string name="fest_3_name">Fiesta de San Sebastián</string>
+    <string name="fest_3_desc">Homenaje al mártir San Sebastián. Incluye misas solemnes y una procesión tradicional por el barrio que lleva su nombre, rescatando costumbres antiguas.</string>
+    <string name="fest_3_rec">No olvides probar el ponche tradicional que suelen repartir los mayordomos durante la víspera.</string>
+
+    <!-- ID 4 -->
+    <string name="fest_4_name">Fiesta de la Virgen de la Candelaria</string>
+    <string name="fest_4_desc">Festividad mariana de gran importancia que une la fe católica con el misticismo andino a través de rezos y bandas de música.</string>
+    <string name="fest_4_rec">Participa en las novenas previas para entender mejor el arraigo religioso de esta celebración en la región.</string>
+
+    <!-- ID 5 -->
+    <string name="fest_5_name">Escenificación del fusilamiento de María Parado de Bellido</string>
+    <string name="fest_5_desc">Acto patriótico que recrea el sacrificio de la heroína ayacuchana en la Plaza de Armas, recordando su valentía por la independencia.</string>
+    <string name="fest_5_rec">Llega con anticipación para ubicarte cerca del estrado principal y apreciar mejor la actuación teatral.</string>
+
+    <!-- ID 6 -->
+    <string name="fest_6_name">Carnavales</string>
+    <string name="fest_6_desc">Patrimonio Cultural de la Nación. Se caracteriza por el juego con agua, talco y las comparsas que entonan coplas satíricas y alegres por toda la ciudad.</string>
+    <string name="fest_6_rec">Usa ropa que no te importe ensuciar y protege tus dispositivos electrónicos con bolsas impermeables.</string>
+
+    <!-- ID 7 -->
+    <string name="fest_7_name">Fiesta Patronal del Señor de Untuna</string>
+    <string name="fest_7_desc">Evento religioso central en Lucanas donde se rinde devoción a la imagen del Señor de Untura con misas, procesiones y ferias comunales.</string>
+    <string name="fest_7_rec">Es una buena oportunidad para conocer los paisajes de la provincia de Lucanas y su cultura ganadera.</string>
+
+    <!-- ID 8 -->
+    <string name="fest_8_name">Fiesta de las Cruces</string>
+    <string name="fest_8_desc">Las comunidades bajan las cruces de los cerros tutelares hacia los templos para ser bendecidas, en un ritual que simboliza la protección de las cosechas.</string>
+    <string name="fest_8_rec">Usa bloqueador solar y sombrero, ya que muchas de las actividades ocurren en espacios abiertos y senderos.</string>
+
+    <!-- ID 9 -->
+    <string name="fest_9_name">Fiesta de la Virgen de Fátima</string>
+    <string name="fest_9_desc">Celebración de carácter espiritual con rezos públicos y procesiones nocturnas iluminadas por velas, creando un ambiente de paz y devoción.</string>
+    <string name="fest_9_rec">Respeta el silencio durante los momentos de oración y disfruta de la iluminación artística de las iglesias.</string>
+
+    <!-- ID 10 -->
+    <string name="fest_10_name">Fiesta de San Juan</string>
+    <string name="fest_10_desc">La Fiesta de San Juan en Ayacucho, celebrada el 24 de junio, es una mezcla de fervor religioso y tradición andina, destacando especialmente en el distrito de San Juan Bautista.</string>
+    <string name="fest_10_rec">Disfruta del festival de la puca picante, chicharrón, ferias artesanales y actividades culturales, visitando las iglesias locales y apoyando a los productores locales.</string>
+
+    <!-- ID 11 -->
+    <string name="fest_11_name">Corpus Christi</string>
+    <string name="fest_11_desc">Solemne procesión del Santísimo Sacramento, celebración de profunda fe y sincretismo andino, conectada con la gran fiesta del Señor de la Ascensión.</string>
+    <string name="fest_11_rec">Es fundamental ver a los danzantes de tijeras, quienes están fuertemente vinculados a las celebraciones religiosas en la provincia de Lucanas.</string>
+
+    <!-- ID 12 -->
+    <string name="fest_12_name">Fiesta de la Virgen del Carmen</string>
+    <string name="fest_12_desc">Entre pañuelos, danzas y promesas, Huamanga se rinde a los pies de su Mamacha Carmen, patrona del folclore ayacuchano y alcaldesa de los corazones huamanguinos.</string>
+    <string name="fest_12_rec">No te pierdas la procesión principal que suele salir del Templo de Santa Teresa, donde la imagen es llevada en andas por la hermandad.</string>
+
+    <!-- ID 13 -->
+    <string name="fest_13_name">Fiesta patronal de Santiago</string>
+    <string name="fest_13_desc">El \'Tayta Shanti\' es celebrado con el marcado de ganado y cantos rituales, agradeciendo por la reproducción de los animales y la prosperidad.</string>
+    <string name="fest_13_rec">Si visitas una estancia rural, participa con respeto en el brindis con chicha de jora ofrecido por los dueños del ganado.</string>
+
+    <!-- ID 14 -->
+    <string name="fest_14_name">Fiestas Patrias, Toros y waqrapukus</string>
+    <string name="fest_14_desc">Combinación de civismo nacional con tradiciones locales. Destaca el sonido de los waqrapukus (cornetas de cuerno) que anuncian las corridas de toros.</string>
+    <string name="fest_14_rec">Visita la Pampa de la Quinua durante estos días para vivir una experiencia histórica y cultural completa.</string>
+
+    <!-- ID 15 -->
+    <string name="fest_15_name">Fiesta de la virgen de las Nieves</string>
+    <string name="fest_15_desc">Celebración icónica en Coracora que incluye el impresionante \'Ingreso de Chamiza\' (quema de arbustos secos) y grandes espectáculos taurinos.</string>
+    <string name="fest_15_rec">Prepárate para las bajas temperaturas nocturnas y asegúrate de tener reserva de transporte, ya que el flujo de viajeros es altísimo.</string>
+
+    <!-- ID 16 -->
+    <string name="fest_16_name">Ritual de la herranza o marcación del ganado</string>
+    <string name="fest_16_desc">Ceremonia ancestral de gratitud a la tierra donde se colocan cintas de colores al ganado, acompañada de música de tinya y violín.</string>
+    <string name="fest_16_rec">Observa con atención el simbolismo de los colores de las cintas, cada familia tiene su propia identidad.</string>
+
+    <!-- ID 17 -->
+    <string name="fest_17_name">Fiesta de la Virgen de la Asunción</string>
+    <string name="fest_17_desc">Importante feria agropecuaria y religiosa que dinamiza la economía local, celebrada con danzas típicas y platos a base de carne de alpaca y cordero.</string>
+    <string name="fest_17_rec">Es el lugar ideal para comprar productos lácteos y textiles de lana de alta calidad a precios de productor.</string>
+
+    <!-- ID 18 -->
+    <string name="fest_18_name">Procesión de San Isidro Labrador</string>
+    <string name="fest_18_desc">El patrón de los agricultores recorre las calles bendiciendo las yuntas de bueyes y las herramientas de trabajo para asegurar una buena siembra.</string>
+    <string name="fest_18_rec">Aprecia la decoración de las yuntas, que suelen ser adornadas con los mejores frutos de la temporada.</string>
+
+    <!-- ID 19 -->
+    <string name="fest_19_name">Fiesta de San Bartolomé</string>
+    <string name="fest_19_desc">Festividad central en Cangallo que destaca la cultura de los Morochucos, jinetes valientes que realizan proezas a caballo en las pampas.</string>
+    <string name="fest_19_rec">No te pierdas las carreras hípicas; son el evento principal y muestran la gran destreza de los jinetes locales.</string>
+
+    <!-- ID 20 -->
+    <string name="fest_20_name">Fiesta patronal de San Miguel</string>
+    <string name="fest_20_desc">Celebración en la zona del VRAEM que integra elementos de la selva y sierra, con coloridos pasacalles y exhibiciones de café y cacao.</string>
+    <string name="fest_20_rec">Aprovecha para visitar las cataratas cercanas y disfrutar del clima cálido de la zona tropical.</string>
+
+    <!-- ID 21 -->
+    <string name="fest_21_name">Yarqa aspi o limpieza de acequias</string>
+    <string name="fest_21_desc">Trabajo comunitario festivo donde se limpian los canales de riego para recibir el agua de lluvia, acompañado de danzas y comida compartida.</string>
+    <string name="fest_21_rec">Es una experiencia única de convivencia andina; pide permiso para compartir la mesa con los comuneros.</string>
+
+    <!-- ID 22 -->
+    <string name="fest_22_name">Fiesta del Señor de Quinuapata</string>
+    <string name="fest_22_desc">Celebración barrial tradicional de Huamanga que mantiene viva la fe con rezos, castillos de fuegos artificiales y bandas de música civil.</string>
+    <string name="fest_22_rec">Visita el mercado del barrio durante estos días para probar la sazón casera más auténtica de la ciudad.</string>
+
+    <!-- ID 23 -->
+    <string name="fest_23_name">Fiesta de agua</string>
+    <string name="fest_23_desc">Ritual de agradecimiento a los puquiales y manantiales, fundamental para la cosmovisión andina y la agricultura de la provincia de Lucanas.</string>
+    <string name="fest_23_rec">Escucha los relatos de los ancianos sobre el origen de los manantiales; son historias fascinantes sobre el respeto a la naturaleza.</string>
+
+    <!-- ID 24 -->
+    <string name="fest_24_name">Fiesta de la Virgen de las Mercedes</string>
+    <string name="fest_24_desc">Homenaje a la Gran Mariscala del Perú. Incluye desfiles militares y religiosos, destacando la solemnidad y el respeto a la patrona de las armas.</string>
+    <string name="fest_24_rec">Observa la elegancia de la procesión, que suele ir acompañada por la banda de música de la policía o el ejército.</string>
+
+    <!-- ID 25 -->
+    <string name="fest_25_name">Fiesta patronal de San Francisco</string>
+    <string name="fest_25_desc">Celebración que resalta la humildad y el amor a los animales, propia de la orden franciscana, con actividades litúrgicas y ferias populares.</string>
+    <string name="fest_25_rec">Es un momento propicio para la reflexión y para disfrutar de la arquitectura colonial de las iglesias locales.</string>
+
+    <!-- ID 26 -->
+    <string name="fest_26_name">Celebración de Todos los Santos</string>
+    <string name="fest_26_desc">Tradición de visitar los cementerios llevando música y comida. En Ayacucho es fundamental el bautizo de las tantawawas (panes con forma de bebé).</string>
+    <string name="fest_26_rec">Visita las panaderías artesanales para comprar las mejores tantawawas y caballos de pan.</string>
+
+    <!-- ID 27 -->
+    <string name="fest_27_name">Día del folclor ayacuchano</string>
+    <string name="fest_27_desc">Gala artística donde se presentan las mejores agrupaciones de música y danza de la región, celebrando la rica herencia cultural de Ayacucho.</string>
+    <string name="fest_27_rec">Busca la programación en el Centro Cultural de la UNSCH para asistir a conciertos de guitarra ayacuchana.</string>
+
+    <!-- ID 30 -->
+    <string name="fest_30_name">Aniversario de la batalla de Ayacucho y danza del tusuy y nichik</string>
+    <string name="fest_30_desc">Conmemoración de la victoria en la Pampa de la Quinua. Incluye la danza guerrera del tusuy y nichik que representa el coraje de los soldados.</string>
+    <string name="fest_30_rec">Lleva ropa de abrigo y bloqueador; el clima en la pampa puede cambiar rápidamente de sol intenso a frío viento.</string>
+
+    <!-- ID 31 -->
+    <string name="fest_31_name">Procesión de la Virgen Dolorosa</string>
+    <string name="fest_31_desc">La procesión de la Virgen Dolorosa en Ayacucho es un acto central de fe, destacando especialmente el Viernes de Dolores (inicio de Semana Santa) y el Viernes Santo.</string>
+    <string name="fest_31_rec">Se recomienda llevar velas, ropa abrigadora para la noche y colocarse con anticipación en los alrededores de la plaza para observar las alfombras florales.</string>
+
+    <!-- ID 32 -->
+    <string name="fest_32_name">Domingo de Ramos</string>
+    <string name="fest_32_desc">Entrada triunfal de Jesús. Los fieles acuden a las iglesias con palmas tejidas de olivo para ser bendecidas, marcando el inicio de la Semana Santa ayacuchana.</string>
+    <string name="fest_32_rec">Compra tus palmas temprano en los alrededores de la Plaza Mayor y disfruta del ambiente festivo y solemne.</string>
+
+    <!-- ID 33 -->
+    <string name="fest_33_name">Semana Santa: Pascua de Resurrección</string>
+    <string name="fest_33_desc">La festividad religiosa más importante del Perú. Culmina con la majestuosa procesión del Cristo Resucitado en una inmensa anda iluminada por miles de velas al amanecer.</string>
+    <string name="fest_33_rec">Madruga (4:00 AM) para ubicarte en la Plaza Mayor y presenciar la salida del anda desde la Catedral. Es un espectáculo inolvidable.</string>
+
+    <!-- ID 34 -->
+    <string name="fest_34_name">Aniversario de la Fundación de Huamanga</string>
+    <string name="fest_34_desc">Celebración cívica y cultural por la fundación española de la ciudad (San Juan de la Frontera de Huamanga). Incluye desfiles, serenatas y ferias gastronómicas.</string>
+    <string name="fest_34_rec">Participa en la serenata la noche anterior en la Plaza Mayor y disfruta de la música ayacuchana en vivo.</string>
+
+    <!-- Museos -->
+
+    <!-- Museo 1 -->
+    <string name="museo_1_name">Museo Histórico Regional Hipólito Unanue</string>
+    <string name="museo_1_desc">El principal museo de Ayacucho, creado en 1946. Presenta 15 mil años de historia, desde los hallazgos de la Cueva de Pikimachay hasta la época colonial.</string>
+    <string name="museo_1_content">Ubicado en el Centro Cultural Simón Bolívar, este museo del Ministerio de Cultura cuenta con cinco salas permanentes. La primera sala aborda la prehistoria andina con hallazgos de la Cueva de Pikimachay: herramientas líticas, huesos de fauna extinta y restos vegetales de hace 20 000 años. La segunda sala presenta la Cultura Wari (500–1100 d.C.), primera gran civilización urbana de los Andes, con cerámica polícroma, textiles con gorros de cuatro puntas y maquetas de la metrópoli amurallada de 2 000 hectáreas. La tercera sala expone la vida cotidiana Wari y la posterior Cultura Chanka. Las salas cuarta y quinta muestran arte colonial e histórico-artístico: pinturas virreinales, esculturas en piedra de Huamanga y documentos históricos. Horario: martes a domingo.</string>
+
+    <!-- Museo 2 -->
+    <string name="museo_2_name">Museo de Sitio Wari</string>
+    <string name="museo_2_desc">Inaugurado en 1996 junto al Complejo Arqueológico Wari, exhibe cerámica, líticos, textiles y monolitos procedentes de las excavaciones del sitio, con fotografías y planos de los sectores arqueológicos.</string>
+    <string name="museo_2_content">El Museo de Sitio Wari se encuentra al km 23 de la carretera Ayacucho–Quinua, en el distrito de Pacaycasa. Es la puerta de entrada al Complejo Arqueológico Monumental Wari, capital de la primera cultura pan-andina (500–1100 d.C.). El museo exhibe piezas recuperadas en las excavaciones: cerámicas de estilo Conchopata con representaciones del dios de los báculos, líticos tallados, textiles con diseños geométricos, monolitos y objetos de metal. Paneles explicativos describen la organización urbana del sitio, que contaba con barrios diferenciados, templos, talleres artesanales y sistemas hidráulicos. Incluye fotografías aéreas de los sectores Vegachayoq Moqo, Capillayoq, Cheqo Wasi y Ushpa Coto. Administrado por el Ministerio de Cultura del Perú.</string>
+
+    <!-- Museo 3 -->
+    <string name="museo_3_name">Museo de Sitio de Quinua – Casa de la Capitulación</string>
+    <string name="museo_3_desc">Inaugurado el 9 de diciembre de 1974, conmemora la Batalla de Ayacucho de 1824. Exhibe armas, uniformes y la habitación donde se firmó la Capitulación que selló la independencia de Sudamérica.</string>
+    <string name="museo_3_content">El Museo de Sitio de Quinua se ubica en la plaza principal del pintoresco pueblo de Quinua, a 35 km al noreste de la ciudad de Ayacucho, a 3 300 msnm. Fue inaugurado el 9 de diciembre de 1974 para conmemorar el sesquicentenario de la batalla que consolidó la independencia de toda Sudamérica. En sus salas se exhiben armas de la época (fusiles, sables, cañones en maqueta), uniformes de los ejércitos realista y patriota, mapas estratégicos y pinturas que ilustran el desarrollo de la batalla. El ambiente más destacado es la réplica de la habitación donde el general José de Canterbury Sucre y el virrey La Serna firmaron la Capitulación de Ayacucho el 9 de diciembre de 1824. El pueblo de Quinua es también famoso por su cerámica, con las típicas iglesitas de arcilla en los techos de las casas.</string>
+
+    <!-- Museo 4 -->
+    <string name="museo_4_name">Museo Histórico Mariscal Andrés A. Cáceres</string>
+    <string name="museo_4_desc">Ubicado en la Casa Colonial Vivanco (s. XVII), con diez salas dedicadas al héroe de la Guerra del Pacífico. Destaca la única caballeriza con doble hilera de arcos de piedra caliza en el Perú y pinturas de la Escuela Cusqueña.</string>
+    <string name="museo_4_content">El museo ocupa la Casa Vivanco, construida entre 1640 y 1700, una de las mansiones coloniales mejor conservadas de Ayacucho. El zagúan conduce a un patio con empedrado artístico de piedras de colores que forman rombos, figuras humanas y animales, presidido por una antigua higuera a la que la leyenda atribuye poderes mágico-religiosos. La caballeriza es única en el Perú: dos hileras de cinco arcos de piedra caliza. En el patio se halla también la escultura yacente del "Cheqo Pacheco", lápida virreinal que cubría la tumba del Corregidor Juan Gutiérrez de Quintanilla, descubierta en 1886. Las diez salas exponen fotografías de Cáceres, armas de la Guerra del Pacífico, objetos personales, uniformes, monedas, la reproducción de su habitación con cama y candelabros, lienzos de las escuelas cusqueña y ayacuchana, y muebles virreinales. Administrado por el Ejército Peruano (Segunda Brigada de Infantería).</string>
+
+    <!-- Museo 5 -->
+    <string name="museo_5_name">Museo de la Memoria ANFASEP – Para que no se repita</string>
+    <string name="museo_5_desc">Primer museo de memoria del Perú, inaugurado en 2006 por ANFASEP. Documenta el conflicto armado interno 1980–2000 con testimonios, fotografías de desaparecidos y obras de arte. Tres salas con el lema "Para que no se repita".</string>
+    <string name="museo_5_content">El Museo de la Memoria "Para que no se repita" fue construido entre 2004 y 2005 por iniciativa de ANFASEP (Asociación Nacional de Familiares de Secuestrados, Detenidos y Desaparecidos del Perú), fundada en Ayacucho en 1983 por madres y esposas de personas desaparecidas. Se inauguró en 2006 con apoyo de la Embajada de Alemania y la Cooperación Técnica Alemana. Se ubica en el tercer piso del edificio de ANFASEP. La primera sala recrea un recinto de tortura y una fosa, con cerámicas y esculturas que simbolizan la violencia vivida. La segunda sala expone fotografías de desaparecidos, prendas de las víctimas, utensilios del comedor popular con que ANFASEP alimentó a niños huérfanos y la banderola y cruz originales de la organización. La tercera sala muestra la línea histórica del CAI 1980–2000 con fotografías y documentación. El edificio exterior exhibe murales de hasta 9 metros que representan los episodios de violencia. La tienda artesanal vende retablos, cerámicas y textiles elaborados por las socias.</string>
+
+    <!-- Museo 6 -->
+    <string name="museo_6_name">Casa Museo Joaquín López Antay</string>
+    <string name="museo_6_desc">Casa y taller del maestro retablista Joaquín López Antay (1897–1981), Premio Nacional de Cultura 1975. Muestra la vida y obra del creador del retablo ayacuchano moderno, con galería, visitas guiadas y talleres.</string>
+    <string name="museo_6_content">Joaquín López Antay es considerado el más grande retablista ayacuchano del siglo XX. Nació en 1897 y falleció en 1981, y su trabajo transformó el tradicional "San Marcos" —cajón de santos usados en rituales ganaderos— en un arte popular narrativo de proyección universal. En 1975 recibió el Premio Nacional de Cultura, lo que generó un debate histórico sobre si el arte popular debía ser valorado al igual que las bellas artes. Su casa-taller, ubicada en el Barrio de Santa Ana, ha sido convertida en museo por su familia. Exhibe retablos originales de López Antay en distintos períodos de su vida, fotografías y documentos, así como el taller donde creó sus obras. Los guías —generalmente familiares— narran anécdotas del maestro y explican el proceso de elaboración del retablo: el cajón de madera, la masa de papa, los personajes de yeso pintados a mano y los escenarios que narran escenas de la vida andina, fiestas y momentos históricos.</string>
+
+    <!-- Museo 7 -->
+    <string name="museo_7_name">Casa del Retablo – Maestro Silverio Ataucusi</string>
+    <string name="museo_7_desc">Galería-taller del maestro retablista Silverio Ataucusi Sulca, reconocido artesano ayacuchano. Exhibe retablos tradicionales y ofrece talleres en vivo donde se puede observar el proceso de creación de esta artesanía Patrimonio Cultural de la Nación.</string>
+    <string name="museo_7_content">La Casa del Retablo es el espacio vivo donde el maestro Silverio Ataucusi Sulca y su familia mantienen la tradición retablística ayacuchana. El retablo ayacuchano, declarado Patrimonio Cultural de la Nación, es un cajón de madera de dos pisos dividido en compartimentos donde se representan escenas religiosas, costumbristas y de la vida andina mediante figuras de pasta de papa pintadas a mano. En la planta baja se exhiben retablos de diferentes tamaños y temáticas: retablos de herranza (ganadería), de Semana Santa, carnavales, fiestas patronales y escenas del conflicto armado interno. La planta de trabajo permite observar en directo las distintas etapas de elaboración. La visita puede incluir una explicación detallada de cómo Silverio aprendió el arte de su padre y cómo ha ido innovando los temas. No cobra entrada fija, pero hay caja de colaboración voluntaria. Recomendable llegar en taxi desde la Plaza Mayor (15 min aprox.).</string>
+
+    <!-- Museo 9 -->
+    <string name="museo_9_name">Museo Textil San José de Quinua</string>
+    <string name="museo_9_desc">Expone la tradición textil precolombina de las comunidades de Quinua. Los tejidos se elaboran con herramientas de madera en telar de cintura usando lana de alpaca, algodón y oveja, con diseños que preservan la iconografía andina ancestral.</string>
+    <string name="museo_9_content">El Museo Textil San José, ubicado en el pueblo de Quinua, documenta y exhibe la actividad textil de origen precolombino que se mantiene viva en las comunidades de la zona. El tejido andino en telar de cintura (callhua) es una técnica que data de miles de años antes de la llegada de los españoles. Se tejen mantas, ponchos, chuspas (bolsas para coca), fajas y tapices con lana de alpaca, oveja y algodón, utilizando técnicas de tapiz, brocado y tela llana. Los diseños reproducen iconografía de origen prehispánico: escalonados, rombos, figuras de animales y escenas agrícolas con colores naturales obtenidos de plantas, minerales e insectos (como la cochinilla para el rojo). El museo también muestra el proceso completo: esquilado, lavado, hilado en pushca (huso), teñido natural y tejido.</string>
+
+    <!-- Museo 10 -->
+    <string name="museo_10_name">Museo de Sitio de Vilcashuamán</string>
+    <string name="museo_10_desc">Junto al Complejo Arqueológico Inca de Vilcashuamán (s. XV), fundado por Pachacútec. Exhibe piezas líticas, cerámicas y textiles incas, y explica la importancia de este centro administrativo del Tahuantinsuyo.</string>
+    <string name="museo_10_content">Vilcashuamán —que en quechua significa "Halcón Sagrado"— fue uno de los centros administrativos más importantes del Tahuantinsuyo, fundado por el Inca Pachacútec en el siglo XV a 118 km al sureste de la ciudad de Ayacucho, a 3 150 msnm. El museo de sitio, administrado por la Dirección Desconcentrada de Cultura de Ayacucho, exhibe piezas recuperadas en las excavaciones del complejo: cerámica inca de estilo imperial, líticos tallados, textiles, objetos de metal y restos óseos. Paneles explicativos describen los principales sectores arqueológicos: el Ushno o pirámide ceremonial de cinco plataformas con su trono del inca, el Templo del Sol y de la Luna (reconvertido en iglesia colonial), la plaza Pachacútec, el Kallanka o palacio de Tupac Inca Yupanqui y la piedra del sacrificio. La visita al museo complementa el recorrido por el complejo arqueológico circundante.</string>
+
+    <!-- Museo 11 -->
+    <string name="museo_11_name">Museo Cívico Religioso – Catedral de Ayacucho</string>
+    <string name="museo_11_desc">Ubicado en la Basílica Catedral de Ayacucho (s. XVII), frente a la Plaza Mayor. Expone arte sacro colonial, pinturas de la Escuela Cusqueña, ornamentos litúrgicos y reliquias virreinales.</string>
+    <string name="museo_11_content">La Basílica Catedral de Ayacucho, construida entre 1612 y 1672, es el templo más importante de la ciudad y uno de los mejores exponentes del barroco mestizo andino en el Perú. Su museo cívico-religioso, ubicado en dependencias laterales del templo, exhibe una valiosa colección de arte sacro colonial. Destacan pinturas de la Escuela Cusqueña de los siglos XVII y XVIII, con representaciones de la Virgen, santos y escenas del Antiguo y Nuevo Testamento trabajadas en técnica al temple y óleo sobre tela. La colección incluye ornamentos litúrgicos de terciopelo bordado en hilo de oro y plata, cálices, custodias y candelabros de plata trabajada, esculturas procesionales en madera tallada y policromada (imaginería), y documentos coloniales. El templo en sí, con sus tres naves, retablos dorados y campanario gemelo, forma parte integral de la visita.</string>
+
+    <!-- Museo 12 -->
+    <string name="museo_12_name">Café Museo Ayacucho</string>
+    <string name="museo_12_desc">Espacio cultural en el centro histórico que combina cafetería y galería. Exhibe fotografías históricas de Ayacucho, artesanías locales y arte contemporáneo ayacuchano. Punto de encuentro cultural para visitantes y locales.</string>
+    <string name="museo_12_content">El Café Museo Ayacucho es un espacio cultural multifuncional ubicado en el corazón del centro histórico de la ciudad. Combina una cafetería con exposición permanente y temporal de fotografías históricas que documentan la transformación de Ayacucho desde fines del siglo XIX: procesiones de Semana Santa, ferias, vida cotidiana, personajes ilustres y paisajes urbanos. Las paredes exhiben artesanías locales —retablos, tejidos, cerámica— y obras de artistas plásticos contemporáneos ayacuchanos. Es un punto de partida ideal para turistas que llegan a la ciudad: el personal puede orientar sobre recorridos, talleres artesanales y eventos culturales. La carta ofrece bebidas calientes a base de productos locales como el chocolate ayacuchano y el café de altura de la ceja de selva regional.</string>
+
+    <!-- Museo 13 -->
+    <string name="museo_13_name">Santuario Histórico Pampa de la Quinua – Museo de Sitio</string>
+    <string name="museo_13_desc">En el escenario de la Batalla de Ayacucho (9 de dic. 1824), que selló la independencia de Sudamérica. El museo de sitio exhibe paneles, maquetas y objetos bélicos junto al Obelisco de 44 metros, símbolo de la gesta libertadora.</string>
+    <string name="museo_13_content">La Pampa de la Quinua, a 37 km de la ciudad de Ayacucho a 3 300 msnm, es el escenario donde el 9 de diciembre de 1824 las tropas patriotas del mariscal Antonio José de Sucre derrotaron al ejército realista del virrey La Serna, en la última gran batalla de la independencia hispanoamericana. El museo de sitio, gestionado por el Ministerio de Cultura, exhibe paneles con mapas estratégicos de la batalla, maquetas del campo de combate, armamento de época (bayonetas, fusiles de chispa), uniformes y banderas. Una sección explica la composición de los ejércitos y los líderes militares. El monumental Obelisco conmemorativo de 44 metros de altura, inaugurado en 1974 para el sesquicentenario, es visible desde kilómetros de distancia y puede subirse para obtener vistas panorámicas de la pampa. El entorno fue declarado Santuario Histórico por el Estado Peruano.</string>
+
+    <!-- Museo 14 -->
+    <string name="museo_14_name">Casona Boza y Solís</string>
+    <string name="museo_14_desc">Casona colonial del siglo XVII ubicada en el centro histórico. Muestra pinturas de la Escuela Cusqueña, muebles coloniales y la arquitectura típica huamanguina, con patio interior empedrado y corredores con arquería.</string>
+    <string name="museo_14_content">La Casona Boza y Solís es una de las mansiones coloniales mejor conservadas del centro histórico de Ayacucho, declarado Patrimonio Cultural de la Nación. Construida en el siglo XVII, exhibe la arquitectura doméstica colonial huamanguina con su característico patio interior empedrado, corredores con arquerías de piedra labrada y balcones de madera tallada. En sus salones se exhiben pinturas coloniales de la Escuela Cusqueña, muebles virreinales, objetos de uso doméstico de la época colonial y documentos históricos relacionados con la familia propietaria. Es un testimonio vivo del esplendor de Huamanga durante el Virreinato, cuando la ciudad era un importante centro administrativo, religioso y comercial en la ruta entre Lima y Cuzco. Administrada actualmente como espacio cultural y turístico.</string>
+
+    <!-- Museo 15 -->
+    <string name="museo_15_name">Cueva y Museo de Sitio de Pikimachay</string>
+    <string name="museo_15_desc">Una de las evidencias de presencia humana más antiguas de Sudamérica (20 000 a.C.). El museo de sitio expone réplicas de herramientas paleolíticas, huesos de fauna extinta y explica la prehistoria andina de Ayacucho.</string>
+    <string name="museo_15_content">La Cueva de Pikimachay —que en quechua significa "cueva de la pulga"— se ubica a 24 km de la ciudad de Ayacucho, en el sector de Cuchoquesera. Fue excavada en la década de 1960 por el arqueólogo norteamericano Richard MacNeish, quien encontró evidencias de ocupación humana que datan de hace 20 000 años a.C., convirtiéndola en uno de los sitios arqueológicos más importantes de Sudamérica para el estudio del poblamiento americano. Los hallazgos incluyen herramientas líticas del Paleolítico Andino (raspadores, puntas de proyectil), huesos de animales extintos como el mastodonte, el caballo americano y el tigre dientes de sable, restos vegetales y fogones. El museo de sitio, gestionado por la Dirección Desconcentrada de Cultura de Ayacucho, presenta réplicas de los hallazgos con paneles explicativos sobre el proceso de investigación arqueológica y la vida de los primeros pobladores de la región.</string>
+
+    <!-- Restaurantes -->
+
+    <!-- Restaurante 1 -->
+    <string name="rest_1_name">ViaVia Cafe Ayacucho</string>
+    <string name="rest_1_desc">El restaurante favorito de la Plaza Mayor. Cocina peruana e internacional con una vista inmejorable a la Catedral de Huamanga. Especialidad en chaufa de quinua, jugos naturales, cervezas belgas y opciones vegetarianas y veganas.</string>
+
+    <!-- Restaurante 2 -->
+    <string name="rest_2_name">Sukre Cocina Peruana</string>
+    <string name="rest_2_desc">Restaurante de categoría frente a la Plaza Mayor. Fusión de cocina regional ayacuchana con técnica moderna. Famoso por el chicharrón estilo Huamanguino, la trucha chactada de maíz y su elegante carta de platos latinoamericanos.</string>
+
+    <!-- Restaurante 3 -->
+    <string name="rest_3_name">Restaurante La Huamanguina</string>
+    <string name="rest_3_desc">El máximo referente de la cocina ayacuchana en la ciudad, ubicado en el segundo piso del Jr. Asamblea. Su Puca Picante es considerada la mejor de Ayacucho. Ofrece macerados artesanales de toronjil, wayramuña y maracuyá.</string>
+
+    <!-- Restaurante 4 -->
+    <string name="rest_4_name">Restaurante Las Flores</string>
+    <string name="rest_4_desc">Amplio restaurante de cocina típica ayacuchana en el Jr. Olaya, muy popular entre locales. Destaca por el chancho asado, el chicharrón huamanguino y una enorme variedad de macerados artesanales. Vista a la Plaza de Armas.</string>
+
+    <!-- Restaurante 5 -->
+    <string name="rest_5_name">El Nino Restaurant</string>
+    <string name="rest_5_desc">Restaurante de cocina peruana e italiana, cerca de la Plaza de Armas. Muy querido por locales y turistas. El dueño Niño atiende personalmente. Especialidad en trucha a la parrilla, pollo a la brasa, pizzas y música en vivo los fines de semana.</string>
+
+    <!-- Restaurante 6 -->
+    <string name="rest_6_name">Mestizo Restaurante &amp; Café Lounge</string>
+    <string name="rest_6_desc">Restaurante de fusión peruana tradicional y moderna en el Jr. Cuzco, a 2 cuadras de la Plaza Mayor. Ambiente colonial contemporáneo con jardín. Menú ejecutivo a 15 soles. Candidato a pre-estrella Michelin según reseñas.</string>
+
+    <!-- Restaurante 7 -->
+    <string name="rest_7_name">Fuziones Restaurante</string>
+    <string name="rest_7_desc">Cocina de autor con ingredientes orgánicos e hidropónicos. Los mejores cortes de carne de la ciudad. A 3 cuadras de la Plaza Mayor, en un pasaje encantador. Su Tacu Tacu Lomo y el Ribeye Steak son los favoritos de los visitantes.</string>
+
+    <!-- Restaurante 8 -->
+    <string name="rest_8_name">Magia Negra Taberna Trattoria</string>
+    <string name="rest_8_desc">La mejor pizzería de Ayacucho según múltiples reseñas. Ambiente bohemio estilo taberna bar con decoración dark y rockera. Ofrece pizzas artesanales, cervezas artesanales, sangría, pastas e infusiones. Ideal para grupos de amigos.</string>
+
+    <!-- Restaurante 9 -->
+    <string name="rest_9_name">Koi – Cocina Nikkei</string>
+    <string name="rest_9_desc">El único restaurante de cocina nikkei (fusión japonesa-peruana) en Ayacucho. Ofrece tiraditos, causas rellenas con ingredientes locales, sushi con trucha andina y ceviches de estilo nikkei. Uno de los restaurantes mejor valorados de la ciudad.</string>
+
+    <!-- Restaurante 10 -->
+    <string name="rest_10_name">La Casona Restaurant Turístico</string>
+    <string name="rest_10_desc">Restaurante turístico en casona colonial del Jr. Bellido, uno de los más conocidos de la ciudad para turistas. Amplia carta de platos típicos ayacuchanos y criollos. Ambiente colonial con patio interior y música en vivo algunos días.</string>
+
+    <!-- Restaurante 11 -->
+    <string name="rest_11_name">Las Tinajas Chicken &amp; Grill</string>
+    <string name="rest_11_desc">Restaurante con privilegiada vista a la Plaza Mayor. Especialidad en pollo a la brasa en horno de leña y parrillas. Pollo jugoso con papas fritas recién hechas. Muy concurrido, se recomienda llegar temprano. Limonada de hierba luisa imperdible.</string>
+
+    <!-- Restaurante 12 -->
+    <string name="rest_12_name">Restaurant KIBO</string>
+    <string name="rest_12_desc">Restaurante espacioso a 5 minutos del centro, en zona residencial tranquila. Ofrece menú típico diario y amplia carta a la carta. Siempre lleno de gente local, señal de su calidad y precio. Favorito para almuerzos familiares.</string>
+
+    <!-- Restaurante 13 -->
+    <string name="rest_13_name">Restaurante Carbón y Vino</string>
+    <string name="rest_13_desc">Ubicado en una encantadora mansión antigua con jardines y ambientes diversos. El lugar ideal para desayunar o almorzar en familia. Suculentas carnes a la parrilla al carbón, puca picante y vinos seleccionados. Atmósfera cálida y acogedora.</string>
+
+    <!-- Restaurante 14 -->
+    <string name="rest_14_name">Planta Lovers</string>
+    <string name="rest_14_desc">El principal restaurante vegano y vegetariano de Ayacucho, frente a la Plaza Mayor. Catálogo exclusivo plant-based con smoothies, bowls, ensaladas y platos sin carne. La alternativa más saludable del centro histórico.</string>
+
+    <!-- Restaurante 15 -->
+    <string name="rest_15_name">Retablo – Pollos a la Brasa</string>
+    <string name="rest_15_desc">Especialistas en pollo a la parrilla y carnes en churrasquera. Muy popular en el barrio de María Parado de Bellido. Delivery disponible. Las mejores hamburguesas y anticuchos del sector. Ambiente familiar.</string>
+
+    <!-- Restaurante 16 -->
+    <string name="rest_16_name">Puka\'s Wasi</string>
+    <string name="rest_16_desc">Restaurante de cocina chifa-peruana con excelente tiradito. Fusión de técnicas chinas con insumos andinos: chaufa de mariscos, sopa wantán con hierba buena y lomo saltado. El chifa de quinua con frejolito chino es un éxito.</string>
+
+    <!-- Restaurante 17 -->
+    <string name="rest_17_name">Antaqa Café de Especialidad</string>
+    <string name="rest_17_desc" formatted="false">La cafetería de especialidad más acogedora de Ayacucho. Sirve café 100% de origen del VRAE (Valle del Río Apurímac y Ene), tostado artesanalmente. Desayunos artesanales, pasteles caseros y chocolate ayacuchano caliente.</string>
+
+    <!-- Restaurante 18 -->
+    <string name="rest_18_name">Patio Colonial</string>
+    <string name="rest_18_desc">Restaurante de cocina peruana contemporánea en el corazón del centro histórico. Patio colonial abierto con flores y arquitectura virreinal. Platos de autor con insumos locales: trucha del río Ayacucho, quinua nativa y papa nativa.</string>
+
+    <!-- Restaurante 19 -->
+    <string name="rest_19_name">Tu Casa Restaurante</string>
+    <string name="rest_19_desc">Restaurante de desayunos y almuerzos típicos ayacuchanos, popular entre locales. Famoso por el mondongo huamanguino —plato de tripa con maíz blanco— y el chorizo huamanguino artesanal. Atención rápida, ambiente familiar.</string>
+
+    <!-- Restaurante 20 -->
+    <string name="rest_20_name">Quinta Recreo Cameycar</string>
+    <string name="rest_20_desc">Uno de los restaurantes con mejor comida de todo Ayacucho, cerca del Mirador de Acuchimay. Especialidad en platos de la sierra peruana: cuy chactado, pachamanca y puca picante. Atendido por city tour y transporte turístico. Ambiente de quinta al aire libre.</string>
+
+    <string name="chip_cafes">Cafés</string>
+    <string name="com_rock_en_vivo">Rock en vivo</string>
+    <string name="com_musica_ayacuchana">Música andina</string>
+    <string name="com_musica_en_vivo">Música en vivo</string>
+    <string name="com_discoteca">Discoteca</string>
+    <string name="com_karaoke">Karaoke</string>
+    <string name="com_cerveza_artesanal">Cerveza artesanal</string>
+    <string name="com_cafe_especialidad">Café de especialidad</string>
+    <string name="com_cafe_de_la_region">Café ayacuchano</string>
+    <string name="com_postres">Postres</string>
+    <string name="com_desayunos">Desayunos</string>
+    <string name="com_vista_a_la_plaza">Vista a la plaza</string>
+    <string name="com_zona_juegos_ninos">Zona de juegos</string>
+    <string name="com_menu_infantil">Menú infantil</string>
+    <string name="com_apto_ninos">Apto para niños</string>
+    <string name="com_desayuno_incluido">Desayuno incluido</string>
+    <string name="com_desayuno_disponible">Desayuno disponible</string>
+    <string name="com_comida_tipica">Comida típica</string>
+    <string name="com_opcion_vegetariana">Vegetariano</string>
+    <string name="com_restaurante_propio">Restaurante</string>
+    <string name="com_wifi">Wi-Fi</string>
+    <string name="com_estacionamiento">Estacionamiento</string>
+    <string name="com_agua_caliente">Agua caliente</string>
+    <string name="com_recepcion_24h">Recepción 24h</string>
+    <string name="com_acepta_mascotas">Pet friendly</string>
+    <string name="com_cocina_equipada">Cocina equipada</string>
+    <string name="com_lavadora">Lavadora</string>
+    <string name="com_terraza">Terraza</string>
+    <string name="com_delivery">Delivery</string>
+    <string name="com_pago_con_tarjeta">Pago con tarjeta</string>
+    <string name="com_accesible">Accesible</string>
+</resources>

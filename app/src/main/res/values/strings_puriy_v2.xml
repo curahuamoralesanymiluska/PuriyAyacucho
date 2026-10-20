@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Actualización v2: Inicio "Vive Ayacucho", Realidad aumentada, viaje animado y login -->
+    <string name="experiences_overline">Vive Ayacucho</string>
+    <string name="experiences_title">¿Qué te provoca hoy?</string>
+    <string name="experiences_subtitle">Elige una experiencia y te mostramos los mejores lugares</string>
+    <string name="ar_banner_badge">NUEVO · RA 3D</string>
+    <string name="ar_banner_title">Viaja al pasado</string>
+    <string name="ar_banner_subtitle">Mira Wari, Quinua y Vilcashuamán como eran hace siglos</string>
+    <string name="ar_banner_action">Explorar en RA</string>
+    <string name="ar_badge_3d">RA 3D</string>
+    <string name="ar_sites_subtitle">Párate en el sitio, apunta con la cámara y mira cómo era.</string>
+    <string name="ar_how_step1">1 · Ve al sitio</string>
+    <string name="ar_how_step2">2 · Apunta al suelo</string>
+    <string name="ar_how_step3">3 · ¡Mira el pasado!</string>
+    <string name="ar_site_wari_short">Capital del primer imperio andino: mira sus muros de piedra de pie otra vez.</string>
+    <string name="ar_site_quinua_short">Aquí se selló la independencia en 1824. Mira el obelisco de 44 metros.</string>
+    <string name="ar_site_vilcas_short">Centro inca con su Ushno de cinco plataformas y el trono del inca.</string>
+    <string name="ar_site_distance">a %1$s de la Plaza Mayor</string>
+    <string name="legend_walk">A pie</string>
+    <string name="legend_bus">Combi</string>
+    <string name="legend_taxi">Taxi</string>
+    <string name="map_board_here">Sube aquí · %1$s</string>
+    <string name="map_get_off_here">Baja aquí · %1$s</string>
+    <string name="route_osm_credit">Calles © OpenStreetMap</string>
+    <string name="trip_mode_live">GPS en vivo</string>
+    <string name="trip_recenter">Seguir a la personita</string>
+    <string name="trip_remaining">Faltan %1$s</string>
+    <string name="trip_distance_eta">%1$s · llegas %2$s</string>
+    <string name="trip_step_of">Paso %1$d de %2$d</string>
+    <string name="trip_bus_detail">Sube en %1$s y baja en %2$s · %3$s</string>
+    <string name="trip_waiting_gps">Buscando tu ubicación…</string>
+    <string name="trip_off_route">Estás a %1$s de la ruta. Acércate a la línea para seguir.</string>
+    <string name="trip_arrived_title">¡Llegaste!</string>
+    <string name="trip_arrived_summary">Recorriste %1$s en %2$s</string>
+    <string name="trip_view_place">VER EL LUGAR</string>
+    <string name="trip_finish">Terminar viaje</string>
+    <string name="retablo_linea_superior">Calendario</string>
+    <string name="retablo_titulo">Puriy Ayacucho</string>
+    <string name="retablo_anio">2026</string>
+    <string name="retablo_festividad_cerca">FESTIVIDAD CERCA</string>
+    <string name="login_sheet_subtitle">Inicia sesión para seguir explorando</string>
+    <string name="login_forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="login_fill_fields">Escribe tu correo y tu contraseña</string>
+    <string name="login_wrong_credentials">Correo o contraseña incorrectos</string>
+    <string name="login_forgot_need_email">Escribe tu correo arriba para enviarte el enlace</string>
+    <string name="login_reset_sent">Te enviamos un enlace a %1$s para crear una nueva contraseña</string>
+    <string name="login_loading">INGRESANDO…</string>
+    <string name="login_social_error">No se pudo iniciar sesión. Inténtalo de nuevo.</string>
+    <string name="login_facebook_error">No se pudo entrar con Facebook. Revisa tu conexión e inténtalo de nuevo.</string>
+    <string name="login_facebook_not_ready_title">Facebook aún no está listo</string>
+    <string name="login_facebook_not_ready_message">Para entrar con Facebook falta registrar la app en Meta for Developers y pegar el App ID y el Client Token en facebook.xml. Mientras tanto, entra con tu correo o con Google.</string>
+    <string name="login_account_exists">Ya existe una cuenta con ese correo. Entra con Google o con tu correo y contraseña.</string>
+    <plurals name="experiencias_lugares">
+        <item quantity="one">%d lugar</item>
+        <item quantity="other">%d lugares</item>
+    </plurals>
+</resources>

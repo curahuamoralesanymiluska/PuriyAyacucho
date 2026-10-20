@@ -1,0 +1,646 @@
+<resources>
+    <string name="app_name">Puriy Ayacucho</string>
+    <string name="default_web_client_id" translatable="false">116448304003-f5v4tncoam7nspf0mja1t6vcjollf9el.apps.googleusercontent.com</string>
+    <string name="error">Pantay</string>
+    <string name="success">Allinmi</string>
+    <string name="hello">Allillanchu!</string>
+    <string name="search_hint">Maytataq rinki kunan punchaw?</string>
+    <string name="guest">Hamuq</string>
+
+    <!-- Bottom Nav Menu -->
+    <string name="menu_home">Qallariy</string>
+    <string name="menu_explore">Maskay</string>
+    <string name="menu_calendar">Watupacha</string>
+    <string name="menu_favorites">Kuyasqaykuna</string>
+    <string name="menu_profile">Ñuqa</string>
+
+    <!-- Titles & Headers -->
+    <string name="explore_title">Ayacuchota maskay</string>
+    <string name="amazing_places">Ayacuchopi sumaq kitikuna</string>
+    <string name="upcoming_events">Kunan punchawkuna ruraykuna</string>
+    <string name="ayacucho_food">Ayacucho mikuy</string>
+
+    <!-- Chips / Categories -->
+    <string name="chip_temples">Yupaychana wasikuna</string>
+    <string name="chip_museums">Ñawpa wasikuna</string>
+    <string name="chip_food">Mikuy</string>
+    <string name="chip_nature">Sallqa pacha</string>
+
+    <!-- Login & Register -->
+    <string name="login_welcome">Allillanchu!</string>
+    <string name="login_subtitle">Ayacuchota qawanaykipaq yaykuy</string>
+    <string name="email_hint">Chaski</string>
+    <string name="password_hint">Pakasqa simi</string>
+    <string name="btn_login">YAYKUY</string>
+    <string name="continue_with">UTAQ HUKWAN</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+    <string name="no_account">¿Manachu yaykunayki kachkan? </string>
+    <string name="register_here">Kaypi qillqachikuy</string>
+    <string name="login_as_guest">Hamuq hina yaykuy</string>
+
+    <string name="register_title">Qillqachikuy</string>
+    <string name="register_subtitle">Puriy Ayacuchopi ñuqaykuwan</string>
+    <string name="name_hint">Sutiyki</string>
+    <string name="confirm_password_hint">Pakasqa simita kutipay</string>
+    <string name="btn_register">QILLQACHIKUY</string>
+    <string name="already_have_account">¿Yaykunayki kachkanchu? </string>
+    <string name="login_here">Yaykuy</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Allichaykuna</string>
+    <string name="language">Rimay</string>
+
+    <!-- Profile -->
+    <string name="my_favorites">Kuyasqaykuna</string>
+    <string name="logout">Lluqsiy</string>
+
+    <!-- Card Buttons -->
+    <string name="btn_view_details">ASTAWAN QAWAY</string>
+    <string name="btn_video">VIDEO</string>
+
+    <!-- Categories & Common -->
+
+    <string name="rec_recommended">Watukunapaq allinmi</string>
+    <string name="rec_try_dishes">Sumaq mikuyninkunata malliy</string>
+    <string name="no_festivities">MANAM RAYMIKUNA KANCHU %1$s</string>
+    <string name="month_festivities">%1$s RAYMIKUNA</string>
+    <string name="cat_museum">Ñawpa wasi</string>
+    <string name="cat_restaurant">Mikuna wasi</string>
+    <string name="cat_nature">Sallqa pacha</string>
+    <string name="cat_festivity">Raymi</string>
+
+    <!-- Templo, Inlesya, Huaca (Suti, Willakuy, Yuyaychay) -->
+
+    <!-- Templo 1 -->
+    <string name="temple_1_name">Basílica Catedral de Ayacucho</string>
+    <string name="temple_1_desc">1612, 1672 watakunapi ruwasqam. Llaqtapi aswan hatun inlesyam, qoriwan llusisqa sumaq k\'ullu retablokunayuqmi.</string>
+    <string name="temple_1_rec">Tutapi watukuy sumaq achkiynin qawanapaq.</string>
+
+    <!-- Templo 2 -->
+    <string name="temple_2_name">Templo de San Cristóbal</string>
+    <string name="temple_2_desc">Ayacucho llaqtapi aswan ñawpaq inlesyam (1540). Huk torreyuqllam, sumaq mawk\'a pirqasqam.</string>
+    <string name="temple_2_rec">Semana Santapi puririypaq chawpinmi.</string>
+
+    <!-- Templo 3 -->
+    <string name="temple_3_name">Templo de La Merced</string>
+    <string name="temple_3_desc">XVI pachakwatapi pirqasqam, rumi fachatayuq. Hatun campanayuqmi.</string>
+    <string name="temple_3_rec">Ayacucho pinturakunata sumaqta qaway.</string>
+
+    <!-- Templo 4 -->
+    <string name="temple_4_name">Templo de Santo Domingo</string>
+    <string name="temple_4_desc">Iskay kuskachasqa torreyuqmi, oqe rumiwan ruwasqa. Aswan sumaq inlesyakunamanta hukninmi.</string>
+    <string name="temple_4_rec">Inti chinkaykuyta fotota hurqunapaq sumaqmi.</string>
+
+    <!-- Templo 5 -->
+    <string name="temple_5_name">Templo de San Juan de Dios</string>
+    <string name="temple_5_desc">Ñawpaq colonial unquqkunapa wasin waqtapi kachkan. Khuyapayakuymanta iñiymantawan hatun willakuyniyuqmi.</string>
+    <string name="temple_5_rec">Barroco rurasqa hatun altarninta qaway.</string>
+
+    <!-- Templo 6 -->
+    <string name="temple_6_name">Templo de San Francisco de Asís</string>
+    <string name="temple_6_desc">XVI pachakwatapi ruwasqa inlesyam, hatun colonial bibliotecayuqmi, llaqtapi aswan hatun campanayuqmi.</string>
+    <string name="temple_6_rec">Atispaykiqa bibliotecanta watukuy.</string>
+
+    <!-- Templo 7 -->
+    <string name="temple_7_name">Templo de Santa Clara de Asís</string>
+    <string name="temple_7_desc">Mudéjar techo rurasqanwan, qori retablokunawanpas riqsisqam. Llaqtapi ñawpaq kaq monasteriom karqa.</string>
+    <string name="temple_7_rec">Madrekunapa miskinkunata rantikuspa riy.</string>
+
+    <!-- Templo 8 -->
+    <string name="temple_8_name">Templo de Santa Ana</string>
+    <string name="temple_8_desc">Artesanokunapa llaqtanpim kachkan. Retablo ruwaqkunapaq aswan allin iñiy wasim.</string>
+    <string name="temple_8_rec">Artesania ruraqkunapa wasinta watukuy.</string>
+
+    <!-- Templo 9 -->
+    <string name="temple_9_name">Templo de Santa María Magdalena</string>
+    <string name="temple_9_desc">Magdalena artesanokunapa mawk\'a barriopim tarikun. Sumaq hatun rumi fachatayuqmi.</string>
+    <string name="temple_9_rec">Huamanga rumi rurasqakunata qawanapaq barriota puriy.</string>
+
+    <!-- Templo 10 -->
+    <string name="temple_10_name">Templo de La Compañía de Jesús</string>
+    <string name="temple_10_desc">Plaza Mayor waqtapim kachkan. Puka rumiwan ruwasqa fachatayuqmi, mana tupachiy atinam.</string>
+    <string name="temple_10_rec">Jesuita rurasqankunapa sumaq kayninta qaway.</string>
+
+    <!-- Templo 11 -->
+    <string name="temple_11_name">Templo de Nuestra Señora de Loreto</string>
+    <string name="temple_11_desc">Compañía de Jesús waqtapim kachkan, sumaq kachayninwan barroco rurasqankunawan riqsisqam.</string>
+    <string name="temple_11_rec">Sumaq fachatanta ruyriqninwan tupaqta qaway.</string>
+
+    <!-- Templo 12 -->
+    <string name="temple_12_name">Templo de San Agustín</string>
+    <string name="temple_12_desc">Neoclásico, barroco retablokunayuqmi. Agosto killapi rayminpi achka runakunapa watukusqanmi.</string>
+    <string name="temple_12_rec">Mawk\'a sumaq retablokunanta qaway.</string>
+
+    <!-- Templo 13 -->
+    <string name="temple_13_name">Templo de San Sebastián</string>
+    <string name="temple_13_desc">Llaqtapa pata lawninpim kachkan, sumaq takyasqa mawk\'a retablokunayuqmi.</string>
+    <string name="temple_13_rec">Sumaq waqaychasqa kasqanta qaway.</string>
+
+    <!-- Templo 14 -->
+    <string name="temple_14_name">Templo de Belén</string>
+    <string name="temple_14_desc">Huchuy sumaq colonial inlesyam, ancha hawkayayniyuq.</string>
+    <string name="temple_14_rec">Upallalla oracion ruranapaq sumaqmi.</string>
+
+    <!-- Templo 15 -->
+    <string name="temple_15_name">Templo de Santa Teresa</string>
+    <string name="temple_15_desc">Madres Carmelitas Descalzaspa monasterionmi. Ancha sumaq hatun retabloyuqmi.</string>
+    <string name="temple_15_rec">Hatun altar retablonta qaway.</string>
+
+    <!-- Templo 16 -->
+    <string name="temple_16_name">Templo de San Francisco de Paula</string>
+    <string name="temple_16_desc">K\'ullumanta ruwasqa retablokunayuqmi, mawk\'a iñiy willakuykunata qawachiq colonial cuadrokunayuqmi.</string>
+    <string name="temple_16_rec">Pata coropi pinturakunata qaway.</string>
+
+    <!-- Templo 17 -->
+    <string name="temple_17_name">Templo de La Buena Muerte</string>
+    <string name="temple_17_desc">Buen Pastor sutinwanpas riqsisqam. Khuyapayakuy historiawan tupasqanmantam riqsisqa.</string>
+    <string name="temple_17_rec">K\'ullu rurasqankunata qaway.</string>
+
+    <!-- Templo 18 -->
+    <string name="temple_18_name">Templo de La Amargura</string>
+    <string name="temple_18_desc">Huchuy iñiy wasim, Semana Santa punchawkunapi yuyaymananapaq, Vía Crucis iñiywan tupasqam.</string>
+    <string name="temple_18_rec">Tuta puririykunapi watukuy.</string>
+
+    <!-- Templo 19 -->
+    <string name="temple_19_name">Templo del Carmen Alto</string>
+    <string name="temple_19_desc">Carmen Alto arrierokunapa ñawpaq llaqtanpim tarikun, iñiypa culturapa chawpinmi.</string>
+    <string name="temple_19_rec">Llaqtapa mikuyninta mercadopi malliy.</string>
+
+    <!-- Templo 20 -->
+    <string name="temple_20_name">Templo de Pampa San Agustín</string>
+    <string name="temple_20_desc">Pampa San Agustinpi llaqta runakunapa iñiyninta qawachiq mawk\'a capillam.</string>
+    <string name="temple_20_rec">Colonial chakra rurasqanta qaway.</string>
+
+    <!-- Templo 21 -->
+    <string name="temple_21_name">Templo de San Juan Bautista</string>
+    <string name="temple_21_desc">San Juan distritopi aswan hatun inlesyam, llaqta runakunapa hatun rayminkunapa chawpinmi.</string>
+    <string name="temple_21_rec">Hatun plazapi raymikunata qaway.</string>
+
+    <!-- Templo 22 -->
+    <string name="temple_22_name">Templo de Soquiaqato</string>
+    <string name="temple_22_desc">Mawk\'a riqsisqa barriopim kachkan, Señor de la Sentencia raymipa chawpinmi.</string>
+    <string name="temple_22_rec">Ayacuchopa barrio iñiynin yachanapaq sumaqmi.</string>
+
+    <!-- Templo 23 -->
+    <string name="temple_23_name">Templo de Conchopata</string>
+    <string name="temple_23_desc">Conchopata ñawpaq huaca waqtampi huchuy capillam, Inkap ñawpaqnin mawk\'a willakuykunawan muyurisqa.</string>
+    <string name="temple_23_rec">Manka ruraqkunapa wasinta watukuy.</string>
+
+    <!-- Templo 24 -->
+    <string name="temple_24_name">Templo de El Calvario</string>
+    <string name="temple_24_desc">Cruzpa ñannintam qawachin, chaymantam tukuynin Huamanga llaqta sumaqta qawakun.</string>
+    <string name="temple_24_rec">Viernes Santopi peregrino puririypaqmi.</string>
+
+    <!-- Templo 25 -->
+    <string name="temple_25_name">Templo de Nuestra Señora del Pilar</string>
+    <string name="temple_25_desc">Virgen del Pilar mamachaman yupaychasqa capillam, sumaq hawka wasim.</string>
+    <string name="temple_25_rec">Ukunpi hawkayayta maskay.</string>
+
+    <!-- Templo 26 -->
+    <string name="temple_26_name">Capilla del Cementerio General</string>
+    <string name="temple_26_desc">Wañuqkunapaq mañakunapaq, wiñay samaypaq yupaychasqa capillam.</string>
+    <string name="temple_26_rec">Llapan Santukuna punchawpi kay capillata watukuy.</string>
+
+    <!-- Templo 27 -->
+    <string name="temple_27_name">Templo de Señor de Quinuapata</string>
+    <string name="temple_27_desc">Riqsisqa barrio inlesyam, sumaq huchuy plazayuqmi.</string>
+    <string name="temple_27_rec">Barriopa hawkayayninwan kusikuy.</string>
+
+    <!-- Templo 28 -->
+    <string name="temple_28_name">Templo de Capillapata</string>
+    <string name="temple_28_desc">Mawk\'a colonial rurasqanta waqaychanapaq musuqmanta allichasqa inlesyam.</string>
+    <string name="temple_28_rec">Mawk\'a wasi allichasqankuta qaway.</string>
+
+    <!-- Templo 29 -->
+    <string name="temple_29_name">Templo de Señor de Arequipa</string>
+    <string name="temple_29_desc">Iñiyniyuq runakunapa achka huñunakunan huchuy inlesyam.</string>
+    <string name="temple_29_rec">Samanapaq yuyaymananapaq sumaqmi.</string>
+
+    <!-- Templo 30 -->
+    <string name="temple_30_name">Templo de Virgen del Rosario de Chiquinquirá</string>
+    <string name="temple_30_desc">Colombia llaqtapa mamachanman yupaychasqam, ichaqa Huamanga llaqtapi ancha riqsisqam.</string>
+    <string name="temple_30_rec">Llaqtapa iñiy artenta qaway.</string>
+
+    <!-- Templo 31 -->
+    <string name="temple_31_name">Templo de Virgen de Fátima</string>
+    <string name="temple_31_desc">Virgen de Fátima mamachaman yupaychasqa musuq capillam.</string>
+    <string name="temple_31_rec">Domingo misaman riy.</string>
+
+    <!-- Templo 32 -->
+    <string name="temple_32_name">Templo de Señor de las Maravillas</string>
+    <string name="temple_32_desc">Watapi rayminkunapi achka iñiqkunata chaskiq musuq templom.</string>
+    <string name="temple_32_rec">Patronal rayminkunapi watukuy.</string>
+
+    <!-- Templo 33 -->
+    <string name="temple_33_name">Templo de Señor de Pampa Cruz</string>
+    <string name="temple_33_desc">Pata urqupim kachkan, chay lawpi iñiqkunapa huñunakunanmi.</string>
+    <string name="temple_33_rec">Inlesya hawamanta sumaq qawariyta munay.</string>
+
+    <!-- Sallqa pachakuna (Lugares Naturales en Quechua) -->
+    <string name="nat_1_name">Huaraca Sach\'a-sach\'a</string>
+    <string name="nat_1_desc">Vinchos llaqtapi sumaq sach\'a-sach\'a, purinapaq, fotokuna hurqunapaq, pachamamawan kuska kanapaqpas.</string>
+
+    <string name="nat_2_name">Chapalla Cenote</string>
+    <string name="nat_2_desc">Urqukuna ukhunpi sumaq rumi ukuku, mana rikukuq sumaq qawariy.</string>
+
+    <string name="nat_3_name">Intiwarkuna qawanapata</string>
+    <string name="nat_3_desc">Sumaq qawanapatam, chaymantam tukuynin Huamanga llaqta sumaqta qawakun.</string>
+
+    <string name="nat_4_name">Quriwillka qaqakuna</string>
+    <string name="nat_4_desc">K\'ikllu rumi qaqakuna. Aventura puririypaq, fotokuna hurqunapaqpas ancha allinmi.</string>
+
+    <string name="nat_5_name">Campanayuq paqchakuna</string>
+    <string name="nat_5_desc">Llaqta ukunpi para unuwan rurasqa huchuy paqchakuna, sumaq qorakunawan muyurisqa.</string>
+
+    <string name="nat_6_name">Kunturkunapa sumaq ñannin</string>
+    <string name="nat_6_desc">Urqukunapa chawpinpi ñan, chaypim kunturkunata kikin tiyasqanpi qawayta atichwan.</string>
+
+    <string name="nat_7_name">Kinuwa llaqtapa sumaq ñanninkuna</string>
+    <string name="nat_7_desc">Llaqta ukunpi chakra chawpinpi purinapaq ñankuna, sumaq hawkayaypi pachamamata qawanapaq.</string>
+
+    <string name="nat_8_name">Pikimachay machaykuna</string>
+    <string name="nat_8_desc">Ñawpaq unay machaykuna urqukuna chawpinpi, hawka purikunapaq.</string>
+
+    <string name="nat_9_name">Yanaqucha (Ayacucho)</string>
+    <string name="nat_9_desc">Yana unuyuq hatun qucham, urqukunawan qorakunawan muyurisqa. Mana achka runapa watukusqan hawka llaqtam.</string>
+
+    <string name="nat_10_name">Campanayuq urqu</string>
+    <string name="nat_10_desc">Sumaq qawayniyuq urqu, mawk\'a rurasqakunayuq. Purinapaq qawanapaqpas ancha allinmi.</string>
+
+    <string name="nat_11_name">Muyu urqu</string>
+    <string name="nat_11_desc">Sumaq rumikunayuq qorakunayuq wayqum, mana achka runapa purinanchu.</string>
+
+    <string name="nat_12_name">Paqcha Chirapaq</string>
+    <string name="nat_12_desc">Sumaq paqcham, sutinqa \'chirapaq paqchan\' ninanmi. Hawka pacha, sumaq rumikunawan qorakunawan muyurisqa.</string>
+
+    <string name="nat_13_name">El Pantano</string>
+    <string name="nat_13_desc">Pampa de Ayacucho waqtampi sumaq unu pampam. Achka pichinkukunapa qorakunapapas tiyananmi.</string>
+
+    <string name="nat_14_name">Hatun Kunduray</string>
+    <string name="nat_14_desc">Sumaq qawanapatam Wari-Chanka rurasqan. Parapentepi pawarimunapaq, urqukunata qawanapaq ancha riqsisqam.</string>
+
+    <string name="nat_15_name">Vinchospa Rosas Pampan</string>
+    <string name="nat_15_desc">Hatun pampakuna sumaq urqukunata qawanapaq, llaqtapa qapariyninmanta hawkayanapaq.</string>
+
+    <string name="nat_16_name">Qusniq paqcha</string>
+    <string name="nat_16_desc">Sutinqa q\'usñiq unu ninanmi, 100 metro masninmanta urmaykamuspan q\'usñita rurasqanrayku. Aventura purinapaq sumaqmi.</string>
+
+    <string name="nat_17_name">Ucku era</string>
+    <string name="nat_17_desc">Sumaq qawariykunata llaqtapa costumbrenkunatawan kuskachaq puririymi.</string>
+
+    <string name="nat_18_name">Uchillki qucha</string>
+    <string name="nat_18_desc">Hawka unuyuq sumaq qucham Ayacucho uray lawpi. Botepi purinapaq, sumaq rumikunata qawanapaq ancha allinmi.</string>
+
+    <string name="nat_19_name">Titanka sach\'a-sach\'a (Manallasacc)</string>
+    <string name="nat_19_desc">Achka Titankayuq hatun pampam. Kay unay plantakunaqa kawsakuyninpi huk kutillam waytan manaraq wañukuspa.</string>
+
+    <string name="nat_20_name">Niñuyuhay q\'uñi unu</string>
+    <string name="nat_20_desc">Sumaq q\'uñi hampiq unukunam. Hawka urqu chawpinpim kachkan, samarinapaq nanaykuna hampinapaqpas ancha allinmi.</string>
+
+    <string name="nat_21_name">Acuchimay qawanapata</string>
+    <string name="nat_21_desc">Kaymantaqa tukuynin Huamanga llaqtam qawakun. Sumaq rurasqakunayuq, qorakunayuqpas riqsisqa qawanapatam.</string>
+
+    <string name="nat_22_name">Puma paqcha</string>
+    <string name="nat_22_desc">Runasimipi sutinqa \'pumapa paqchan\' ninanmi. Ch\'uya unuyuq sumaq paqcham rumikuna chawpinpi urmaykamuq. Llaqta runakunapaqqa yupaychasqa unum.</string>
+
+    <string name="nat_23_name">Wata-watas (Huatatas)</string>
+    <string name="nat_23_desc">Q\'uñi sumaq wayqum, sumaq mikuykunawan riqsisqam. Aylluwan hawka mikunapaq, mayuta qawanapaqpas allinmi.</string>
+
+    <string name="nat_24_name">Apukunapa wasin (Morada de los Apus)</string>
+    <string name="nat_24_desc">Rumipi rurasqa hatun apukunapa sumaq parquenmi. Ñawpaq runakunapa iñiynintam qawachin.</string>
+
+    <string name="nat_25_name">Belen Inlesyapa qawanapatan</string>
+    <string name="nat_25_desc">Belen barriopi kachkan, Ayacucho llaqtata urqukunatawan sumaqta qawanapaq. XVII pachakwatapi rurasqa sumaq inlesyam.</string>
+
+    <string name="nat_26_name">Wari llaqta</string>
+    <string name="nat_26_desc">Ñawpaq Wari imperiopa hatun llaqtanmi (VII - XIII pachakwata). Sumaq rumiwan pirqasqa hatun llaqtam, 12 metro sayayniyuq pirqakunayuq.</string>
+
+    <string name="nat_27_name">Punkupata</string>
+    <string name="nat_27_desc">Llaqtapa pata lawpin sumaq qawanapata kachkan. Sutinmi nin \'punkupa patan\', chaymantam intipa chinkayninta sumaqta qawanki.</string>
+
+    <string name="nat_28_name">Infiernillo machay</string>
+    <string name="nat_28_desc">Sumaq hatun ukhu rumi machaymi. Ukunmanta q\'uñi wayra lloqsimusqanraykum chaynata sutichanku.</string>
+
+    <string name="nat_29_name">Uquchaka paqcha</string>
+    <string name="nat_29_desc">Ch\'uya unuyuq sumaq paqcham, qorakunawan sumaq rumikunawan muyurisqa. Pachamamawan kuskachakunapaq ancha hawka pacham.</string>
+
+    <string name="nat_30_name">Millpupa anqas unun</string>
+    <string name="nat_30_desc">Wayqu ukunpi anqas llimpiyuq sumaq quchakunam. Ayacucho llaqtapa aswan sumaq pakayuqninmi.</string>
+
+    <!-- Raymikuna (Suti, Willakuy, Yuyaychay) -->
+
+    <!-- ID 1 -->
+    <string name="fest_1_name">Niñucha Yupaychay, huaylijía hinaspa huera tusuykuna</string>
+    <string name="fest_1_desc">Antikunapa navidadnin, chaypim Niño Jesusta yupaychanchik huaylía tusuykunawan, iñiyninchikta sumaq takikunawan qawachispa.</string>
+    <string name="fest_1_rec">Tusukqkunapa llimpi pachanta fotota hurqunapaq camarata apay, llaqta chawpi inlesyakunamanpas tempranota chayay.</string>
+
+    <!-- ID 2 -->
+    <string name="fest_2_name">Reyes Magos Uraykamuy</string>
+    <string name="fest_2_desc">Kimsan Reyes Magos chayamusqanta yuyariymi. Hatun callenkunapim puririnku, sumaq takikunawan iñiyninkuta qawachispa.</string>
+    <string name="fest_2_rec">Aylluwan purinapaq sumaq raymim; Plaza Mayor waqtanpi sumaq mikuykunata malliymanta ama qunqaychu.</string>
+
+    <!-- ID 3 -->
+    <string name="fest_3_name">San Sebastián Raymi</string>
+    <string name="fest_3_desc">San Sebastián santota yupaychaymi. Hatun misakunawan, ñawpaq puririyninwanmi rurakun kikin sutiyuq barrionpi, ñawpaq costumbrenkunata yuyarispa.</string>
+    <string name="fest_3_rec">Vispera tutapi carguyoqkunapa qokusqan sumaq q\'uñi poncheta upyayta ama qunqaychu.</string>
+
+    <!-- ID 4 -->
+    <string name="fest_4_name">Candelaria Mamacha Raymi</string>
+    <string name="fest_4_desc">Ancha yupaychasqa mamachapa rayminmi. Catolico iñiyninchikta antikuna yachaywanmi kuskachan, oracionkunawan bandakunawanpas.</string>
+    <string name="fest_4_rec">Novena nisqaman riy kay mamacha imanasqam ancha yupaychasqa llaqtanchikpi kasqanta yachanaykipaq.</string>
+
+    <!-- ID 5 -->
+    <string name="fest_5_name">María Parado de Bellidopa Wañusqan Yuyariykuy</string>
+    <string name="fest_5_desc">Llaqtapaq wañukuq warmi yuyariymi Plaza de Armaspi. Llaqtanchik qispinanpaq mana manchakuq kasqantam qawachin.</string>
+    <string name="fest_5_rec">Tempranota chayay escenapa waqtanpi kanki, chaynapi sumaqta teatro rurasqankuta qawanaykipaq.</string>
+
+    <!-- ID 6 -->
+    <string name="fest_6_name">Pukllay (Carnavales)</string>
+    <string name="fest_6_desc">Mama llaqtapa yupaychasqan raymi. Unuwan talcowan pukllaspam, comparsakuna llaqta ukunpi asikunata takispa purinku.</string>
+    <string name="fest_6_rec">Mawk\'a pachata churakuy qachanapaq, celularniykitapas unumanta waqaychanapaq bolsapi churay.</string>
+
+    <!-- ID 7 -->
+    <string name="fest_7_name">Señor de Untuna Raymi</string>
+    <string name="fest_7_desc">Lucanas llaqtapi Señor de Unturata yupaychanapaq hatun iñiy raymim. Misakunawan, puririykunawan, feriakunawanpas rurakun.</string>
+    <string name="fest_7_rec">Lucanas llaqtapa sumaq urqunkunata, uywa uywayninta riqsinapaq ancha allinmi.</string>
+
+    <!-- ID 8 -->
+    <string name="fest_8_name">Cruz Raymi</string>
+    <string name="fest_8_desc">Llaqta runakunam apu urqukunamanta cruzkunata uraykachimunku inlesyapi bendecisqa kananpaq, chakranchik sumaq rurunanpaq.</string>
+    <string name="fest_8_rec">Intimanta waqaychakuqta ruku sombrerota churakuy, urqukunapi purinapaq kasqanrayku.</string>
+
+    <!-- ID 9 -->
+    <string name="fest_9_name">Fátima Mamacha Raymi</string>
+    <string name="fest_9_desc">Espiritual raymim. Runakuna mañakuspa tuta puririnku velakunawan achkichikuspa, hawkayayta apamuspa.</string>
+    <string name="fest_9_rec">Upallalla puriy mañakuypi kaspa, inlesyakunapa sumaq achkiynta qawaykuspa.</string>
+
+    <!-- ID 10 -->
+    <string name="fest_10_name">San Juan Raymi</string>
+    <string name="fest_10_desc">Ayacuchopi San Juan raymiqa (24 junio) iñiyninchikta antikuna costumbrenwanmi kuskachan, San Juan Bautista distritopi aswanta rurakun.</string>
+    <string name="fest_10_rec">Puca picante, chicharrón mikuymanta ama qunqaychu, feriakunata watukuy llaqta masiykikunata yanapanapaq.</string>
+
+    <!-- ID 11 -->
+    <string name="fest_11_name">Corpus Christi</string>
+    <string name="fest_11_desc">Santisimo Sacramentota sumaq purichiymi, hatun iñiywan antikuna yachay kuskachasqawan. Señor de la Ascensión raymiwanmi tupan.</string>
+    <string name="fest_11_rec">Danzaq (tijeras) tusuyuqkunata qawayqa ancha allinmi, paykunaqa Lucanas iñiyninwan anchata tupasqanrayku.</string>
+
+    <!-- ID 12 -->
+    <string name="fest_12_name">Carmen Mamacha Raymi</string>
+    <string name="fest_12_desc">Pañuelokunawan, tusuykunawanmi Huamanga llaqtaqa Carmen Mamachapa chakimpi kumpakun. Paymi Ayacucho costumbrenkunapa maman.</string>
+    <string name="fest_12_rec">Santa Teresa inlesyamanta lloqsimuq hatun puririyta qawayta ama qunqaychu, hermandadpa apasqanmi lloqsimun.</string>
+
+    <!-- ID 13 -->
+    <string name="fest_13_name">Santiago Raymi</string>
+    <string name="fest_13_desc">\'Tayta Shanti\' raymipim uywakunata cintanku, takikunawan pachamamaman graciasta qunku uywakuna mirananpaq.</string>
+    <string name="fest_13_rec">Chakraman chayaptikiqa, dueñokunapa qokusqan aqhata (chicha de jora) sumaqllata yupaychaspa upyaykuy.</string>
+
+    <!-- ID 14 -->
+    <string name="fest_14_name">Fiestas Patrias, Turu pukllay, Waqrapukupas</string>
+    <string name="fest_14_desc">Mama llaqtanchikpa punchawninta llaqta costumbrenkunawan kuskachay. Waqrapukukunapa qaparimusqanmi turu pukllayta qayakun.</string>
+    <string name="fest_14_rec">Kinuwa pampaman kay punchawkunapi riy, chaypi llaqtanchikpa ñawpaq willakuyninta yachanaykipaq.</string>
+
+    <!-- ID 15 -->
+    <string name="fest_15_name">Nieves Mamacha Raymi</string>
+    <string name="fest_15_desc">Coracora llaqtapi hatun raymim. Chaypim ruranku \'Chamiza yaykuyta\' (chaki qura rupachiyta) hinaspa hatun turu pukllaykunata.</string>
+    <string name="fest_15_rec">Tutapi chiripaq sumaqta pampakuy, pasajeykitapas ñawpaqmanta rantikuy achka runa chay punchawkuna purisqanrayku.</string>
+
+    <!-- ID 16 -->
+    <string name="fest_16_name">Uywakuna cintakuy (Herranza)</string>
+    <string name="fest_16_desc">Pachamamaman graciasta quspa uywakunaman llimpi cintakunata churanku, tinya, violín takikunawan kuskachasqa.</string>
+    <string name="fest_16_rec">Cintakunapa llimpin imatapas nillanmi, sapa ayllupa llimpinmi kachkan, chayta sumaqta qaway.</string>
+
+    <!-- ID 17 -->
+    <string name="fest_17_name">Asunción Mamacha Raymi</string>
+    <string name="fest_17_desc">Chakra rurukunamanta, uywakunamanta hatun feria, qullqi apamuq raymim. Tusuykunawan, alpaca ovejacha aychamanta mikuykunawanmi rurakun.</string>
+    <string name="fest_17_rec">Quesota, millwamanta rurasqa pachakunata chaninpi rantinapaq ancha allin tiempom.</string>
+
+    <!-- ID 18 -->
+    <string name="fest_18_name">San Isidro Labrador Puririy</string>
+    <string name="fest_18_desc">Chakrarunakunapa patronicun callenkunata purin yuntakunata (turukunata) llankanapaq herramintakunatapas bendecispa.</string>
+    <string name="fest_18_rec">Turukunapa yuntan sumaq adornasqatam qawanki, sumaq rurukunawanmi chaytaqa adorankuraq.</string>
+
+    <!-- ID 19 -->
+    <string name="fest_19_name">San Bartolomé Raymi</string>
+    <string name="fest_19_desc">Cangallo llaqtapi hatun raymim, Morochuco runakunapa yachaynintam qawachin, mana manchakuq caballopi puriq runakuna.</string>
+    <string name="fest_19_rec">Caballokunapa kallpanakusqanta (carreras) qawayta ama qunqaychu, chaymi aswan sumaqqa, Morochucopa yachaynintam qawanki.</string>
+
+    <!-- ID 20 -->
+    <string name="fest_20_name">San Miguel Raymi</string>
+    <string name="fest_20_desc">VRAEM lawpi sumaq raymim, yunka yachayta antwan kuskachan. Llimpiyuq pasacallekunawan, café, cacao feriakunawanpas rurakun.</string>
+    <string name="fest_20_rec">Unu paqchakunata watukuy hinaspa yunka lawpa q\'uñi pachanta sumaqta llalliy.</string>
+
+    <!-- ID 21 -->
+    <string name="fest_21_name">Yarqa Aspi</string>
+    <string name="fest_21_desc">Aylluwan kuska yarqakunata pichanku para unuta chaskinapaq, takispa tususpa, mikuykunata kuskachaspa.</string>
+    <string name="fest_21_rec">Ayacucho ayllukunawan kuska kawsanapaq sumaqmi; yupaychaywan permisota mañakuy paykunawan kuska mikunaykipaq.</string>
+
+    <!-- ID 22 -->
+    <string name="fest_22_name">Quinuapata Señorpa Raymin</string>
+    <string name="fest_22_desc">Huamanga llaqtapi mawk\'a barrio raymim. Iñiyninchikta waqaychanku oracionkunawan, cuetekunawan (castillos), banda takikunawanpas.</string>
+    <string name="fest_22_rec">Kay punchawkuna barriopa mercadonman riy, chaypim llaqtapa chiqaq kawsay mikuyta mallinki.</string>
+
+    <!-- ID 23 -->
+    <string name="fest_23_name">Unu Raymi (Fiesta del Agua)</string>
+    <string name="fest_23_desc">Puquialkunaman graciasta qunapaq raymim, antikuna yachaypaqqa unum kawsay, chaymi Lucanaspi chakrapaq ancha allin.</string>
+    <string name="fest_23_rec">Yuyaq runakunapa willakuyninta puquialkunamanta uyariykuy; pachamamata yupaychanapaq sumaq willakuykunam.</string>
+
+    <!-- ID 24 -->
+    <string name="fest_24_name">Mercedes Mamacha Raymi</string>
+    <string name="fest_24_desc">Perú llaqtapa Gran Mariscalanta yupaychaymi. Soldadokunawan iñiqkunawanmi puririnku, armakunapa mamachanta yupaychaspa.</string>
+    <string name="fest_24_rec">Puririypa sumaq kayninta qaway, sapa kutim policia otaq ejercito bandawan kuska lloqsimun.</string>
+
+    <!-- ID 25 -->
+    <string name="fest_25_name">San Francisco Raymi</string>
+    <string name="fest_25_desc">Humilde kayta, uywakuna kuyayta qawachiq raymim, franciscano ordenpa costumbren, misa ruraykunawan feriakunawanpas kuskachasqa.</string>
+    <string name="fest_25_rec">Yuyaymananapaq, llaqta inlesyakunapa colonial rurasqanta sumaqta qawanapaqpas ancha allin punchawmi.</string>
+
+    <!-- ID 26 -->
+    <string name="fest_26_name">Llapan Santukuna Punchaw</string>
+    <string name="fest_26_desc">Panteonkunaman takikunawan mikuykunawan rina costumbrenmi. Ayacuchopiqa wawa tantata (tantawawa) bautizanapunim.</string>
+    <string name="fest_26_rec">Panaderiakunaman riy aswan sumaq tantawawakunata hinaspa caballitokunata rantinaykipaq.</string>
+
+    <!-- ID 27 -->
+    <string name="fest_27_name">Ayacucho Llaqta Yachay (Folclor) Punchaw</string>
+    <string name="fest_27_desc">Llaqtanchikpa aswan sumaq takiqninkuna, tusuqninkunapas huñunakuspa Ayacuchopa yachayninta qawachinku.</string>
+    <string name="fest_27_rec">UNSCH Centro Culturalpi qaway ima horam rurakunqa chayta, Ayacucho guitarra takikunata uyarinaykipaq.</string>
+
+    <!-- ID 30 -->
+    <string name="fest_30_name">Ayacucho Batalla Yuyariy, tusuy nichikwan</string>
+    <string name="fest_30_desc">Kinuwa pampapi llallisqanchikta yuyariymi. Soldadokunapa mana manchakuq kayninta qawachiq tusuy nichikwanmi rurakun.</string>
+    <string name="fest_30_rec">Q\'uñi pachatawan bloqueadorta apakuy; pampapiqa intipas rupanmi wayrapas chiri chirim wayramun.</string>
+
+    <!-- ID 31 -->
+    <string name="fest_31_name">Llakisqa Mamacha (Virgen Dolorosa) Puririy</string>
+    <string name="fest_31_desc">Ayacuchopi Llakisqa Mamachapa puririyninqa iñiyninchikpa chawpinmi, aswantaqa Viernes de Dolores (Semana Santa qallariyninpi) hinaspa Viernes Santopi.</string>
+    <string name="fest_31_rec">Velakunata apay, tutapaq q\'uñi pachata churakuy, ñawpaqmanta plazaman riy wayta alfombrakunata sumaqta qawanaykipaq.</string>
+
+    <!-- ID 32 -->
+    <string name="fest_32_name">Ramos Punchaw</string>
+    <string name="fest_32_desc">Jesuspa sumaq yaykumuynin. Iñiq runakunam olivo palmakunawan inlesyaman rinku bendecisqa kananpaq, chaywanmi Ayacucho Semana Santa qallarin.</string>
+    <string name="fest_32_rec">Palmaykita Plaza Mayor waqtanpi tempranota rantikuy hinaspa kay iñiy hawka raymiwan kusikuy.</string>
+
+    <!-- ID 33 -->
+    <string name="fest_33_name">Semana Santa: Kawsarimuy Pascua</string>
+    <string name="fest_33_desc">Perú llaqtapi aswan hatun iñiy raymim. Paqari illariytam Kawsarimuq Cristo hatun andaspi waranqa-waranqa velakunawan achkichisqa lloqsimun.</string>
+    <string name="fest_33_rec">Madrugadayta (4:00 AM) sayariy Plaza Mayorpi sumaq puestota hapinaykipaq, Catedralmanta andas lloqsimuqta qawanaykipaq. Mana qunqanapaqmi.</string>
+
+    <!-- ID 34 -->
+    <string name="fest_34_name">Huamanga Llaqtapa Paqarisqan Yuyariy</string>
+    <string name="fest_34_desc">Españolkunapa llaqta rurasqanta yuyariq cívico cultural raymim. Desfilekuna, serenatakuna, mikuy feriakunapas kachkanmi.</string>
+    <string name="fest_34_rec">Ñawpaq tutanta Plaza Mayorpi serenataman riy hinaspa kikin Ayacucho takikunata sumaqta uyariykuy.</string>
+
+    <!-- Museokuna -->
+
+    <!-- Museo 1 -->
+    <string name="museo_1_name">Hipólito Unanue Llaqta Museo</string>
+    <string name="museo_1_desc">Ayacuchopa aswan riqsisqa museonmi. Pikimachay machaymanta colonial watakunakama willakuykunatam qawachin.</string>
+    <string name="museo_1_content">Simón Bolívar kawsay wasipim kachkan. Pichqa hatun cuartokunayuqmi. Ñawpaq kaqpiqa Pikimachay machaymanta 20.000 wata ñawpaq rurasqakunatam qawachin. Iskay kaqpitaq Wari kawsaymanta (500-1100 d.C.) sumaq mankakunata, punchukunatapas. Chaymantapas colonial watakunamanta cuadrokunata, rumi rurasqakunatapas qawachiwasun. Martesmanta domingokama kichasqa.</string>
+
+    <!-- Museo 2 -->
+    <string name="museo_2_name">Wari Museo</string>
+    <string name="museo_2_desc">Wari ñawpaq llaqta waqtanpim kachkan. Chaypim tarikun mawk\'a mankakuna, rumi rurasqakuna, ñawpaq runakunapa tullunkunapas.</string>
+    <string name="museo_2_content">Ayacucho-Kinuwa ñanpim kachkan (23 km). Kay museoqa Wari hatun llaqtaman yaykunapaqmi. Chaypim kachkan sumaq mankakuna, Diospa rikchayninkuna, rumi rurasqakunapas. Willakuykunam qawachin imaynam Wari runakuna llaqtankuta, templonkunata, unu ñanninkunatapas rurasqankumanta.</string>
+
+    <!-- Museo 3 -->
+    <string name="museo_3_name">Kinuwa Museo – Capitulación Wasi</string>
+    <string name="museo_3_desc">1824 wata Ayacucho Maqanakuytam yuyarin. Chaypim kachkan wañuchinakuna, soldadokunapa pachan, chaypipas firmanqaku Sudamérica qispinanpaq.</string>
+    <string name="museo_3_content">Kinuwa llaqtapa plazanpim tarikun. 1974 watapim kicharqaku maqanakuy yuyarinapaq. Cuartokunapim kachkan fusilkunata, soldadokunapa pachan, maqanakuy mappanatapas. Aswan riqsisqaqa chay firmanqaku wasim, chaypim General Sucre hinaspa Virrey La Serna Sudaméricapa qispiyninpaq papelta firmanqaku.</string>
+
+    <!-- Museo 4 -->
+    <string name="museo_4_name">Mariscal Andrés A. Cáceres Museo</string>
+    <string name="museo_4_desc">Casona Vivanco (XVII pacha) wasipim kachkan. Guerra del Pacíficopi hatun pusaq Cáceresmantam willakuynin kachkan.</string>
+    <string name="museo_4_content">Kay wasiqa 1640 watamantaram kachkan, Ayacuchopi aswan sumaq mawk\'a wasim. Cuartokunapim kachkan Cacerespa fotonkunata, wañuchinakunata, soldadokunapa pachan, mawk\'a qullqikunatapas. Chaymantapas Cusco, Ayacucho lawniyuq cuadrokunatam qawachin. Soldadokunapa kamachisqanmi.</string>
+
+    <!-- Museo 5 -->
+    <string name="museo_5_name">ANFASEP Yuyarinapaq Museo – Ama kaqmanta kananpaq</string>
+    <string name="museo_5_desc">Ayacuchopi llaki watakunata (1980-2000) yuyarinapaq wasim. Chinkasqa runakunapa fotonkunata, willakuyninkunatam qawachin.</string>
+    <string name="museo_5_content">1983 watapi mamaschakunapa rurasqanmi. Ñawpaq cuartopiqa imaynam runakunata maqasqankumanta willakuy kachkan. Iskay kaqpitaq chinkasqa runakunapa fotonkunata, pachanatapas qawachin. Wasipa fachatampitaq hatun dibujokunatam ruranku llaki watakunata ama qunqanapaq. Chaypiqa mamaschakuna rurasqan retablokunata rantichwampas.</string>
+
+    <!-- Museo 6 -->
+    <string name="museo_6_name">Joaquín López Antay Museo</string>
+    <string name="museo_6_desc">Hatun retablo ruraq López Antaypa wasinmi. Kaypim qawachin imaynam Ayacucho retablota rurarqa.</string>
+    <string name="museo_6_content">Joaquín López Antayqa aswan riqsisqa retablo ruraqmi karqa. Paymi ñawpaq San Marcos cajonta sumaq retabloman tikrarqa. Wasinqa Santa Ana barriopim kachkan. Chaypim kachkan kikin rurasqan retablokunata, fotonkunata, ruranan cuartontapas. Ayllunmi willakuwasun imaynam papamanta rurasqa masawan runachakunata pintanku.</string>
+
+    <!-- Museo 7 -->
+    <string name="museo_7_name">Retablo Wasi – Silverio Ataucusi</string>
+    <string name="museo_7_desc">Silverio Ataucusipa ruranan wasim. Kaypiqa retablokunatam rikuchin, chaymantapas rurasqantam qawachiwasun.</string>
+    <string name="museo_7_content">Kaypiqa Silverio Ataucusim ayllunwan retablokunata rurachkanku. Retabloqa k\'ullu cajonmi, chaypiqa papamanta rurasqa masawan raymikunata, raymi punchawkunatapas qawachinku. Pasayta atichwan rurachkaptinku. Plazamanta taxipiqa 15 minutollapim chayasun.</string>
+
+    <!-- Museo 9 -->
+    <string name="museo_9_name">Kinuwa Millwa Museo</string>
+    <string name="museo_9_desc">Kinuwa llaqtapi ñawpaq millwa ruraykunatam qawachin. Callhuawan punchukunata, llikllakunata ruranku.</string>
+    <string name="museo_9_content">Kinuwa llaqtapi ñawpaq watakunamantaram millwata awanku. Alpakamanta, ovejachamanta millwata hurquspa callhuawan llikllakunata ruranku. Llimpinkunaqa plantakunamantam, rumi mawk\'akunamantapas lloqsimun. Kay museopiqa millwa ruraytam qallariyninmanta tukunankama qawachiwasun.</string>
+
+    <!-- Museo 10 -->
+    <string name="museo_10_name">Vilcashuamán Museo</string>
+    <string name="museo_10_desc">Inka llaqta waqtanpim kachkan. Inkakunapa rurasqan mankakunata, rumi rurasqakunata, pachanatapas qawachiwasun.</string>
+    <string name="museo_10_content">Vilcashuamán (\"Waman yupaychasqa\") llaqtaqa Inkakunapa hatun llaqtanmi karqa. Museopiqa Inkakunapa imperial mankakunata, rumi rurasqakunata, qullqimanta rurasqakunatapas tarisun. Willakuykunam qawachin Ushnu piramidimanta, Inti templomantapas. Mawk\'a llaqtata purichkaspa kayta watukuy allinmi.</string>
+
+    <!-- Museo 11 -->
+    <string name="museo_11_name">Catedral Museo</string>
+    <string name="museo_11_desc">Ayacucho Catedral inlesya ukunpim kachkan. Colonial watakuna cuadrokunata, quri-qullqi rurasqakunatam qawachin.</string>
+    <string name="museo_11_content">Catedral inlesyaqa 1612 watapi rurasqam. Museonpiqa ñawpaq cuadrokunatam qawachin (Cusco lawniyuq). Chaymantapas kachkan quri hilo pachan soldadokunapaq, santukunapa k\'ullu rurasqankunapas. Inlesya ukupi quri retablokunapas ancha sumaqmi.</string>
+
+    <!-- Museo 12 -->
+    <string name="museo_12_name">Ayacucho Museo Café</string>
+    <string name="museo_12_desc">Llaqta chawpipim kachkan, chaypiqa café nisqata upyachwampas hinaspa fotokunata, artesaniakunatapas qawachwan.</string>
+    <string name="museo_12_content">Kayqa sumaq hawka wasim. Chaypiqa Ayacucho llaqtapa ñawpaq fotonkunatam qawachin, imaynam llaqtanchik tikrakurqa. Perqapiqa kachkan retablokunata, mankakunata, kunan pacha ruraqkunapa cuadronkunatapas. Chaypiqa chocolate upyaytapas atichwanmi.</string>
+
+    <!-- Museum 13 -->
+    <string name="museo_13_name">Kinuwa Pampa Museo</string>
+    <string name="museo_13_desc">Sudamérica qispinanpaq maqanakuy pampapim kachkan. Chaypiqa maqanakuy mappanata, mawk\'a wañuchinakunatapas qawachin.</string>
+    <string name="museo_13_content">1824 watapi maqanakuy pampapim kachkan. Museopiqa kachkan fusilkunata, soldadokunapa pachanatapas. Waqtampitaq kachkan hatun 44 metro sayayniyuq Obelisco, chaymanqa witsachwanmi tukuy pampata sumaqta qawanapaq. Kay pampaqa yupaychasqa mama pampam.</string>
+
+    <!-- Museo 14 -->
+    <string name="museo_14_name">Casona Boza y Solís</string>
+    <string name="museo_14_desc">XVII pacha colonial wasim. Ayacuchopa sumaq perqasqankunata, mawk\'a cuadrokunata, mueblekunatapas qawachin.</string>
+    <string name="museo_14_content">Ayacuchopi aswan sumaq waqaychasqa mawk\'a wasim. XVII pacha rurasqam, sumaq rumi rurasqa fachatayuq. Ukunpiqa kachkan Cusco cuadrokunata, mawk\'a tiyanakunata, unay papelkunatapas. Kay wasiqa qawachiwanchik imaynam Huamanga sumaq karqa unay colonial watakunapi.</string>
+
+    <!-- Museo 15 -->
+    <string name="museo_15_name">Pikimachay Museo</string>
+    <string name="museo_15_desc">20.000 wata ñawpaq runakunapa kasqantam qawachin. Rumi herramientas rurasqankunata, hatun uywakunapa tullunkunatapas qawachiwasun.</string>
+    <string name="museo_15_content">Pikimachay machaymanta willakuymi. Richard MacNeish arqueologom tarirqa 20.000 wata ñawpaq runakunapa rurasqankunata. Museopiqa rikuchin mastodonte uywakunapa tullun rikchayninta, rumi herramientas rurasqankunatapas. Willakuykunam qawachin imaynam ñawpaq runakuna kay Ayacuchopi tiyarqaku.</string>
+
+    <!-- Mikuna Wasikuna (Restaurantes) -->
+
+    <!-- Restaurante 1 -->
+    <string name="rest_1_name">ViaVia Cafe Ayacucho</string>
+    <string name="rest_1_desc">Plaza Mayorpi aswan munasqa mikuna wasim. Huamanga Catedralta sumaqta qawaspa mikunapaq. Quinuamanta chaufa, ruru unukuna, cervezakuna, mana aychayuq mikuykunapas kachkanmi.</string>
+
+    <!-- Restaurante 2 -->
+    <string name="rest_2_name">Sukre Cocina Peruana</string>
+    <string name="rest_2_desc">Plaza Mayorpa frentenpi sumaq mikuna wasim. Ayacucho llaqtapa mikayninta musuq yachaykunawan kuskachasqa. Huamanguino chicharrón, trucha chactada nisqa, huk sumaq mikuykunapas kachkan.</string>
+
+    <!-- Restaurante 3 -->
+    <string name="rest_3_name">Restaurante La Huamanguina</string>
+    <string name="rest_3_desc">Ayacucho llaqtapi aswan riqsisqa mikuna wasim, Jr. Asambleapa iskay kaq pisonpim kachkan. Paykunapa Puca Picantenmi llaqtapi aswan miskin. Toronjilmanta, wayramuñamanta upyanakunatapas qonku.</string>
+
+    <!-- Restaurante 4 -->
+    <string name="rest_4_name">Restaurante Las Flores</string>
+    <string name="rest_4_desc">Hatun sumaq mikuna wasi Jr. Olayapi, llaqta runakunapa ancha munasqan. Kanka kuchi aycha, chicharrón, achka upyanakunapas kachkanmi. Plaza Mayortam sumaqta qawan.</string>
+
+    <!-- Restaurante 5 -->
+    <string name="rest_5_name">El Nino Restaurant</string>
+    <string name="rest_5_desc">Plaza Mayor waqtanpi Perú, Italia mikuykunata ruraq wasim. Kikin dueñonmi sumaqta atienden. Kanka truchata, pollo a la brasata, pizzatapas sumaqta ruranku. Tukuy semana tukuyta takikunapas kachkanmi.</string>
+
+    <!-- Restaurante 6 -->
+    <string name="rest_6_name">Mestizo Restaurante &amp; Café Lounge</string>
+    <string name="rest_6_desc">Plaza Mayormanta iskay cuadrapi, Jr. Cuzcopi sumaq mikuna wasim. Ñawpaq colonial wasipi rurasqam. Pata mikuyta (menú) 15 solesllapaqmi rantikunku.</string>
+
+    <!-- Restaurante 7 -->
+    <string name="rest_7_name">Fuziones Restaurante</string>
+    <string name="rest_7_desc">Chakra rurukunawan, llimpi plantakunawan rurasqa sumaq mikuykuna. Llaqtapi aswan sumaq aychakunata kankanku. Tacu Tacu Lomo nisqanta, Ribeye Steak nisqantapas runakunaqa anchatam munanku.</string>
+
+    <!-- Restaurante 8 -->
+    <string name="rest_8_name">Magia Negra Taberna Trattoria</string>
+    <string name="rest_8_desc">Ayacuchopi aswan sumaq pizza ruraq wasim. Waynakunapaq, masi runakunapaqpas ancha allinmi. Pizzakuna, cerveza artesanal, sangría upyanakunapas kachkan.</string>
+
+    <!-- Restaurante 9 -->
+    <string name="rest_9_name">Koi – Cocina Nikkei</string>
+    <string name="rest_9_desc">Ayacuchopi sapallan Nikkei (Japón-Perú) mikuna wasim. Puka qochapi truchamanta sushita, cevichekunatapas ruranku. Llaqtapi aswan allin mikuna wasikunamanta hukninmi.</string>
+
+    <!-- Restaurante 10 -->
+    <string name="rest_10_name">La Casona Restaurant Turístico</string>
+    <string name="rest_10_desc">Turistakunapaq riqsisqa mawk\'a colonial wasipi mikuna wasim. Ayacucho llaqtapa tukuy sumaq mikuyninkunatam ruranku. Patio ukunpi wakin punchawkuna takikunapas kachkanmi.</string>
+
+    <!-- Restaurante 11 -->
+    <string name="rest_11_name">Las Tinajas Chicken &amp; Grill</string>
+    <string name="rest_11_desc">Plaza Mayorta sumaq qawanapaq wasim. Yantapi kankasqa pollotam aswanta ruranku. Papachawan sumaq pollowanmi, chaymi runakunaqa anchatam huñunakunku. Hierba luisa upyanantapas mallina punim.</string>
+
+    <!-- Restaurante 12 -->
+    <string name="rest_12_name">Restaurant KIBO</string>
+    <string name="rest_12_desc">Plazamanta pichqa minutollapi hatun mikuna wasim. Sapa punchaw sumaq mikuykunata (menú) rantikunku. Llaqta runakuna sapa kuti huntan, allin rurasqa hinaspa barato kasqanrayku. Aylluwan mikunapaq sumaqmi.</string>
+
+    <!-- Restaurante 13 -->
+    <string name="rest_13_name">Restaurante Carbón y Vino</string>
+    <string name="rest_13_desc">Sumaq mawk\'a wasipi, plantakunawan muyurisqa mikuna wasim. Aylluwan paqarinmanta mikunapaq ancha allinmi. Q\'illpi kankasqa aychata, puca picanteta, vinotapas qonku.</string>
+
+    <!-- Restaurante 14 -->
+    <string name="rest_14_name">Planta Lovers</string>
+    <string name="rest_14_desc">Plaza Mayor waqtanpi mana aychata mikuqkunapaq aswan sumaq mikuna wasim. Plantakunallamanta rurasqa mikuykuna, sumaq upyanakuna, ensaladakunapas. Llaqta chawpipi aswan qali mikuytam qonku.</string>
+
+    <!-- Restaurante 15 -->
+    <string name="rest_15_name">Retablo – Pollos a la Brasa</string>
+    <string name="rest_15_desc">Pollo kankaypi aycha kankaypipas aswan yachaqkunam. María Parado de Bellido barriopi ancha riqsisqam. Wasiykikama apamunmanku. Anticuchokunapas hamburguesakunapas kachkanmi.</string>
+
+    <!-- Restaurante 16 -->
+    <string name="rest_16_name">Puka\'s Wasi</string>
+    <string name="rest_16_desc">Chifa-Perú mikuykunatam ruranku, tiradito nisqanpas ancha sumaqmi. China yachayta urqukunapa rurunkunawanmi kuskachanku. Quinuamanta chifaqa lliwpa munasqanmi.</string>
+
+    <!-- Restaurante 17 -->
+    <string name="rest_17_name">Antaqa Café de Especialidad</string>
+    <string name="rest_17_desc" formatted="false">Ayacuchopi aswan sumaq cafeta ruraq wasim. VRAEM lawmanta apamusqa sumaq cafeta qonku. Paqarinmanta sumaqta mikunapaq, Ayacucho chocolateta upyanapaqpas allinmi.</string>
+
+    <!-- Restaurante 18 -->
+    <string name="rest_18_name">Patio Colonial</string>
+    <string name="rest_18_desc">Llaqta chawpipi colonial wasipi musuq Perú mikuykunata ruranku. Kanchampiqa waytakunawan sumaqmi. Ayacucho mayumanta truchawan, nativa papawan, quinuawanpas sumaqta mikuchiwasun.</string>
+
+    <!-- Restaurante 19 -->
+    <string name="rest_19_name">Tu Casa Restaurante</string>
+    <string name="rest_19_desc">Llaqta runakunapa munasqan paqarinpas chawpi punchawpas mikunapaq wasim. Huamanguino mondongo (mote yuraqwan, panzawan), huamanguino chorizopas ancha riqsisqam.</string>
+
+    <!-- Restaurante 20 -->
+    <string name="rest_20_name">Quinta Recreo Cameycar</string>
+    <string name="rest_20_desc">Ayacuchopi aswan sumaq mikuyniyuq wasikunamanta hukninmi, Acuchimay qawanapata waqtanpi. Antikunapa mikuyninta: cuy chactadota, pachamancata, puca picantetapas sumaqta ruranku. Pampakunapi hawkayaypi mikunapaqmi.</string>
+</resources>

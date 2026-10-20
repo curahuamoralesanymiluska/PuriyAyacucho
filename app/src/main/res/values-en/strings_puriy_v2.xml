@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Actualización v2: Inicio "Vive Ayacucho", Realidad aumentada, viaje animado y login -->
+    <string name="experiences_overline">Live Ayacucho</string>
+    <string name="experiences_title">What are you in the mood for?</string>
+    <string name="experiences_subtitle">Pick an experience and we will show you the best places</string>
+    <string name="ar_banner_badge">NEW · 3D AR</string>
+    <string name="ar_banner_title">Travel to the past</string>
+    <string name="ar_banner_subtitle">See Wari, Quinua and Vilcashuamán as they were centuries ago</string>
+    <string name="ar_banner_action">Explore in AR</string>
+    <string name="ar_badge_3d">3D AR</string>
+    <string name="ar_sites_subtitle">Stand at the site, point your camera and see how it was.</string>
+    <string name="ar_how_step1">1 · Go to the site</string>
+    <string name="ar_how_step2">2 · Point at the ground</string>
+    <string name="ar_how_step3">3 · See the past!</string>
+    <string name="ar_site_wari_short">Capital of the first Andean empire: see its stone walls standing again.</string>
+    <string name="ar_site_quinua_short">Independence was sealed here in 1824. See the 44-meter obelisk.</string>
+    <string name="ar_site_vilcas_short">Inca center with its five-platform Ushno and the Inca\'s throne.</string>
+    <string name="ar_site_distance">%1$s from the Main Square</string>
+    <string name="legend_walk">Walk</string>
+    <string name="legend_bus">Minibus</string>
+    <string name="legend_taxi">Taxi</string>
+    <string name="map_board_here">Get on here · %1$s</string>
+    <string name="map_get_off_here">Get off here · %1$s</string>
+    <string name="route_osm_credit">Streets © OpenStreetMap</string>
+    <string name="trip_mode_live">Live GPS</string>
+    <string name="trip_recenter">Follow the traveler</string>
+    <string name="trip_remaining">%1$s left</string>
+    <string name="trip_distance_eta">%1$s · arrive %2$s</string>
+    <string name="trip_step_of">Step %1$d of %2$d</string>
+    <string name="trip_bus_detail">Get on at %1$s and off at %2$s · %3$s</string>
+    <string name="trip_waiting_gps">Looking for your location…</string>
+    <string name="trip_off_route">You are %1$s from the route. Get closer to the line to continue.</string>
+    <string name="trip_arrived_title">You made it!</string>
+    <string name="trip_arrived_summary">You traveled %1$s in %2$s</string>
+    <string name="trip_view_place">VIEW PLACE</string>
+    <string name="trip_finish">End trip</string>
+    <string name="login_sheet_subtitle">Sign in to keep exploring</string>
+    <string name="login_forgot_password">Forgot your password?</string>
+    <string name="login_fill_fields">Enter your email and password</string>
+    <string name="login_wrong_credentials">Wrong email or password</string>
+    <string name="login_forgot_need_email">Type your email above so we can send you the link</string>
+    <string name="login_reset_sent">We sent a link to %1$s to create a new password</string>
+    <string name="login_loading">SIGNING IN…</string>
+    <string name="login_social_error">Could not sign in. Please try again.</string>
+    <string name="login_facebook_error">Could not sign in with Facebook. Check your connection and try again.</string>
+    <string name="login_facebook_not_ready_title">Facebook is not ready yet</string>
+    <string name="login_facebook_not_ready_message">To sign in with Facebook, the app must be registered in Meta for Developers and its App ID and Client Token added to facebook.xml. Meanwhile, sign in with your email or Google.</string>
+    <string name="login_account_exists">An account with that email already exists. Sign in with Google or with your email and password.</string>
+    <plurals name="experiencias_lugares">
+        <item quantity="one">%d place</item>
+        <item quantity="other">%d places</item>
+    </plurals>
+</resources>

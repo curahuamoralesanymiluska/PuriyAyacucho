@@ -1,0 +1,33 @@
+# Configuración local (SDK y claves: MAPS_API_KEY, FACEBOOK_*)
+local.properties
+
+# Firebase: cada desarrollador agrega su propio archivo
+google-services.json
+
+# Gradle y Kotlin
+.gradle/
+.kotlin/
+build/
+app/build/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Compilación nativa
+.cxx/
+.externalNativeBuild/
+
+# Capturas y perfiles de Android Studio
+captures/
+
+# Firmas de la app
+*.keystore
+*.jks
+
+# Logs
+*.log
+
+# Sistema operativo
+.DS_Store
+Thumbs.db

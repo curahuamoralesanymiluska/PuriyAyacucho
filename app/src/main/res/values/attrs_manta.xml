@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Atributos de la franja de manta ayacuchana (MantaView) -->
+    <declare-styleable name="MantaView">
+        <attr name="mantaEstilo" format="enum">
+            <enum name="completa" value="0" />
+            <enum name="blanca" value="1" />
+        </attr>
+        <attr name="mantaVertical" format="boolean" />
+        <attr name="mantaRadio" format="dimension" />
+    </declare-styleable>
+</resources>

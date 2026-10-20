@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Actualización v3: viaje en vivo con GPS, foto de perfil y guía de bienvenida -->
+    <string name="trip_gps_searching">Finding GPS…</string>
+    <string name="trip_gps_live">Live · ±%1$d m</string>
+    <string name="trip_gps_weak">Weak signal · ±%1$d m</string>
+    <string name="trip_gps_lost">No GPS signal</string>
+    <string name="trip_gps_off">Location off</string>
+    <string name="trip_need_location_title">Turn on your location</string>
+    <string name="trip_need_location">The traveler moves when you move: Puriy needs your phone\'s GPS to follow you.</string>
+    <string name="trip_allow_location">Allow location</string>
+    <string name="trip_gps_off_title">Your GPS is off</string>
+    <string name="trip_gps_off_detail">Turn it on so the traveler can follow you while you walk or ride.</string>
+    <string name="trip_turn_on_gps">Turn on GPS</string>
+    <string name="trip_replanned">Route updated from where you are</string>
+    <string name="trip_end_question">End the trip?</string>
+    <string name="trip_end_yes">Yes, end it</string>
+    <string name="trip_keep_going">Keep going</string>
+    <string name="profile_photo_add">Add profile photo</string>
+    <string name="profile_photo_title">Your profile photo</string>
+    <string name="profile_photo_change">Change photo</string>
+    <string name="profile_photo_remove">Remove photo</string>
+    <string name="profile_photo_saved">Photo updated</string>
+    <string name="profile_photo_error">Could not use that photo. Try another one.</string>
+    <string name="welcome_overline">PURIY AYACUCHO · %1$d OF %2$d</string>
+    <string name="welcome_next">Next</string>
+    <string name="welcome_skip">Skip</string>
+    <string name="welcome_start">Let\'s go!</string>
+    <string name="welcome_open">Welcome guide</string>
+    <string name="welcome_guide_cd">Your Puriy Ayacucho guide, wearing a chullo and a poncho</string>
+    <string name="welcome_msg_1">Hi! Welcome to Puriy Ayacucho. In Quechua, “puriy” means to walk: let\'s explore Ayacucho together.</string>
+    <string name="welcome_msg_2">On Home you choose what you feel like today: churches, museums, food, nature, places to stay, bars, cafés and more.</string>
+    <string name="welcome_msg_3">Not sure how to get there? Open the Guide: I\'ll tell you which minibus to take and where to get off, and I\'ll walk with you on the map.</string>
+    <string name="welcome_msg_4">The Calendar shows each month\'s festivities, like the Ayacucho Carnival and Holy Week.</string>
+    <string name="welcome_msg_5">With “Travel to the past” you can see Wari, Quinua and Vilcashuamán in augmented reality: stand at the site and point your camera.</string>
+    <string name="welcome_msg_6">A tip: Huamanga sits over 2,700 meters above sea level. Take it easy, drink water and wear sunscreen: the highland sun is strong.</string>
+    <string name="welcome_msg_7">Save your favorite places with the heart, and tap your little figure on Home to add your photo. Enjoy Ayacucho!</string>
+    <plurals name="estrellas_cantidad">
+        <item quantity="one">%d star</item>
+        <item quantity="other">%d stars</item>
+    </plurals>
+</resources>

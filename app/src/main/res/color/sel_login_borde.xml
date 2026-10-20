@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Borde de los campos del login: invisible normalmente, rosa al escribir -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="#FF3355" android:state_focused="true" />
+    <item android:color="#00000000" />
+</selector>
